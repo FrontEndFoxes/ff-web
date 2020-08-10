@@ -1,0 +1,29 @@
+[
+	{
+		"id": 1,
+		"title": "Japan Meetup",
+		"date": "4/4/2020",
+		"location": "Madrid",
+		"description": "fab meetup",
+		"cta": "meetup",
+		"active": true
+	},
+	{
+		"id": 2,
+		"title": "Colombia Meetup",
+		"date": "4/5/2020",
+		"location": "Palermo",
+		"description": "fab meetup",
+		"cta": "meetup",
+		"active": true
+	},
+	{
+		"id": 3,
+		"title": "VV Day Spain",
+		"date": "5/4/2020",
+		"location": "Boston",
+		"description": "fab meetup",
+		"cta": "meetup",
+		"active": true
+	}
+]
