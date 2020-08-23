@@ -1,10 +1,10 @@
 <template>
-	<h1>Team</h1>
+	<div><h1>About</h1></div>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
 export default defineComponent({
-	name: 'Team',
+	name: 'About',
 });
 </script>
