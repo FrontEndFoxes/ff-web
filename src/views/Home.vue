@@ -11,11 +11,15 @@
 						make websites and mobile apps
 					</p>
 
-					<button
-						class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded my-6 py-4 px-8 shadow-lg"
-					>
-						Workshops
-					</button>
+					<div class="flex">
+						<button class="mr-5 text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg">
+							Workshops
+						</button>
+
+						<button class="text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg">
+							Patreon
+						</button>
+					</div>
 				</div>
 				<!--Right Col-->
 				<div class="w-full md:w-3/5 py-6 text-center">
@@ -55,6 +59,7 @@
 				</g>
 			</svg>
 		</div>
+
 		<events-grid />
 	</div>
 </template>
@@ -78,5 +83,9 @@ export default defineComponent({
 .nav,
 .footer {
 	background-color: #041e30;
+}
+
+button {
+	background: #c8553c;
 }
 </style>

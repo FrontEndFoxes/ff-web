@@ -27,6 +27,38 @@
 							>About</router-link
 						>
 					</li>
+					<li class="mr-3">
+						<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/sponsors"
+							>Sponsors</router-link
+						>
+					</li>
+					<li class="mr-3">
+						<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/team"
+							>Team</router-link
+						>
+					</li>
+					<li class="mr-3">
+						<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/gallery"
+							>Gallery</router-link
+						>
+					</li>
+
+					<li class="mr-3">
+						<a
+							class="uppercase inline-block py-2 px-4 text-white no-underline"
+							href="https://dev.to/frontendfoxes"
+							target="_blank"
+							>Blog</a
+						>
+					</li>
+					<li class="mr-3">
+						<a
+							class="uppercase inline-block py-2 px-4 text-white no-underline"
+							href="https://etsy.com/shop/vuevixens"
+							target="_blank"
+							>Shop</a
+						>
+					</li>
 				</ul>
 			</div>
 		</div>
