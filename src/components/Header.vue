@@ -59,6 +59,15 @@
 							>Shop</a
 						>
 					</li>
+					<li class="mr-3">
+						<a
+							class="uppercase inline-block py-2 px-4 text-white no-underline"
+							href="https://github.com/frontendfoxes"
+							target="_blank"
+						>
+							<i class="fa fa-github fa-2x"></i>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>

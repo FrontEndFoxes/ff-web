@@ -1,0 +1,52 @@
+[
+	{
+		"id": 1,
+		"title": "Frontend Masters",
+		"description": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
+		"logo": "logo.png",
+		"tagline": "tagline",
+		"link": "https://frontendmasters.com",
+		"active": true,
+		"level": "platinum"
+	},
+	{
+		"id": 2,
+		"title": "Frontend Masters 2",
+		"description": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
+		"logo": "logo.png",
+		"tagline": "tagline",
+		"link": "https://frontendmasters.com",
+		"active": true,
+		"level": "platinum"
+	},
+	{
+		"id": 3,
+		"title": "gold 1",
+		"description": "a nice sponsor for us",
+		"logo": "logo.png",
+		"tagline": "tagline",
+		"link": "https://logo.com",
+		"active": true,
+		"level": "gold"
+	},
+	{
+		"id": 4,
+		"title": "gold 2",
+		"description": "a nice sponsor for us",
+		"logo": "logo.png",
+		"tagline": "tagline",
+		"link": "https://logo.com",
+		"active": true,
+		"level": "gold"
+	},
+	{
+		"id": 5,
+		"title": "silver 1",
+		"description": "a nice sponsor for us",
+		"logo": "logo.png",
+		"tagline": "tagline",
+		"link": "https://logo.com",
+		"active": true,
+		"level": "silver"
+	}
+]

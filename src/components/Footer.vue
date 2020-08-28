@@ -1,7 +1,63 @@
 <template>
-	<footer class="footer">
-		<div class="container mx-auto px-8">
-			<div class="w-full flex flex-col md:flex-row py-6"><a href="">Press Kit</a></div>
+	<footer>
+		<div class="container max-w-6xl mx-auto flex items-center px-2">
+			<div class="w-full mx-auto flex flex-wrap items-center">
+				<div class="flex w-full md:w-1/2 justify-center md:justify-start text-white">
+					<ul class="list-reset w-1/2 lg:flex justify-start flex-1 items-center">
+						<li class="mr-3">
+							<router-link
+								class="uppercase inline-block py-2 px-4 text-white no-underline"
+								to="https://spark.adobe.com/page/FFczmvHR6Brpu/"
+								>Press Kit</router-link
+							>
+						</li>
+						<li class="mr-3">
+							<a
+								href="mailto:info@frontendfoxes.org"
+								class="uppercase inline-block py-2 px-4 text-white no-underline"
+								>Contact Us</a
+							>
+						</li>
+
+						<li class="mr-3">
+							<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/about"
+								>A 501(c)(3) Public Charity</router-link
+							>
+						</li>
+					</ul>
+				</div>
+				<div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
+					<ul class="list-reset lg:flex">
+						<li class="mr-3">
+							<a
+								class="uppercase inline-block py-2 px-4 text-white no-underline"
+								href="https://www.frontendfoxes.org/announcements"
+								target="_blank"
+							>
+								<i class="text-white fa fa-bullhorn fa-2x"></i>
+							</a>
+						</li>
+						<li class="mr-3">
+							<a
+								class="uppercase inline-block py-2 px-4 text-white no-underline"
+								href="https://twitter.com/frontendfoxes"
+								target="_blank"
+							>
+								<i class="text-white fa fa-twitter fa-2x"></i>
+							</a>
+						</li>
+						<li class="mr-3">
+							<a
+								class="uppercase inline-block py-2 px-4 text-white no-underline"
+								href="https://communityinviter.com/apps/vuevixens/front-end-foxes"
+								target="_blank"
+							>
+								<i class="text-white fa fa-slack fa-2x"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</footer>
 </template>
