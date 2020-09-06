@@ -7,16 +7,25 @@
 				<div class="flex flex-col w-full md:w-2/5">
 					<h1 class="my-4 text-5xl font-bold leading-tight">Welcome!</h1>
 					<p class="leading-normal text-3xl mb-8">
-						Front-End Foxes are people who identify as women and who want to learn front-end technologies to
+						Front-End Foxes are women and who want to learn front-end technologies to
 						make websites and mobile apps
 					</p>
 
 					<div class="flex">
-						<button class="mr-5 text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg">
+						<a
+							class="bg-orange-700 mr-5 text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg"
+							to="https://www.patreon.com"
+						>
 							Workshops
-						</button>
+						</a>
 
-						<button class="text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg">Patreon</button>
+						<a
+							class="bg-orange-700 text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg"
+							href="https://www.patreon.com/vuevixens"
+							target="_blank"
+						>
+							Patreon
+						</a>
 					</div>
 				</div>
 				<!--Right Col-->
@@ -83,7 +92,7 @@ export default defineComponent({
 	background-color: #041e30;
 }
 
-button {
+/*button {
 	background: #c8553c;
-}
+}*/
 </style>
