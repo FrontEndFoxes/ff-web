@@ -6,9 +6,9 @@
 				<!--Left Col-->
 				<div class="flex flex-col w-full md:w-2/5">
 					<h1 class="my-4 text-5xl font-bold leading-tight">Welcome!</h1>
-					<p class="leading-normal text-3xl mb-8">
-						Front-End Foxes are women and who want to learn front-end technologies to
-						make websites and mobile apps
+					<p class="leading-normal text-4xl mb-8">
+						Front-End Foxes are women who want to learn front-end technologies to make websites and mobile
+						apps
 					</p>
 
 					<div class="flex">
