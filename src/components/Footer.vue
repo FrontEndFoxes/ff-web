@@ -1,6 +1,6 @@
 <template>
 	<footer>
-		<div class="container max-w-6xl mx-auto flex items-center px-2">
+		<div class="mx-auto flex items-center">
 			<div class="w-full mx-auto flex flex-wrap items-center">
 				<div class="flex w-full md:w-1/2 justify-center md:justify-start text-white">
 					<ul class="list-reset w-1/2 lg:flex justify-start flex-1 items-center">
@@ -8,20 +8,20 @@
 							<router-link
 								class="uppercase inline-block py-2 px-4 text-white no-underline"
 								to="https://spark.adobe.com/page/FFczmvHR6Brpu/"
-								>Press Kit</router-link
+								><span class="hover:text-orange-600">Press Kit</span></router-link
 							>
 						</li>
 						<li class="mr-3">
 							<a
 								href="mailto:info@frontendfoxes.org"
-								class="uppercase inline-block py-2 px-4 text-white no-underline"
+								class="hover:text-orange-600 uppercase inline-block py-2 px-4 text-white no-underline"
 								>Contact Us</a
 							>
 						</li>
 
 						<li class="mr-3">
 							<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/about"
-								>A 501(c)(3) Public Charity</router-link
+								><span class="hover:text-orange-600">A 501(c)(3) Public Charity</span></router-link
 							>
 						</li>
 					</ul>
