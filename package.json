@@ -1,48 +1,48 @@
 {
-  "name": "front-end-foxes-website",
-  "version": "2.0.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "flag-icon-css": "^3.5.0",
-    "mitt": "^2.1.0",
-    "tailwindcss": "^1.5.2",
-    "vue": "^3.0.0-beta.1",
-    "vue-i18n": "^8.20.0",
-    "vue-router": "4.0.0-alpha.6"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-router": "^4.5.4",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0-beta.1",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-alpha.0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+	"name": "front-end-foxes-website",
+	"version": "2.0.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"core-js": "^3.6.5",
+		"flag-icon-css": "^3.5.0",
+		"mitt": "^2.1.0",
+		"tailwindcss": "^1.8.3",
+		"vue": "^3.0.0-beta.1",
+		"vue-i18n": "^8.20.0",
+		"vue-router": "4.0.0-alpha.6"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.5.0",
+		"@vue/cli-plugin-eslint": "~4.5.0",
+		"@vue/cli-plugin-router": "^4.5.4",
+		"@vue/cli-service": "~4.5.0",
+		"@vue/compiler-sfc": "^3.0.0-beta.1",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^6.7.2",
+		"eslint-plugin-vue": "^7.0.0-alpha.0"
+	},
+	"eslintConfig": {
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"extends": [
+			"plugin:vue/vue3-essential",
+			"eslint:recommended"
+		],
+		"parserOptions": {
+			"parser": "babel-eslint"
+		},
+		"rules": {}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	]
 }
