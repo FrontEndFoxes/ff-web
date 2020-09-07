@@ -17,27 +17,24 @@
 				</a>
 			</div>
 
-			<div
-				class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
-				id="nav-content"
-			>
+			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden p-4 lg:p-0 z-20" id="nav-content">
 				<ul class="list-reset lg:flex justify-end flex-1 items-center">
-					<li class="p-3 hover:bg-blue-900">
+					<li class="p-3 hover:bg-blue-900" :class="{ active: route === '/about' }" @click="select()">
 						<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/about"
 							>About</router-link
 						>
 					</li>
-					<li class="p-3 hover:bg-blue-900">
+					<li class="p-3 hover:bg-blue-900" :class="{ active: route === '/sponsors' }" @click="select()">
 						<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/sponsors"
 							>Sponsors</router-link
 						>
 					</li>
-					<li class="p-3 hover:bg-blue-900">
+					<li class="p-3 hover:bg-blue-900" :class="{ active: route === '/team' }" @click="select()">
 						<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/team"
 							>Team</router-link
 						>
 					</li>
-					<li class="p-3 hover:bg-blue-900">
+					<li class="p-3 hover:bg-blue-900" :class="{ active: route === '/gallery' }" @click="select()">
 						<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/gallery"
 							>Gallery</router-link
 						>
@@ -73,3 +70,18 @@
 		</div>
 	</nav>
 </template>
+<script>
+export default {
+	data() {
+		return {
+			active: 'p-3 bg-blue-800',
+			route: '',
+		};
+	},
+	methods: {
+		select() {
+			this.route = this.$route.path;
+		},
+	},
+};
+</script>
