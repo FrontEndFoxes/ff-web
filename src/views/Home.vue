@@ -88,7 +88,8 @@ export default defineComponent({
 	background: linear-gradient(90deg, #041e30 0%, #0a314d 100%);
 }
 .nav,
-.footer {
+.footer,
+#drawer {
 	background-color: #041e30;
 }
 
