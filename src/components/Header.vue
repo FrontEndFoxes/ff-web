@@ -19,38 +19,50 @@
 
 			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden p-4 lg:p-0 z-20" id="nav-content">
 				<ul class="list-reset lg:flex justify-end flex-1 items-center">
-					<li class="p-3 hover:bg-blue-900" :class="{ active: route === '/about' }" @click="select()">
-						<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/about"
+					<li class="hover:bg-blue-900" @click="select()">
+						<router-link
+							active-class="bg-blue-800"
+							class="uppercase inline-block p-5 text-white no-underline"
+							to="/about"
 							>About</router-link
 						>
 					</li>
-					<li class="p-3 hover:bg-blue-900" :class="{ active: route === '/sponsors' }" @click="select()">
-						<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/sponsors"
+					<li class="hover:bg-blue-900" @click="select()">
+						<router-link
+							active-class="bg-blue-800"
+							class="uppercase inline-block p-5 text-white no-underline"
+							to="/sponsors"
 							>Sponsors</router-link
 						>
 					</li>
-					<li class="p-3 hover:bg-blue-900" :class="{ active: route === '/team' }" @click="select()">
-						<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/team"
+					<li class="hover:bg-blue-900" @click="select()">
+						<router-link
+							active-class="bg-blue-800"
+							class="uppercase inline-block p-5 text-white no-underline"
+							to="/team"
 							>Team</router-link
 						>
 					</li>
-					<li class="p-3 hover:bg-blue-900" :class="{ active: route === '/gallery' }" @click="select()">
-						<router-link class="uppercase inline-block py-2 px-4 text-white no-underline" to="/gallery"
+					<li class="hover:bg-blue-900" @click="select()">
+						<router-link
+							active-class="bg-blue-800"
+							class="uppercase inline-block p-5 text-white no-underline"
+							to="/gallery"
 							>Gallery</router-link
 						>
 					</li>
 
-					<li class="p-3 hover:bg-blue-900">
+					<li class="hover:bg-blue-900">
 						<a
-							class="uppercase inline-block py-2 px-4 text-white no-underline"
+							class="uppercase inline-block p-5 text-white no-underline"
 							href="https://dev.to/frontendfoxes"
 							target="_blank"
 							>Blog</a
 						>
 					</li>
-					<li class="p-3 hover:bg-blue-900">
+					<li class="hover:bg-blue-900">
 						<a
-							class="uppercase inline-block py-2 px-4 text-white no-underline"
+							class="uppercase inline-block p-5 text-white no-underline"
 							href="https://etsy.com/shop/vuevixens"
 							target="_blank"
 							>Shop</a
