@@ -2,7 +2,7 @@
 	<footer>
 		<div class="mx-auto flex items-center">
 			<div class="w-full mx-auto flex flex-wrap items-center">
-				<div class="flex w-full md:w-1/2 justify-center md:justify-start text-white">
+				<div class="hidden md:flex w-full md:w-1/2 justify-center md:justify-start text-white">
 					<ul class="list-reset w-1/2 lg:flex justify-start flex-1 items-center">
 						<li class="mr-3">
 							<router-link
@@ -26,8 +26,8 @@
 						</li>
 					</ul>
 				</div>
-				<div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
-					<ul class="list-reset lg:flex">
+				<div class="flex w-full pt-2 content-center justify-end md:w-1/2 md:justify-end">
+					<ul class="list-reset flex">
 						<li class="mr-3">
 							<a
 								class="uppercase inline-block py-2 px-4 text-white no-underline"
