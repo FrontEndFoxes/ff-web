@@ -1,0 +1,35 @@
+[
+	{
+		"id": 1,
+		"name": "Jen Looper",
+		"title": "Founder/CEO",
+		"image": "ani.png",
+		"description": "bla bla",
+		"website": "https://jenlooper.com",
+		"twitter": "@jenlooper",
+		"active": true,
+		"group": "leadership"
+	},
+	{
+		"id": 2,
+		"name": "Michele Cynowicz",
+		"title": "Founder/CEO",
+		"image": "ani.png",
+		"description": "bla bla",
+		"website": "https://jenlooper.com",
+		"twitter": "@jenlooper",
+		"active": true,
+		"group": "leadership"
+	},
+	{
+		"id": 3,
+		"name": "Ani Ionova",
+		"title": "Chapter Leader",
+		"image": "ani.png",
+		"description": "bla bla",
+		"website": "https://jenlooper.com",
+		"twitter": "@anncrypted",
+		"active": true,
+		"group": "canada"
+	}
+]
