@@ -89,7 +89,7 @@
 
 			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden p-4 lg:p-0 z-20" id="nav-content">
 				<ul class="list-reset lg:flex justify-end flex-1 items-center">
-					<li class="hover:bg-blue-900" @click="select()">
+					<li class="hover:bg-blue-900">
 						<router-link
 							active-class="bg-blue-800"
 							class="uppercase inline-block p-5 text-white no-underline"
@@ -97,7 +97,7 @@
 							>About</router-link
 						>
 					</li>
-					<li class="hover:bg-blue-900" @click="select()">
+					<li class="hover:bg-blue-900">
 						<router-link
 							active-class="bg-blue-800"
 							class="uppercase inline-block p-5 text-white no-underline"
@@ -105,7 +105,7 @@
 							>Sponsors</router-link
 						>
 					</li>
-					<li class="hover:bg-blue-900" @click="select()">
+					<li class="hover:bg-blue-900">
 						<router-link
 							active-class="bg-blue-800"
 							class="uppercase inline-block p-5 text-white no-underline"
@@ -113,7 +113,7 @@
 							>Team</router-link
 						>
 					</li>
-					<li class="hover:bg-blue-900" @click="select()">
+					<li class="hover:bg-blue-900">
 						<router-link
 							active-class="bg-blue-800"
 							class="uppercase inline-block p-5 text-white no-underline"
