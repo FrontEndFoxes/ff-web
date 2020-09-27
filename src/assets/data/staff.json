@@ -3,8 +3,8 @@
 		"id": 1,
 		"name": "Jen Looper",
 		"title": "Founder/CEO",
-		"image": "ani.png",
-		"description": "bla bla",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240911/ChapterLeaders/jen_looper_gpiyff.jpg",
+		"description": "Jen Looper is a Google Developer Expert and a Cloud Developer Advocate Lead at Microsoft with over 20 years' experience as a web and mobile developer. Based in Boston, Jen specializes in creating cross-platform mobile apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, machine learning and discovering new things every day. Jen is a mom of two college-aged girls and loves helping women achieve their full potential.",
 		"website": "https://jenlooper.com",
 		"twitter": "@jenlooper",
 		"active": true,
@@ -13,11 +13,10 @@
 	{
 		"id": 2,
 		"name": "Michele Cynowicz",
-		"title": "Founder/CEO",
-		"image": "ani.png",
-		"description": "bla bla",
-		"website": "https://jenlooper.com",
-		"twitter": "@jenlooper",
+		"title": "Communications Manager",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240910/ChapterLeaders/michele_oudkol.jpg",
+		"description": "Michele \"CodePirate\" Cynowicz has been working in web applications development for nearly 20 years. Originally from New York City, Michele currently advocates for remote work in the tech industry from the Tampa Bay Area of Florida. She is a Senior Front-End Engineer, passionate about teaching and mentoring juniors. In her spare time, Michele is a volunteer with the Girl Scouts, a classic RPG gamer and a fitness enthusiast.",
+		"twitter": "@michelecynowicz",
 		"active": true,
 		"group": "leadership"
 	},
@@ -25,11 +24,56 @@
 		"id": 3,
 		"name": "Ani Ionova",
 		"title": "Chapter Leader",
-		"image": "ani.png",
-		"description": "bla bla",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/ani_lozjuz.png",
+		"description": "Ani is...",
 		"website": "https://jenlooper.com",
 		"twitter": "@anncrypted",
 		"active": true,
 		"group": "canada"
+	},
+
+	{
+		"id": 5,
+		"name": "Vanessa Böhner",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/screen-shot-2020-07-03-at-12-00-52-pm_rb927a.png",
+		"description": "Vanessa is...",
+		"website": "https://jenlooper.com",
+		"twitter": "@vannsl",
+		"active": true,
+		"group": "dach"
+	},
+	{
+		"id": 6,
+		"name": "Jaeriah Tay",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/jaeriah_jkp1zq.jpg",
+		"description": "Jaeriah is...",
+		"website": "https://jenlooper.com",
+		"twitter": "@jaeriahtay",
+		"active": true,
+		"group": "canada"
+	},
+	{
+		"id": 7,
+		"name": "Annett",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/annett_ortz0v.jpg",
+		"description": "Annett is...",
+		"website": "https://jenlooper.com",
+		"twitter": "@anncrypted",
+		"active": true,
+		"group": "dach"
+	},
+	{
+		"id": 8,
+		"name": "Andrea Busse",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/andreabusse_kj3zno.jpg",
+		"description": "Andrea is...",
+		"website": "https://jenlooper.com",
+		"twitter": "@anncrypted",
+		"active": true,
+		"group": "benelux"
 	}
 ]

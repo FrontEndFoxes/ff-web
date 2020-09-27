@@ -4,6 +4,7 @@
 		<div class="w-full mb-4">
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
+		<cld-image cloudName="front-end-foxes" publicId="sample" width="300" />
 		<div class="text-black mx-20 text-xl">
 			<p>
 				Front-End Foxes Inc., a 501(c)(3) public charity (EIN 83-3866803), is an initiative founded by Jen
@@ -72,6 +73,7 @@
 
 <script>
 import { defineComponent } from 'vue';
+
 export default defineComponent({
 	name: 'About',
 });

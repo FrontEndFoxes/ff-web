@@ -17,8 +17,9 @@
 				<div class="p-4 sm:w-1/2 md:w-1/3 lg:w-1/3" v-for="staffer in member.list" :key="staffer.id">
 					<div class="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden my-4">
 						<img
-							class="w-full h-56 object-cover object-center"
-							:src="require('../assets/' + staffer.image + '')"
+							style="max-height:350px"
+							class="w-full h-full object-cover object-center"
+							:src="staffer.image"
 							:alt="staffer.name"
 						/>
 
@@ -32,12 +33,14 @@
 							</p>
 							<div class="flex items-center mt-4 text-gray-700">
 								<i class="fa fa-twitter fa-1x"></i>
-								<h1 class="px-2 text-lg">{{ staffer.twitter }}</h1>
+								<h2 class="px-2 text-lg">{{ staffer.twitter }}</h2>
 							</div>
 
-							<div class="flex items-center mt-4 text-gray-700">
+							<div v-if="staffer.website" class="flex items-center mt-4 text-gray-700">
 								<i class="fa fa-link fa-1x"></i>
-								<h1 class="px-2 text-lg">{{ staffer.website }}</h1>
+								<h2 class="px-2 text-lg">
+									<a :href="staffer.website" target="_blank">{{ staffer.website }}</a>
+								</h2>
 							</div>
 						</div>
 					</div>
@@ -60,19 +63,19 @@ export default {
 			}));
 		},
 
-		staffImage() {
+		/*staffImage() {
 			if (!this.selectedStaffer) {
 				return;
 			}
 			const fileName = this.selectedStaffer;
 			console.log(fileName);
 			return require(`../assets/${fileName}`); // the module request
-		},
+		},*/
 	},
 	data() {
 		return {
 			ffstaff: ffstaff,
-			groups: ['Leadership', 'Canada'],
+			groups: ['Leadership', 'Canada', 'Dach', 'Benelux'],
 			selectedStaffer: '',
 		};
 	},
