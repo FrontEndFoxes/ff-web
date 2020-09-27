@@ -15,8 +15,8 @@
 
 			<div class="-mx-4 flex flex-wrap justify-center">
 				<div class="p-4 sm:w-1/2 md:w-1/3 lg:w-1/3" v-for="sponsor in category.list" :key="sponsor.id">
-					<div>
-						<div class="px-10 py-12 bg-white shadow">
+					
+						<div class="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden my-4">
 							<img src="@/assets/logo.png" :alt="sponsor.title" />
 
 							<a :href="sponsor.link" class="flex flex-wrap no-underline hover:no-underline">
@@ -26,7 +26,7 @@
 								<p class="text-gray-800 text-center text-base px-6 mb-5">{{ sponsor.description }}</p>
 							</a>
 						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
