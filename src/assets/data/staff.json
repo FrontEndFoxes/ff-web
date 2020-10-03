@@ -1,9 +1,8 @@
 [
 	{
-		"id": 1,
 		"name": "Jen Looper",
-		"title": "Founder/CEO",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
+		"title": "Founder/President",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240911/ChapterLeaders/jen_looper_gpiyff.jpg",
 		"description": "Jen Looper is a Google Developer Expert and a Cloud Developer Advocate Lead at Microsoft with over 20 years' experience as a web and mobile developer. Based in Boston, Jen specializes in creating cross-platform mobile apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, machine learning and discovering new things every day. Jen is a mom of two college-aged girls and loves helping women achieve their full potential.",
 		"website": "https://jenlooper.com",
 		"twitter": "@jenlooper",
@@ -11,291 +10,243 @@
 		"group": "leadership"
 	},
 	{
-		"id": 2,
 		"name": "Michele Cynowicz",
 		"title": "Communications Manager",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240910/ChapterLeaders/michele_oudkol.jpg",
 		"description": "Michele \"CodePirate\" Cynowicz has been working in web applications development for nearly 20 years. Originally from New York City, Michele currently advocates for remote work in the tech industry from the Tampa Bay Area of Florida. She is a Senior Front-End Engineer, passionate about teaching and mentoring juniors. In her spare time, Michele is a volunteer with the Girl Scouts, a classic RPG gamer and a fitness enthusiast.",
 		"twitter": "@michelecynowicz",
 		"active": true,
 		"group": "leadership"
 	},
 	{
-		"id": 3,
+		"name": "Vanessa Böhner",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/screen-shot-2020-07-03-at-12-00-52-pm_rb927a.png",
+		"website": "https://vannsl.io",
+		"twitter": "@vannsl",
+		"active": true,
+		"group": "Dach (Germany, Austria, Switzerland)"
+	},
+	{
 		"name": "Victoria Bergquist",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Victoria is a Frontend Engineer at @sanity_io",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662406/ChapterLeaders/Victoria_Bergquist_xmtqnv.jpg",
 		"twitter": "@vicbergquist",
 		"active": true,
-		"group": "dach"
+		"group": "Dach (Germany, Austria, Switzerland)"
 	},
 	{
-		"id": 4,
 		"name": "Cynthia Eschler",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Cynthia is a Software Developer at @cyon",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662461/ChapterLeaders/Cynthia_Eschler_u6a7k1.jpg",
 		"twitter": "@lady_mashiro",
 		"active": true,
-		"group": "dach"
+		"group": "Dach (Germany, Austria, Switzerland)"
 	},
 	{
-		"id": 5,
 		"name": "Diana Ilithya",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Diana is a creative developer, designer and digital artist based in Hamburg, Germany. Also, she is a freelance as an artist, front-end developer, and visual designer.",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
 		"website": "https://www.ilithya.rocks",
 		"twitter": "@ilithya_net",
 		"active": true,
-		"group": "dach"
+		"group": "Dach (Germany, Austria, Switzerland)"
 	},
 	{
-		"id": 6,
 		"name": "Mary Vokicic",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Mary is a web developer at @sparkassen_hu",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
 		"twitter": "@burgmary",
 		"active": true,
-		"group": "dach"
+		"group": "Dach (Germany, Austria, Switzerland)"
 	},
 	{
-		"id": 7,
+		"name": "Flor I. Baños",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Flor_Ba%E0%B8%84os_eekna5.jpg",
+		"twitter": "@Flor_IBG",
+		"active": true,
+		"group": "méxico"
+	},
+	{
 		"name": "Palmidia Garay",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662420/ChapterLeaders/Palmidia_Garay_ucfhdo.png",
 		"twitter": "@jetzable",
 		"active": true,
 		"group": "méxico"
 	},
+
 	{
-		"id": 8,
-		"name": "Flor I. Baños",
-		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"active": true,
-		"group": "méxico"
-	},
-	{
-		"id": 9,
 		"name": "Cristina Ponce Torres",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Cristina is a Frontend developer at Kairós ",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662467/ChapterLeaders/Cristina_Ponce_cofao2.jpg",
 		"twitter": "@cristinagrim",
 		"active": true,
 		"group": "spain"
 	},
 	{
-		"id": 10,
 		"name": "Teresa Marbán Castro",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Teresa is a @VueVixensESP co-chapter leader with @CristinaGrim",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662414/ChapterLeaders/Teresa_Marban_ti4ifd.jpg",
 		"twitter": "@teresaemece",
 		"active": true,
 		"group": "spain"
 	},
 	{
-		"id": 11,
 		"name": "Anna Mackenzie",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Anna Mackenzie is a Software Developer at @VoiceflowHQ",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662467/ChapterLeaders/Anna_Mackenzie_dv7hjl.jpg",
 		"twitter": "@whatsupanna",
 		"active": true,
 		"group": "canada"
 	},
 	{
-		"id": 12,
 		"name": "Jaeriah Tay",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Jaeriah is a Creative Developer with experience designing and building web applications. As a former food start-up co-founder and someone who has lived in three continents, she believes her diverse background is part of a bigger picture in understanding people and the world we live in. Her previous experiences in the tourism and design sectors help to identify real-world challenges and her passion for solving them through creative technologies. Ultimately, she strives to deliver enjoyable experiences through practical ideas and solutions!",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/jaeriah_jkp1zq.jpg",
 		"website": "https://jaeriah.com",
 		"twitter": "@jaeriahtay",
 		"active": true,
 		"group": "canada"
 	},
 	{
-		"id": 13,
 		"name": "Ani Ionova",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Ani is a Full Stack Software Developer at TouchBistro. Most passionate about React ecosystem & Node.js. She enjoys being a part of a team that cultivates growth, creative thinking & innovation.",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/ani_lozjuz.png",
 		"website": "https://anncrypt.com",
 		"twitter": "@anncrypt",
 		"active": true,
 		"group": "canada"
 	},
 	{
-		"id": 14,
 		"name": "Novella C.",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Novella is a T-shirt Driven Developer | Web Bedazzler with #VueJS | She/Her | Involved with @titleofconf , @SpeakersInTech, @Vuetroit, and  @vuevixensMI",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
 		"twitter": "@novelladev",
 		"active": true,
 		"group": "us"
 	},
 	{
-		"id": 15,
 		"name": "Vanessa Alvarez",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Vanessa is a Front End Developer Colombian",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662410/ChapterLeaders/Vanessa_Alvarez_apwsbx.jpg",
 		"twitter": "@vanessalvarez8a",
 		"active": true,
 		"group": "us"
 	},
 	{
-		"id": 16,
 		"name": "Gift Egwuenu",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Gift is passionate about making the web accessible to everyone and also an advocate for building open-source projects and she enjoys solving complex problems using web technologies. She's also a big advocate for building open and inclusive communities which led her to start the Vue Vixens chapter in Nigeria and the JAMstack community in Lagos.",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662432/ChapterLeaders/Gift_Egwuenu_ely8dc.jpg",
 		"website": "https://www.giftegwuenu.com",
 		"twitter": "@lauragift_",
 		"active": true,
 		"group": "nigeria"
 	},
 	{
-		"id": 17,
 		"name": "Manuela Castrillon",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Manuela is a Web Engineer focused on building cool stuff using JavaScript. She's part of the GitHub Campus Experts program, where she helps my classmates learn about development and modern web technologies. Community leader, currently co-organizing GitConfCO and Vue Vixens CO. Founder and supporter of Codex UdeA. She dreams with a world where everyone can have the same opportunities to access education.",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Manuela_Castrillon_ojsg9o.jpg",
 		"website": "https://www.manuela.dev",
 		"twitter": "@manucastrillonm",
 		"active": true,
 		"group": "colombia"
 	},
 	{
-		"id": 18,
 		"name": "Diana Alvarez",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Diana_Alvarez_f3dn13.jpg",
 		"twitter": "@ingdalvarez",
 		"active": true,
 		"group": "colombia"
 	},
 	{
-		"id": 19,
 		"name": "Elizabeth Portilla Flores",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Elizabeth is a Software Engineer at @bairesdev. Organizer @LimaJSorg. Musician/Producer",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Elizabeth_Portilla_msxtjf.jpg",
 		"twitter": "@lizita136",
 		"active": true,
 		"group": "perú"
 	},
 	{
-		"id": 20,
 		"name": "Maricarmen Rojas Tinco",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Maricarmen is a Developer - JS",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Maricarmen_Rojas_musgtm.jpg",
 		"twitter": "@MaiaRT46",
 		"active": true,
 		"group": "perú"
 	},
 	{
-		"id": 21,
 		"name": "Mery Cardenas Perez",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Mery_Cardenas_lilyng.jpg",
 		"active": true,
 		"group": "perú"
 	},
 	{
-		"id": 22,
 		"name": "Ruth Abigail Salvador Zorrilla",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
 		"twitter": "@Ruth_Abbi",
 		"active": true,
 		"group": "perú"
 	},
+
 	{
-		"id": 23,
-		"name": "Vanessa Böhner",
-		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Vanessa is a Web Developer. Her nickname is Vannsl since she lost various passwords for Vanny in 1998. She is a Frontend Foxes Chapter Leader, helping others with their first coding and speaking experiences while learning from them, too. In 2020 she started the Frontend Testing Podcast expect(Exception). Also in 2020, she was a member of the JS Kongress Program Committee.",
-		"website": "https://vannsl.io",
-		"twitter": "@vannsl",
-		"active": true,
-		"group": "dach"
-	},
-	{
-		"id": 24,
 		"name": "Anett Gesierich",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Annett is a web developer with a fondness for the frontend and especially JavaScript part of websites and apps. She invests part of her spare time in her local community by organising meetups, codingnightffm and as city coordinator and mentor for the Vue Vixens. The rest of my time is well invested in non-technical topics like baking delicious cakes and cookies or cycling.",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/annett_ortz0v.jpg",
 		"website": "https://anett.xyz",
 		"twitter": "@emsuiko",
 		"active": true,
-		"group": "dach"
+		"group": "Dach (Germany, Austria, Switzerland)"
 	},
 	{
-		"id": 25,
 		"name": "Andrea Busse",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Andrea is a Co-chapterlead of VueVixens Benelux. Current stack: Laravel + VueJS",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/andreabusse_kj3zno.jpg",
 		"twitter": "@mostlyCoffee88",
 		"active": true,
-		"group": "benelux"
+		"group": "Benelux (Belgium, Netherlands, Luxembourg)"
 	},
 	{
-		"id": 26,
 		"name": "Aline Vercruysse",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Aline is a Full stack developer #vuejs #golang  | Chapter Leader @vuevixensBeNeLu",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
 		"twitter": "@alineverc",
 		"active": true,
-		"group": "benelux"
+		"group": "Benelux (Belgium, Netherlands, Luxembourg)"
 	},
 	{
-		"id": 27,
 		"name": "Nahoko Matsui",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Web developer / kulala Inc. | @vuevixensJP Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662419/ChapterLeaders/Nahoko_Matsui_mcfciw.jpg",
 		"website": "https://nahokomatsui.github.io",
 		"twitter": "@nahokomatsui",
 		"active": true,
 		"group": "japan"
 	},
 	{
-		"id": 28,
 		"name": "Rio Yamakuchi (rry)",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662419/ChapterLeaders/Rio_Yamakuchi_mmuyvc.png",
 		"twitter": "@ryamakuchi",
 		"active": true,
 		"group": "japan"
 	},
 	{
-		"id": 29,
 		"name": "Kazumi Ohira",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Kazumi is a developer, Microsoft MVP (Azure). Interested in IaC, Serverless, IoT, exciting things. ",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Kazumi_Ohira_spcrwx.jpg",
 		"twitter": "@dz_",
 		"active": true,
 		"group": "japan"
 	},
 	{
-		"id": 30,
 		"name": "Irene Yeriskin",
 		"title": "Chapter Leader",
-		"image": "https://www.frontendfoxes.org/images/fox-placeholder.jpg",
-		"description": "Irene is a WomenWhoCode Dublin director | VueVixens Ireland chapter leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
 		"twitter": "@rene_iy",
 		"active": true,
 		"group": "ireland"
