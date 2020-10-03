@@ -28,15 +28,17 @@
 						</div>
 						<div class="py-4 px-6">
 							<h2 class="text-2xl font-semibold text-gray-800">{{ staffer.name }}</h2>
-							<p class="py-2 text-lg text-gray-700">
+							<p v-if="staffer.description" class="py-2 text-lg text-gray-700">
 								{{ staffer.description }}
 							</p>
-							<div class="flex items-center mt-4 text-gray-700">
+							<div v-if="staffer.twitter" class="flex items-center mt-4 text-green-400">
 								<i class="fa fa-twitter fa-1x"></i>
-								<h2 class="px-2 text-lg">{{ staffer.twitter }}</h2>
+								<h2 class="px-2 text-lg">
+									<a :href="`https://twitter.com/${staffer.twitter}`">{{ staffer.twitter }}</a>
+								</h2>
 							</div>
 
-							<div v-if="staffer.website" class="flex items-center mt-4 text-gray-700">
+							<div v-if="staffer.website" class="flex items-center mt-4 text-green-400">
 								<i class="fa fa-link fa-1x"></i>
 								<h2 class="px-2 text-lg">
 									<a :href="staffer.website" target="_blank">{{ staffer.website }}</a>
@@ -75,7 +77,7 @@ export default {
 	data() {
 		return {
 			ffstaff: ffstaff,
-			groups: ['Leadership', 'Canada', 'Dach', 'Benelux'],
+			groups: ['Leadership', 'Dach', 'México', 'Spain', 'Canada', 'US', 'Nigeria', 'Colombia', 'Perú', 'Benelux', 'Japan', 'Ireland'],
 			selectedStaffer: '',
 		};
 	},
