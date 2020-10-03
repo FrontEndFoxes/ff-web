@@ -13,14 +13,14 @@
 
 					<div class="flex justify-center md:justify-start z-10">
 						<a
-							class="bg-orange-700 mr-5 text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg"
+							class="button mr-5 text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg"
 							to="https://www.patreon.com"
 						>
 							Workshops
 						</a>
 
 						<a
-							class="bg-orange-700 text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg"
+							class="button text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg"
 							href="https://www.patreon.com/vuevixens"
 							target="_blank"
 						>
@@ -72,7 +72,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import { defineComponent } from 'vue';
 import EventsGrid from '../components/EventsGrid.vue';
 
@@ -93,7 +92,7 @@ export default defineComponent({
 	background-color: #041e30;
 }
 
-/*button {
-	background: #c8553c;
-}*/
+.button {
+	background: #ed7251;
+}
 </style>
