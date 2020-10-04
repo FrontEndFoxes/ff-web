@@ -65,7 +65,7 @@
 			<p class="my-4">Software sponsor: Gift us with a software subscription.</p>
 			<p class="my-4">
 				Patreon sponsors: Community members are welcome to donate via our
-				<a href="https://www.patreon.com/vuevixens" target="_blank">Patreon</a> or GitHub Sponsors (preferred!).
+				<a href="https://www.patreon.com/vuevixens" target="_blank" rel="noopener">Patreon</a> or GitHub Sponsors (preferred!).
 			</p>
 		</div>
 	</div>
