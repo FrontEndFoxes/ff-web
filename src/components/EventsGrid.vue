@@ -17,7 +17,7 @@
 				>
 					<div class="flex-1 bg-white pt-8 rounded-t rounded-b-none overflow-hidden shadow">
 						<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-							<p class="w-full text-gray-600 text-xs md:text-sm px-6">{{ event.date }}</p>
+							<p class="w-full text-gray-700 text-xs md:text-sm px-6">{{ event.date }}</p>
 							<div class="w-full font-bold text-xl text-gray-800 px-6">{{ event.title }}</div>
 							<p class="text-gray-800 text-base px-6 mb-5">{{ event.description }}</p>
 						</a>

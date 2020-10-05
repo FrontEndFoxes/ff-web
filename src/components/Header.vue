@@ -64,6 +64,7 @@
 							<a
 								href="https://dev.to/FrontEndFoxes"
 								target="_blank"
+								rel="noopener"
 								class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white "
 								>Blog</a
 							>
@@ -72,6 +73,7 @@
 							<a
 								href="https://etsy.com/shop/vuevixens"
 								target="_blank"
+								rel="noopener"
 								class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
 								>Shop</a
 							>
@@ -82,7 +84,7 @@
 
 			<div class="flex items-center pl-4">
 				<a class="p-2 text-white no-underline hover:no-underline text-2xl lg:text-2xl" href="/">
-					<img class="pull-left pt-1" src="@/assets/logo-sm.png" />
+					<img class="pull-left pt-1" src="@/assets/logo-sm.png" alt=""/>
 					<span class="pt-5 pl-3">Front-End Foxes</span>
 				</a>
 			</div>
@@ -127,6 +129,7 @@
 							class="uppercase inline-block p-5 text-white no-underline"
 							href="https://dev.to/frontendfoxes"
 							target="_blank"
+							rel="noopener"
 							>Blog</a
 						>
 					</li>
@@ -135,6 +138,8 @@
 							class="uppercase inline-block p-5 text-white no-underline"
 							href="https://etsy.com/shop/vuevixens"
 							target="_blank"
+							rel="noopener"
+
 							>Shop</a
 						>
 					</li>
@@ -142,9 +147,11 @@
 						<a
 							class="uppercase inline-block py-2 px-4 text-white no-underline"
 							href="https://github.com/frontendfoxes"
+							aria-label="Github"
 							target="_blank"
+							rel="noopener"
 						>
-							<i class="fa fa-github fa-2x"></i>
+							<i class="fa fa-github fa-2x" aria-hidden="true"></i>
 						</a>
 					</li>
 				</ul>
