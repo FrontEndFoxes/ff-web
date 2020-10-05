@@ -15,19 +15,20 @@
 
 			<div class="-mx-4 flex flex-wrap justify-center">
 				<div class="p-4 sm:w-1/2 md:w-1/3 lg:w-1/3" v-for="sponsor in category.list" :key="sponsor.id">
-					
-						<div class="flex flex-col items-center max-w-sm h-full bg-white shadow-lg rounded-lg overflow-hidden my-4">
-							<div>
-								<img :src=sponsor.logo v-bind:alt="sponsor.title" class="flex-1 pt-6 px-4 py-2 m-2" />
-							</div>
-							<a :href="sponsor.link" class="flex flex-wrap no-underline hover:no-underline">
-								<div class="w-full text-center font-bold text-xl text-gray-800 px-6">
-									{{ sponsor.title }}
-								</div>
-								<p class="text-gray-800 text-center text-base p-8 mb-5">{{ sponsor.description }}</p>
-							</a>
+					<div
+						class="flex flex-col items-center max-w-sm h-full bg-white shadow-lg rounded-lg overflow-hidden my-4"
+					>
+						<div>
+							<img :src="sponsor.logo" v-bind:alt="sponsor.title" class="flex-1 pt-6 px-4 py-2 m-2" />
 						</div>
-					
+						<div v-if="sponsor.link" class="flex items-center mt-4 text-green-400">
+							<i class="fa fa-link fa-1x"></i>
+							<h2 class="px-2 text-lg">
+								<a :href="sponsor.link" target="_blank">{{ sponsor.link }}</a>
+							</h2>
+						</div>
+						<p class="text-gray-800 text-center text-base p-8 mb-5">{{ sponsor.description }}</p>
+					</div>
 				</div>
 			</div>
 		</div>
