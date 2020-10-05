@@ -4,7 +4,7 @@
 		<div class="pt-24">
 			<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row">
 				<!--Left Col-->
-				<div class="flex flex-col w-full md:w-2/5 text-center md:text-left">
+				<div class="flex flex-col w-full md:w-3/5 text-center md:text-left">
 					<h1 class="my-4 text-3xl md:text-5xl font-bold leading-tight">Welcome!</h1>
 					<p class="leading-normal text-2xl md:text-4xl mb-8">
 						Front-End Foxes are women who want to learn front-end technologies to make websites and mobile
@@ -32,8 +32,8 @@
 					</div>
 				</div>
 				<!--Right Col-->
-				<div class="w-full md:w-3/5 py-6 text-center">
-					<img class="w-full md:w-4/5 z-50" src="@/assets/logo.svg" alt="" />
+				<div class="w-full md:w-2/5 py-6 text-center">
+					<img class="logo w-full z-50" src="@/assets/logo.svg" alt="" />
 				</div>
 			</div>
 		</div>
@@ -97,5 +97,8 @@ export default defineComponent({
 
 .button {
 	background: #ed7251;
+}
+.logo {
+	max-width: 500px;
 }
 </style>
