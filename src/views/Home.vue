@@ -13,14 +13,16 @@
 
 					<div class="flex justify-center md:justify-start z-10">
 						<a
-							class="button mr-5 text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg"
-							to="https://www.patreon.com"
+							class="button mr-5 text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg cursor-pointer"
+							href="https://workshops.frontendfoxes.org"
+							target="_blank"
+							rel="noopener"
 						>
 							Workshops
 						</a>
 
 						<a
-							class="button text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg"
+							class="button text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg cursor-pointer"
 							href="https://www.patreon.com/vuevixens"
 							target="_blank"
 							rel="noopener"
@@ -31,7 +33,7 @@
 				</div>
 				<!--Right Col-->
 				<div class="w-full md:w-3/5 py-6 text-center">
-					<img class="w-full md:w-4/5 z-50" src="@/assets/logo.svg" alt=""/>
+					<img class="w-full md:w-4/5 z-50" src="@/assets/logo.svg" alt="" />
 				</div>
 			</div>
 		</div>
