@@ -1,4 +1,4 @@
-    /200.html/   200
-    /404.html/   404
-    /main.js   200
-    /src/
+/en/* /en/404.html 404
+/de/* /de/404.html 404
+https://ff-next.netlify.app/* https://ff-next.netlify.app/team/*
+https://ff-next.netlify.app/team/* https://ff-next.netlify.app/*
