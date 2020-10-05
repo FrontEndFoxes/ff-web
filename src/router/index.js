@@ -4,26 +4,26 @@ import Home from '../views/Home.vue';
 const routes = [
 	{
 		path: '/',
-		name: 'Home',
+		name: 'Home/',
 		component: Home,
 	},
 	{
-		path: '/about',
+		path: '/about/',
 		name: 'About',
 		component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
 	},
 	{
-		path: '/team',
+		path: '/team/',
 		name: 'Team',
 		component: () => import(/* webpackChunkName: "team" */ '../views/Team.vue'),
 	},
 	{
-		path: '/gallery',
+		path: '/gallery/',
 		name: 'Gallery',
 		component: () => import(/* webpackChunkName: "gallery" */ '../views/Gallery.vue'),
 	},
 	{
-		path: '/sponsors',
+		path: '/sponsors/',
 		name: 'Sponsors',
 		component: () => import(/* webpackChunkName: "sponsors" */ '../views/Sponsors.vue'),
 	},
