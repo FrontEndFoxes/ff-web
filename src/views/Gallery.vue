@@ -4,12 +4,90 @@
 		<div class="w-full mb-4">
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
-		<div class="text-black mx-20 text-xl">gallery</div>
+		<div v-if="years.length > 0">
+			<YearsGroup :years="years" :currentYear="yearToFilter" @show="onShow" />
+			<div v-if="yearToFilter > 0 && eventsByYear.length > 0">
+				<div class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center">
+					<p class="text-2xl">Here you can find images from our past skulks</p>
+				</div>
+				<EventsGroup :events="eventsByYear" />
+			</div>
+			<div v-else-if="yearToFilter == 0 && eventsByYear.length == 0"
+				class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center">
+				<p class="text-2xl">
+					I'm sorry. You don't have selected any year. Please, select one.
+				</p>
+			</div>
+			<div v-else class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center">
+				<p class="text-2xl">I'm sorry :( there aren't results.</p>
+			</div>
+		</div>
+		<div v-else class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center">
+			<p class="text-2xl">I'm sorry :( you don't have events</p>
+		</div>
 	</div>
 </template>
 <script>
 import { defineComponent } from 'vue';
+// ffEventsGalleries
+import ffEventsGalleries from "@/assets/data/events-gallery.json";
+// Other components
+import YearsGroup from "@/components/YearsGroup";
+import EventsGroup from "@/components/EventsGroup";
 export default defineComponent({
 	name: 'Gallery',
+		components: { YearsGroup, EventsGroup },
+	data() {
+		return {
+			ffEventsGalleries: ffEventsGalleries,
+			years: [],
+			yearToFilter: 0,
+		};
+	},
+	created() {
+		this.initialize();
+	},
+	mounted() {
+		this.initialize();
+	},
+	methods: {
+		initialize() {
+			this.extractYearFromEvents();
+
+			if (this.years !== undefined && this.years !== undefined) {
+				if (Array.isArray(this.years)) {
+					if (this.years.length > 0) {
+						this.yearToFilter = this.years[0];
+					}
+				}
+			}
+		},
+		extractYearFromEvents() {
+			let result = [];
+
+			if (
+				this.ffEventsGalleries !== undefined &&
+				this.ffEventsGalleries !== null
+			) {
+				this.ffEventsGalleries.forEach(({ year }) => {
+					if (!result.includes(year)) {
+						result.push(year);
+					}
+				});
+			}
+			this.years = result.sort().reverse();
+		},
+		onShow(year) {
+			this.yearToFilter = year;
+		},
+	},
+	computed: {
+		eventsByYear() {
+			const result = this.ffEventsGalleries.filter(
+				(ffElement) => ffElement.year === this.yearToFilter
+			);
+			return result;
+		},
+	},
 });
 </script>
