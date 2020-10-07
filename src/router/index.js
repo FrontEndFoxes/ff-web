@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
+import NotFound from '../views/NotFound.vue';
 
 const routes = [
 	{
@@ -27,6 +28,7 @@ const routes = [
 		name: 'Sponsors',
 		component: () => import(/* webpackChunkName: "sponsors" */ '../views/Sponsors.vue'),
 	},
+	{ path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
 ];
 
 const router = createRouter({
