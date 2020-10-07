@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <a href="#" class="w-10/12 bg-blue-500 hover:bg-blue-700 -mt-6 rounded-md overflow-hidden py-3">
+    <a href="#" class="w-10/12 bg-blue-500 hover:bg-blue-700 -mt-6 rounded-lg overflow-hidden py-3">
       <div class="text-center">register</div>
     </a>
   </div>
