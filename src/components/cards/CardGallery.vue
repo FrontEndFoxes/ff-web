@@ -15,7 +15,7 @@
 <script>
 export default {
 	props: ["eventToShow"],
-	name: "EventCard",
+	name: "CardGallery",
 	computed: {
 		bgEventImage() {
 			let stylesImg = "";

@@ -1,17 +1,17 @@
 <template>
   <div class="ffeventsgroup">
-      <EventCard v-for="eventToShow in events" 
+      <card-gallery v-for="eventToShow in events" 
                 :key="eventToShow.id" 
                 :eventToShow="eventToShow" />
   </div>
 </template>
 <script>
 // Other components
-import EventCard from "@/components/EventCard";
+import { CardGallery } from "@/components/cards";
 
 export default {
   props: ["events"],
-  components: { EventCard },
+  components: { CardGallery },
   name: "EventsGroup",
 };
 </script>

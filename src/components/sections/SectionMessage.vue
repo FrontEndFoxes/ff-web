@@ -1,67 +1,6 @@
 <template>
+  <!--last message area-->
 	<div>
-		<!--events area-->
-		<section class="bg-gray-100 py-8">
-			<div class="container mx-auto flex flex-wrap pt-4">
-				<h2 class="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800">
-					Events
-				</h2>
-				<div class="w-full mb-4">
-					<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-				</div>
-
-				<div
-					v-for="event in events"
-					:key="event.id"
-					class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink bg-gray-100"
-				>
-					<div class="flex-1 bg-white pt-8 rounded-t rounded-b-none overflow-hidden shadow">
-						<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-							<p class="w-full text-gray-700 text-xs md:text-sm px-6">{{ event.date }}</p>
-							<div class="w-full font-bold text-xl text-gray-800 px-6">{{ event.title }}</div>
-							<p class="text-gray-800 text-base px-6 mb-5">{{ event.description }}</p>
-						</a>
-					</div>
-					<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-						<div class="flex items-center justify-start">
-							<button
-								class="mx-auto w-full md:w-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full py-4 px-8 shadow-lg"
-							>
-								Register
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="bg-gray-100">
-			<h2 class="w-full text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800">
-				Women Teaching Women
-			</h2>
-			<div class="w-full mb-4">
-				<div class="h-1 mx-auto gradient w-64 opacity-25 my-3 py-0 rounded-t"></div>
-			</div>
-
-			<div class="flex flex-wrap">
-				<div class="w-1/3 p-2">
-					<div class="p-2">
-						<img src="@/assets/mentoring.jpg" alt="teaching women students" />
-					</div>
-				</div>
-				<div class="w-1/3 p-2">
-					<div class="p-2">
-						<img src="@/assets/mentoring.jpg" alt="teaching women students" />
-					</div>
-				</div>
-				<div class="w-1/3 p-2">
-					<div class="p-2">
-						<img src="@/assets/mentoring.jpg" alt="teaching women students" />
-					</div>
-				</div>
-			</div>
-		</section>
-
 		<svg
 			class="wave-top"
 			viewBox="0 0 1439 147"
@@ -112,12 +51,7 @@
 </template>
 
 <script>
-import events from '@/assets/data/events.json';
 export default {
-	data() {
-		return {
-			events: events,
-		};
-	},
+	name: 'SectionEvents',
 };
 </script>

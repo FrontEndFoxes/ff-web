@@ -70,18 +70,22 @@
 			</svg>
 		</div>
 
-		<events-grid />
+		<section-events />
+		<section-teaching />
+		<section-message />
 	</div>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
-import EventsGrid from '../components/EventsGrid.vue';
+import { SectionEvents, SectionTeaching, SectionMessage  } from '@/components/sections';
 
 export default defineComponent({
 	name: 'Home',
 	components: {
-		EventsGrid,
+		SectionEvents,
+		SectionTeaching,
+		SectionMessage
 	},
 });
 </script>
