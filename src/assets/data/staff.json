@@ -1,9 +1,8 @@
 [
 	{
-		"id": 1,
 		"name": "Jen Looper",
-		"title": "Founder/CEO",
-		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240911/ChapterLeaders/jen_looper_gpiyff.jpg",
+		"title": "Founder/President",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601908830/ChapterLeaders/jlooper_ghqqse.jpg",
 		"description": "Jen Looper is a Google Developer Expert and a Cloud Developer Advocate Lead at Microsoft with over 20 years' experience as a web and mobile developer. Based in Boston, Jen specializes in creating cross-platform mobile apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, machine learning and discovering new things every day. Jen is a mom of two college-aged girls and loves helping women achieve their full potential.",
 		"website": "https://jenlooper.com",
 		"twitter": "@jenlooper",
@@ -11,7 +10,6 @@
 		"group": "leadership"
 	},
 	{
-		"id": 2,
 		"name": "Michele Cynowicz",
 		"title": "Communications Manager",
 		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240910/ChapterLeaders/michele_oudkol.jpg",
@@ -21,59 +19,237 @@
 		"group": "leadership"
 	},
 	{
-		"id": 3,
-		"name": "Ani Ionova",
-		"title": "Chapter Leader",
-		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/ani_lozjuz.png",
-		"description": "Ani is...",
-		"website": "https://jenlooper.com",
-		"twitter": "@anncrypted",
-		"active": true,
-		"group": "canada"
-	},
-
-	{
-		"id": 5,
 		"name": "Vanessa Böhner",
 		"title": "Chapter Leader",
 		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/screen-shot-2020-07-03-at-12-00-52-pm_rb927a.png",
-		"description": "Vanessa is...",
-		"website": "https://jenlooper.com",
+		"website": "https://vannsl.io",
 		"twitter": "@vannsl",
 		"active": true,
-		"group": "dach"
+		"group": "dach (germany, austria, switzerland)"
 	},
 	{
-		"id": 6,
+		"name": "Victoria Bergquist",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662406/ChapterLeaders/Victoria_Bergquist_xmtqnv.jpg",
+		"twitter": "@vicbergquist",
+		"active": true,
+		"group": "dach (germany, austria, switzerland)"
+	},
+	{
+		"name": "Cynthia Eschler",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662461/ChapterLeaders/Cynthia_Eschler_u6a7k1.jpg",
+		"twitter": "@lady_mashiro",
+		"active": true,
+		"group": "dach (germany, austria, switzerland)"
+	},
+	{
+		"name": "Diana Ilithya",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
+		"website": "https://www.ilithya.rocks",
+		"twitter": "@ilithya_net",
+		"active": true,
+		"group": "dach (germany, austria, switzerland)"
+	},
+	{
+		"name": "Mary Vokicic",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
+		"twitter": "@burgmary",
+		"active": true,
+		"group": "dach (germany, austria, switzerland)"
+	},
+	{
+		"name": "Flor I. Baños",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Flor_Ba%E0%B8%84os_eekna5.jpg",
+		"twitter": "@Flor_IBG",
+		"active": true,
+		"group": "méxico"
+	},
+
+	{
+		"name": "Palmidia Garay",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662420/ChapterLeaders/Palmidia_Garay_ucfhdo.png",
+		"twitter": "@jetzable",
+		"active": true,
+		"group": "méxico"
+	},
+
+	{
+		"name": "Cristina Ponce Torres",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662467/ChapterLeaders/Cristina_Ponce_cofao2.jpg",
+		"twitter": "@cristinagrim",
+		"active": true,
+		"group": "spain"
+	},
+	{
+		"name": "Teresa Marbán Castro",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662414/ChapterLeaders/Teresa_Marban_ti4ifd.jpg",
+		"twitter": "@teresaemece",
+		"active": true,
+		"group": "spain"
+	},
+	{
+		"name": "Anna Mackenzie",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662467/ChapterLeaders/Anna_Mackenzie_dv7hjl.jpg",
+		"twitter": "@whatsupanna",
+		"active": true,
+		"group": "canada"
+	},
+	{
 		"name": "Jaeriah Tay",
 		"title": "Chapter Leader",
 		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/jaeriah_jkp1zq.jpg",
-		"description": "Jaeriah is...",
-		"website": "https://jenlooper.com",
+		"website": "https://jaeriah.com",
 		"twitter": "@jaeriahtay",
 		"active": true,
 		"group": "canada"
 	},
 	{
-		"id": 7,
-		"name": "Annett",
+		"name": "Ani Ionova",
 		"title": "Chapter Leader",
-		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/annett_ortz0v.jpg",
-		"description": "Annett is...",
-		"website": "https://jenlooper.com",
-		"twitter": "@anncrypted",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/ani_lozjuz.png",
+		"website": "https://anncrypt.com",
+		"twitter": "@anncrypt",
 		"active": true,
-		"group": "dach"
+		"group": "canada"
 	},
 	{
-		"id": 8,
+		"name": "Novella C.",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
+		"twitter": "@novelladev",
+		"active": true,
+		"group": "us"
+	},
+	{
+		"name": "Vanessa Alvarez",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662410/ChapterLeaders/Vanessa_Alvarez_apwsbx.jpg",
+		"twitter": "@vanessalvarez8a",
+		"active": true,
+		"group": "us"
+	},
+	{
+		"name": "Gift Egwuenu",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662432/ChapterLeaders/Gift_Egwuenu_ely8dc.jpg",
+		"website": "https://www.giftegwuenu.com",
+		"twitter": "@lauragift_",
+		"active": true,
+		"group": "nigeria"
+	},
+	{
+		"name": "Manuela Castrillon",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Manuela_Castrillon_ojsg9o.jpg",
+		"website": "https://www.manuela.dev",
+		"twitter": "@manucastrillonm",
+		"active": true,
+		"group": "colombia"
+	},
+	{
+		"name": "Diana Alvarez",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Diana_Alvarez_f3dn13.jpg",
+		"twitter": "@ingdalvarez",
+		"active": true,
+		"group": "colombia"
+	},
+	{
+		"name": "Elizabeth Portilla Flores",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Elizabeth_Portilla_msxtjf.jpg",
+		"twitter": "@lizita136",
+		"active": true,
+		"group": "perú"
+	},
+	{
+		"name": "Maricarmen Rojas Tinco",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Maricarmen_Rojas_musgtm.jpg",
+		"twitter": "@MaiaRT46",
+		"active": true,
+		"group": "perú"
+	},
+	{
+		"name": "Mery Cardenas Perez",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Mery_Cardenas_lilyng.jpg",
+		"active": true,
+		"group": "perú"
+	},
+	{
+		"name": "Ruth Abigail Salvador Zorrilla",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
+		"twitter": "@Ruth_Abbi",
+		"active": true,
+		"group": "perú"
+	},
+
+	{
+		"name": "Anett Gesierich",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/annett_ortz0v.jpg",
+		"website": "https://anett.xyz",
+		"twitter": "@emsuiko",
+		"active": true,
+		"group": "dach (germany, austria, switzerland)"
+	},
+	{
 		"name": "Andrea Busse",
 		"title": "Chapter Leader",
 		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/andreabusse_kj3zno.jpg",
-		"description": "Andrea is...",
-		"website": "https://jenlooper.com",
-		"twitter": "@anncrypted",
+		"twitter": "@mostlyCoffee88",
 		"active": true,
-		"group": "benelux"
+		"group": "benelux (belgium, netherlands, luxembourg)"
+	},
+	{
+		"name": "Aline Vercruysse",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
+		"twitter": "@alineverc",
+		"active": true,
+		"group": "benelux (belgium, netherlands, luxembourg)"
+	},
+	{
+		"name": "Nahoko Matsui",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662419/ChapterLeaders/Nahoko_Matsui_mcfciw.jpg",
+		"website": "https://nahokomatsui.github.io",
+		"twitter": "@nahokomatsui",
+		"active": true,
+		"group": "japan"
+	},
+	{
+		"name": "Rio Yamakuchi (rry)",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662419/ChapterLeaders/Rio_Yamakuchi_mmuyvc.png",
+		"twitter": "@ryamakuchi",
+		"active": true,
+		"group": "japan"
+	},
+	{
+		"name": "Kazumi Ohira",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Kazumi_Ohira_spcrwx.jpg",
+		"twitter": "@dz_",
+		"active": true,
+		"group": "japan"
+	},
+	{
+		"name": "Irene Yeriskin",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
+		"twitter": "@rene_iy",
+		"active": true,
+		"group": "ireland"
 	}
 ]
