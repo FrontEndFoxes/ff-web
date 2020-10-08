@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <a href="#" class="w-10/12 btn bg-secondary-200 hover:bg-secondary-500 text-secondary-500 hover:text-white -mt-6 rounded-lg overflow-hidden py-3">
+    <a href="#" class="w-10/12 btn bg-secondary-500 hover:bg-secondary-400 text-white -mt-6 rounded-lg overflow-hidden py-3">
       <div class="text-center text-lg">register</div>
     </a>
   </div>

@@ -14,7 +14,6 @@
     <div class="max-w-screen-xl mx-auto px-4">
       <div class="-mx-4 flex flex-wrap justify-center">
         <div class="p-4 sm:w-1/2 md:w-1/3 lg:w-1/3">
-         
             <img alt="fox" src="@/assets/fox.jpg" />
             <p class="text-gray-800 text-center text-base p-8 mb-5">
               <span
@@ -44,20 +43,3 @@ export default defineComponent({
   name: "NotFound",
 });
 </script>
-<style>
-.gradient {
-  background: linear-gradient(90deg, theme('colors.primary.500') 0%, theme('colors.primary.400') 100%);
-}
-.nav,
-.footer,
-#drawer {
-  background-color: theme('colors.primary.500');
-}
-
-.button {
-  background: theme('colors.secondary.500');
-}
-.logo {
-  max-width: 500px;
-}
-</style>

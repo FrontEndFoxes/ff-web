@@ -2,7 +2,7 @@
 	<!--Hero-->
 	<div>
 		<div class="pt-24">
-			<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row">
+			<div class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row">
 				<!--Left Col-->
 				<div class="flex flex-col w-full md:w-3/5 text-center md:text-left">
 					<h1 class="my-4 text-3xl md:text-5xl font-bold leading-tight">Welcome!</h1>
@@ -13,7 +13,7 @@
 
 					<div class="flex justify-center md:justify-start z-10">
 						<a
-							class="button mr-5 text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg cursor-pointer"
+							class="button mr-5 font-bold uppercase rounded my-6 py-4 px-8 shadow-lg cursor-pointer"
 							href="https://workshops.frontendfoxes.org"
 							target="_blank"
 							rel="noopener"
@@ -89,23 +89,3 @@ export default defineComponent({
 	},
 });
 </script>
-
-<style>
-.gradient {
-	background: linear-gradient(90deg, theme('colors.primary.500') 0%, theme('colors.primary.400') 100%);
-}
-
-.nav,
-.footer,
-#drawer {
-	background-color: theme('colors.primary.500');
-}
-
-.button {
-	background: theme('colors.secondary.500');
-}
-
-.logo {
-	max-width: 500px;
-}
-</style>

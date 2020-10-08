@@ -8,11 +8,13 @@
 			<div class="w-full mb-4">
 				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 			</div>
+		</div>
 
+		<div class="area-events container mx-auto px-10 flex flex-wrap pt-4">
 			<div
 				v-for="event in events"
 				:key="event.id"
-				class="w-full lg:w-1/4 md:w-1/3 sm:w-1/3 py-6 flex flex-col flex-grow flex-shrink bg-gray-100"
+				class="w-full lg:w-1/4 md:w-1/2 sm:w-1/2 xs:1/1 py-6 flex flex-col flex-grow flex-shrink bg-gray-100"
 			>
 				<card-event />
 			</div>
