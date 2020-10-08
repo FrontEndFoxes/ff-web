@@ -2,7 +2,9 @@
   <div id="app" class="flex flex-col h-screen min-h-screen">
     <Header />
     <main class="relative flex-grow">
-      <transition name="fade"><router-view /></transition>
+      <transition name="fade">
+        <router-view />
+      </transition>
     </main>
     <Footer />
   </div>
@@ -20,4 +22,5 @@ export default {
 };
 </script>
 
-<style src="./assets/tailwind.css"></style>
+<style src="./assets/styles/tailwind.css"></style>
+<style src="./assets/styles/main.css"></style>

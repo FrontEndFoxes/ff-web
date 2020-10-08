@@ -84,7 +84,7 @@
 
 			<div class="flex items-center pl-4">
 				<a class="p-2 text-white no-underline hover:no-underline text-2xl lg:text-2xl" href="/">
-					<img class="pull-left pt-1" src="@/assets/logo-sm.png" alt=""/>
+					<img class="pull-left pt-1" src="@/assets/images/logo-sm.png" alt=""/>
 					<span class="pt-5 pl-3">Front-End Foxes</span>
 				</a>
 			</div>
