@@ -23,7 +23,7 @@
           </div>
         </div>
         <p class="text-gray-500 font-normal mb-6 text-xs">
-          {{ truncate(event.description, 73) }} 
+          {{ truncate(event.description, 83) }} 
         </p>active
       </div>
     </div>
