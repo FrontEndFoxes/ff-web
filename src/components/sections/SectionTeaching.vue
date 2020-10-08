@@ -1,6 +1,6 @@
 <template>
   <!--teaching area-->
-  <section class="bg-gray-100">
+  <section class="bg-gray-100 pt-10 pb-20">
     <h2 class="w-full text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800">
       Women Teaching Women
     </h2>
