@@ -5,20 +5,20 @@ import events from '@/assets/data/events.json'
 import EventsGrid from '@/components/EventsGrid.vue'
 
 describe('EventsGrid.vue', () => {
-  let wrapper
-  
-  const mountFunction = options => {
-    return shallowMount(EventsGrid, {
-      ...options,
+    let wrapper
+    
+    const mountFunction = options => {
+        return shallowMount(EventsGrid, {
+            ...options,
+        })
+    }
+
+    beforeEach(() => {
+        wrapper = mountFunction()
     })
-  }
 
-  beforeEach(() => {
-    wrapper = mountFunction()
-  })
-
-  it('should be mounted and have events data', () => {
-    expect(!!wrapper.vm).toBeTruthy()
-    expect(wrapper.vm.events).toEqual(events)
-  })
+    it('should be mounted and have events data', () => {
+        expect(!!wrapper.vm).toBeTruthy()
+        expect(wrapper.vm.events).toEqual(events)
+    })
 })

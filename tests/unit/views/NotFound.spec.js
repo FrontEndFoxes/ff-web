@@ -1,13 +1,13 @@
 import { shallowMount } from '@vue/test-utils'
 
 // Component
-import About from '@/views/About.vue'
+import NotFound from '@/views/NotFound.vue'
 
-describe('About.vue', () => {
+describe('NotFound.vue', () => {
     let wrapper
     
     const mountFunction = options => {
-        return shallowMount(About, {
+        return shallowMount(NotFound, {
             ...options,
         })
     }

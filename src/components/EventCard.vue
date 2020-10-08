@@ -2,7 +2,7 @@
   <div class="ffevent__card">
       <div class="ffevent__wrap rounded flex items-center justify-center" 
           :style="bgEventImage"></div>
-      <div class="ffgallery__body">
+      <div v-if="eventToShow" class="ffgallery__body">
           <div class="text-1xl text-center text-gray-600">
               {{ eventToShow.city }}, {{ eventToShow.country }}
           </div>

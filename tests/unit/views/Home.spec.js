@@ -4,19 +4,19 @@ import { shallowMount } from '@vue/test-utils'
 import Home from '@/views/Home.vue'
 
 describe('Home.vue', () => {
-  let wrapper
-  
-  const mountFunction = options => {
-    return shallowMount(Home, {
-      ...options,
+    let wrapper
+    
+    const mountFunction = options => {
+        return shallowMount(Home, {
+        ...options,
+        })
+    }
+
+    beforeEach(() => {
+        wrapper = mountFunction()
     })
-  }
 
-  beforeEach(() => {
-    wrapper = mountFunction()
-  })
-
-  it('should be mounted', () => {
-    expect(!!wrapper.vm).toBeTruthy()
-  })
+    it('should be mounted', () => {
+        expect(!!wrapper.vm).toBeTruthy()
+    })
 })

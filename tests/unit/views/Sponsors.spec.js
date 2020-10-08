@@ -5,20 +5,20 @@ import ffsponsors from '@/assets/data/sponsors.json';
 import Sponsors from '@/views/Sponsors.vue'
 
 describe('Sponsors.vue', () => {
-  let wrapper
-  
-  const mountFunction = options => {
-    return shallowMount(Sponsors, {
-      ...options,
+    let wrapper
+    
+    const mountFunction = options => {
+        return shallowMount(Sponsors, {
+            ...options,
+        })
+    }
+
+    beforeEach(() => {
+        wrapper = mountFunction()
     })
-  }
 
-  beforeEach(() => {
-    wrapper = mountFunction()
-  })
-
-  it('should be mounted and have ffsponsors data', () => {
-    expect(!!wrapper.vm).toBeTruthy()
-    expect(wrapper.vm.ffsponsors).toEqual(ffsponsors)
-  })
+    it('should be mounted and have ffsponsors data', () => {
+        expect(!!wrapper.vm).toBeTruthy()
+        expect(wrapper.vm.ffsponsors).toEqual(ffsponsors)
+    })
 })
