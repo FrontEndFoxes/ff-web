@@ -14,13 +14,13 @@
             <p class="font-normal text-xs self-center text-black">🕐 04:00 PM - 05:30PM</p>
           </div>
         </div>
-        <p class="text-gray-400 font-normal mb-10 text-xs">
+        <p class="text-gray-500 font-normal mb-10 text-xs">
           Lorem ipsum dolor sit amet, consecte adipisc elit, sed do eiusmod tempor. 
         </p>
       </div>
     </div>
 
-    <a href="#" class="w-10/12 btn bg-blue-500 hover:bg-blue-700 -mt-6 rounded-lg overflow-hidden py-3">
+    <a href="#" class="w-10/12 btn bg-secondary-200 hover:bg-secondary-500 text-secondary-500 hover:text-white -mt-6 rounded-lg overflow-hidden py-3">
       <div class="text-center text-lg">register</div>
     </a>
   </div>
