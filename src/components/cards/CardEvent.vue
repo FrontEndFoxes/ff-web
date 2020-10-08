@@ -64,6 +64,7 @@ export default {
 
 <style scoped>
 .card-event .card-event__card{
-  max-height: 376px;
+  min-height: 316px;
+  max-height: 316px;
 }
 </style>
