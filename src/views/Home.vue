@@ -89,19 +89,22 @@ export default defineComponent({
 	},
 });
 </script>
+
 <style>
 .gradient {
-	background: linear-gradient(90deg, #041e30 0%, #0a314d 100%);
+	background: linear-gradient(90deg, theme('colors.primary.500') 0%, theme('colors.primary.400') 100%);
 }
+
 .nav,
 .footer,
 #drawer {
-	background-color: #041e30;
+	background-color: theme('colors.primary.500');
 }
 
 .button {
-	background: #ed7251;
+	background: theme('colors.secondary.500');
 }
+
 .logo {
 	max-width: 500px;
 }
