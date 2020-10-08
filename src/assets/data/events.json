@@ -2,37 +2,53 @@
 	{
 		"id": 1,
 		"title": "Japan Meetup",
-		"date": "4/4/2020",
+		"date": "2020-10-04T18:25:43.511Z",
+		"startEvent": "4:00 PM",
+		"finishEvent": "05:30 PM",
 		"location": "Madrid",
-		"description": "fab meetup",
+		"description": "Lorem ipsum dolor sit amet, consecte adipisc elit, sed do eiusmod tempor.",
 		"cta": "meetup",
-		"active": true
+		"active": true,
+		"image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80",
+		"link": "#"
 	},
 	{
 		"id": 2,
 		"title": "Colombia Meetup",
-		"date": "4/5/2020",
+		"date": "2020-10-05T18:25:43.511Z",
+		"startEvent": "4:00 PM",
+		"finishEvent": "05:30 PM",
 		"location": "Palermo",
-		"description": "fab meetup",
+		"description": "Lorem ipsum dolor sit amet, consecte adipisc elit, sed do eiusmod tempor.",
 		"cta": "meetup",
-		"active": true
+		"active": true,
+		"image": "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80",
+		"link": "#"
 	},
 	{
 		"id": 3,
 		"title": "VV Day Spain",
-		"date": "5/4/2020",
+		"date": "2020-10-06T18:25:43.511Z",
+		"startEvent": "4:00 PM",
+		"finishEvent": "05:30 PM",
 		"location": "Boston",
-		"description": "fab meetup",
+		"description": "Lorem ipsum dolor sit amet, consecte adipisc elit, sed do eiusmod tempor.",
 		"cta": "meetup",
-		"active": true
+		"active": true,
+		"image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+		"link": "#"
 	},
 	{
-		"id": 3,
-		"title": "VV Day Spain",
-		"date": "5/4/2020",
-		"location": "Boston",
-		"description": "fab meetup",
+		"id": 4,
+		"title": "V Vixens CWB",
+		"date": "2012-09-30T18:25:43.511Z",
+		"startEvent": "4:00 PM",
+		"finishEvent": "05:30 PM",
+		"location": "Brazil",
+		"description": "Lorem ipsum dolor sit amet, consecte adipisc elit, sed do eiusmod tempor.",
 		"cta": "meetup",
-		"active": true
+		"active": false,
+		"image": "https://images.unsplash.com/photo-1560523160-754a9e25c68f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1320&q=80",
+		"link": "#"
 	}
 ]

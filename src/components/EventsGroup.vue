@@ -1,12 +1,13 @@
 <template>
   <div class="ffeventsgroup">
-      <card-gallery v-for="eventToShow in events" 
-                :key="eventToShow.id" 
-                :eventToShow="eventToShow" />
+      <card-gallery 
+        v-for="eventToShow in events" 
+        :key="eventToShow.id" 
+        :eventToShow="eventToShow" 
+      />
   </div>
 </template>
 <script>
-// Other components
 import { CardGallery } from "@/components/cards";
 
 export default {
@@ -15,6 +16,7 @@ export default {
   name: "EventsGroup",
 };
 </script>
+
 <style scoped>
 .ffeventsgroup {
   @apply p-2 flex flex-col flex-wrap justify-around p-10;

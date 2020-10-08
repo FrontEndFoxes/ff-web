@@ -16,7 +16,7 @@
 				:key="event.id"
 				class="w-full lg:w-1/4 md:w-1/2 sm:w-1/2 xs:1/1 py-6 flex flex-col flex-grow flex-shrink bg-gray-100"
 			>
-				<card-event />
+				<card-event :event="event" />
 			</div>
 		</div>
 	</section>
