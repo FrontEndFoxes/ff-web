@@ -2,13 +2,13 @@ import { shallowMount } from '@vue/test-utils'
 
 // Component & Data
 import events from '@/assets/data/events.json'
-import EventsGrid from '@/components/EventsGrid.vue'
+import SectionEvents from '@/components/sections/SectionEvents.vue'
 
-describe('EventsGrid.vue', () => {
+describe('SectionEvents.vue', () => {
     let wrapper
     
     const mountFunction = options => {
-        return shallowMount(EventsGrid, {
+        return shallowMount(SectionEvents, {
             ...options,
         })
     }
