@@ -1,21 +1,23 @@
 <template>
   <div class="ffevent__card">
-      <div class="ffevent__wrap rounded flex items-center justify-center" 
-          :style="bgEventImage"></div>
-      <div v-if="eventToShow" class="ffgallery__body">
+      <div 
+			class="ffevent__wrap rounded flex items-center justify-center" 
+			:style="bgEventImage"
+		/>
+      <div class="ffgallery__body">
           <div class="text-1xl text-center text-gray-600">
-              {{ eventToShow.city }}, {{ eventToShow.country }}
+            {{ eventToShow.city }}, {{ eventToShow.country }}
           </div>
           <p class="font-bold text-1xl text-center text-gray-600">
-              {{ eventToShow.month }} {{ eventToShow.day }}
+            {{ eventToShow.month }} {{ eventToShow.day }}
           </p>
       </div>
   </div>
 </template>
 <script>
 export default {
+	name: "CardGallery",
 	props: ["eventToShow"],
-	name: "EventCard",
 	computed: {
 		bgEventImage() {
 			let stylesImg = "";
@@ -41,35 +43,32 @@ export default {
 </script>
 <style scoped>
 .ffgallery__body {
-    @apply my-2;
+  @apply my-2;
 }
 
 .ffevent__card {
-    @apply bg-white shadow-lg rounded-lg my-1;
+  @apply bg-white shadow-lg rounded-lg my-1;
 }
 
 .ffevent__wrap {
-    @apply rounded;
+  @apply rounded;
 }
 
 /* Small (sm) */
-
 @media (min-width: 640px) {
 	.ffevent__card{
 		height: 17rem;
 	}
-
-    .ffevent__wrap {
-        @apply h-64;
-    }
+	.ffevent__wrap {
+		@apply h-64;
+	}
 }
 
 /* Medium (md) */
-
 @media (min-width: 768px) {
-    .ffevent__card {
-        width: 30%;
-        @apply mx-2;
-    }
+	.ffevent__card {
+		width: 30%;
+		@apply mx-2;
+	}
 }
 </style>

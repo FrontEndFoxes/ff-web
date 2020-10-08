@@ -2,7 +2,7 @@
 	<!--Hero-->
 	<div>
 		<div class="pt-24">
-			<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row">
+			<div class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row">
 				<!--Left Col-->
 				<div class="flex flex-col w-full md:w-3/5 text-center md:text-left">
 					<h1 class="my-4 text-3xl md:text-5xl font-bold leading-tight">Welcome!</h1>
@@ -13,7 +13,7 @@
 
 					<div class="flex justify-center md:justify-start z-10">
 						<a
-							class="button mr-5 text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg cursor-pointer"
+							class="button mr-5 font-bold uppercase rounded my-6 py-4 px-8 shadow-lg cursor-pointer"
 							href="https://workshops.frontendfoxes.org"
 							target="_blank"
 							rel="noopener"
@@ -33,7 +33,7 @@
 				</div>
 				<!--Right Col-->
 				<div class="w-full md:w-2/5 py-6 text-center">
-					<img class="logo w-full z-50" src="@/assets/logo.svg" alt="" />
+					<img class="logo w-full z-50" src="@/assets/images/logo.svg" alt="" />
 				</div>
 			</div>
 		</div>
@@ -70,35 +70,22 @@
 			</svg>
 		</div>
 
-		<events-grid />
+		<section-events />
+		<section-teaching />
+		<section-message />
 	</div>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
-import EventsGrid from '../components/EventsGrid.vue';
+import { SectionEvents, SectionTeaching, SectionMessage  } from '@/components/sections';
 
 export default defineComponent({
 	name: 'Home',
 	components: {
-		EventsGrid,
+		SectionEvents,
+		SectionTeaching,
+		SectionMessage
 	},
 });
 </script>
-<style>
-.gradient {
-	background: linear-gradient(90deg, #041e30 0%, #0a314d 100%);
-}
-.nav,
-.footer,
-#drawer {
-	background-color: #041e30;
-}
-
-.button {
-	background: #ed7251;
-}
-.logo {
-	max-width: 500px;
-}
-</style>
