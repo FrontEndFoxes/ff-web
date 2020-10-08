@@ -54,12 +54,8 @@ export default defineComponent({
 		initialize() {
 			this.extractYearFromEvents();
 
-			if (this.years !== undefined && this.years !== undefined) {
-				if (Array.isArray(this.years)) {
-					if (this.years.length > 0) {
-						this.yearToFilter = this.years[0];
-					}
-				}
+			if (Array.isArray(this.years) && this.years.length > 0) {
+				this.yearToFilter = this.years[0];
 			}
 		},
 		extractYearFromEvents() {

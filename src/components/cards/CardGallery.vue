@@ -1,9 +1,9 @@
 <template>
   <div class="ffevent__card">
       <div 
-				class="ffevent__wrap rounded flex items-center justify-center" 
-				:style="bgEventImage"
-			/>
+			class="ffevent__wrap rounded flex items-center justify-center" 
+			:style="bgEventImage"
+		/>
       <div class="ffgallery__body">
           <div class="text-1xl text-center text-gray-600">
             {{ eventToShow.city }}, {{ eventToShow.country }}
