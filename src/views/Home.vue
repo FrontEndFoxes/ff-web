@@ -33,7 +33,7 @@
 				</div>
 				<!--Right Col-->
 				<div class="w-full md:w-2/5 py-6 text-center">
-					<img class="logo w-full z-50" src="@/assets/logo.svg" alt="" />
+					<img class="logo w-full z-50" src="@/assets/images/logo.svg" alt="" />
 				</div>
 			</div>
 		</div>

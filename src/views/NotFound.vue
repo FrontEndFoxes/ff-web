@@ -14,7 +14,7 @@
     <div class="max-w-screen-xl mx-auto px-4">
       <div class="-mx-4 flex flex-wrap justify-center">
         <div class="p-4 sm:w-1/2 md:w-1/3 lg:w-1/3">
-            <img alt="fox" src="@/assets/fox.jpg" />
+            <img alt="fox" src="@/assets/images/fox.jpg" />
             <p class="text-gray-800 text-center text-base p-8 mb-5">
               <span
                 >Photo by

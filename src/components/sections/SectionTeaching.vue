@@ -11,17 +11,17 @@
     <div class="flex flex-wrap">
       <div class="w-1/3 p-2">
         <div class="p-2">
-          <img src="@/assets/mentoring.jpg" alt="teaching women students" />
+          <img src="@/assets/images/mentoring.jpg" alt="teaching women students" />
         </div>
       </div>
       <div class="w-1/3 p-2">
         <div class="p-2">
-          <img src="@/assets/mentoring.jpg" alt="teaching women students" />
+          <img src="@/assets/images/mentoring.jpg" alt="teaching women students" />
         </div>
       </div>
       <div class="w-1/3 p-2">
         <div class="p-2">
-          <img src="@/assets/mentoring.jpg" alt="teaching women students" />
+          <img src="@/assets/images/mentoring.jpg" alt="teaching women students" />
         </div>
       </div>
     </div>
