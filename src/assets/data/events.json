@@ -45,7 +45,7 @@
 		"startEvent": "4:00 PM",
 		"finishEvent": "05:30 PM",
 		"location": "Brazil",
-		"description": "Lorem ipsum dolor sit amet, consecte adipisc elit, sed do eiusmod tempor.",
+		"description": "Lorem ipsum dolor sit amet, consecte adipisc elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		"cta": "meetup",
 		"active": false,
 		"image": "https://images.unsplash.com/photo-1560523160-754a9e25c68f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1320&q=80",

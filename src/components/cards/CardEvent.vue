@@ -23,7 +23,7 @@
           </div>
         </div>
         <p class="text-gray-500 font-normal mb-6 text-xs">
-          {{ event.description }} 
+          {{ truncate(event.description, 73) }} 
         </p>active
       </div>
     </div>
@@ -43,8 +43,11 @@
 </template>
 
 <script>
+import truncate from '@/mixins/truncate.js'
+
 export default {
   name: "CardEvent",
+  mixins: [truncate],
   props: {
     event: {
       type: Object,

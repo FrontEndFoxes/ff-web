@@ -2,7 +2,9 @@
   <div id="app" class="flex flex-col h-screen min-h-screen">
     <Header />
     <main class="relative flex-grow">
-      <transition name="fade"><router-view /></transition>
+      <transition name="fade">
+        <router-view />
+      </transition>
     </main>
     <Footer />
   </div>
