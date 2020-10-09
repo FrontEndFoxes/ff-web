@@ -51,8 +51,8 @@
         "month": "May",
         "day": "31th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/1750804/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/progressnext2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207898/skulks-2018/boston-2018_ojrmme.jpg",
+        "link": ""
     },
     {
         "id": 6,
@@ -62,19 +62,19 @@
         "month": "Jun",
         "day": "21st",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/WeRise2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207896/skulks-2018/atlant-2018_v3wnrf.jpg",
+        "link": ""
     },
     {
         "id": 7,
-        "title": "VVArgentina Presentation 2018",
+        "title": "Vue Vixens Argentina Presentation 2018",
         "country": "Argentina",
         "city": "Buenos Aires",
         "month": "Jun",
         "day": "21st",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/1750804/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/VVArgentinaPresentation"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207894/skulks-2018/ba-2018_v6ruau.png",
+        "link": ""
     },
     {
         "id": 8,
@@ -84,8 +84,8 @@
         "month": "Jun",
         "day": "29th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/VueJSRoadtripParis"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207904/skulks-2018/paris_supghq.jpg",
+        "link": ""
     },
     {
         "id": 9,
