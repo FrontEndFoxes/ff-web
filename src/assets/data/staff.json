@@ -143,7 +143,7 @@
 		"website": "https://www.giftegwuenu.com",
 		"twitter": "@lauragift_",
 		"active": true,
-		"group": "nigeria"
+		"group": "benelux (belgium, netherlands, luxembourg)"
 	},
 	{
 		"name": "Manuela Castrillon",
@@ -251,5 +251,13 @@
 		"twitter": "@rene_iy",
 		"active": true,
 		"group": "ireland"
+	},
+	{
+		"name": "Ifeoma Chisom Nwosu",
+		"title": "Chapter Leader",
+		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602201797/ChapterLeaders/ifeoma_qdoi7x.jpg",
+		"twitter": "@Ify__N",
+		"active": true,
+		"group": "nigeria"
 	}
 ]
