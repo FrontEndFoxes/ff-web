@@ -1,17 +1,24 @@
-import { shallowMount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 
 // Component & Data
 import CardEvent from '@/components/cards/CardEvent.vue'
 
 describe('CardEvent.vue', () => {
     let wrapper
-    
+
     const mountFunction = options => {
-        return shallowMount(CardEvent, {
+        return mount(CardEvent, {
             props: {
                 event: {}
             },
-            ...options,
+            global: {
+                mocks: {
+                    $t: (msg) => msg,
+                    $i18n: {
+                        locale: "en"
+                    }
+                }
+            }
         })
     }
 
