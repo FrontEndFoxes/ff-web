@@ -1,52 +1,46 @@
 <template>
   <div class="pt-24 bg-blue-100 bg-gradient-to-b from-white pb-10">
-    <h1
-      class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-    >
-      Gallery
-    </h1>
-    <div class="w-full mb-4">
-      <div
-        class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-      ></div>
-    </div>
-    <div v-if="years.length > 0">
-      <YearsGroup :years="years" :currentYear="yearToFilter" @show="onShow" />
-      <div v-if="yearToFilter > 0 && eventsByYear.length > 0">
-        <div
-          class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center"
-        >
-          <p class="text-2xl">Here you can find images from our past skulks</p>
-        </div>
-        <EventsGroup :events="eventsByYear" />
+      <h1 class="gallery__title">
+          {{ $t("gallery.galleryTitle") }}
+      </h1>
+      <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <div
-        v-else-if="yearToFilter == 0 && eventsByYear.length == 0"
-        class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center"
-      >
-        <p class="text-2xl">
-          I'm sorry. You don't have selected any year. Please, select one.
-        </p>
+      <div v-if="years.length > 0">
+          <!-- Years -->
+          <YearsGroup :years="years" :currentYear="yearToFilter" @show="onShow" />
+          <div v-if="yearToFilter > 0 && eventsByYear.length > 0">
+              <div class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center">
+                  <p class="text-2xl">
+                      {{ $t("gallery.galleryDescription") }}
+                  </p>
+              </div>
+              <!-- Events -->
+              <EventsGroup :events="eventsByYear" />
+          </div>
+          <div v-else-if="yearToFilter == 0 && eventsByYear.length == 0"
+              class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center">
+              <p class="text-2xl">
+                  {{ $t("gallery.galleryErrorMessages.yearNotSelected") }}
+              </p>
+          </div>
+          <div v-else class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center">
+              <p class="text-2xl">
+                  {{ $t("gallery.galleryErrorMessages.notResultsByYear") }}
+              </p>
+          </div>
       </div>
-      <div
-        v-else
-        class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center"
-      >
-        <p class="text-2xl">I'm sorry :( there aren't results.</p>
+      <div v-else class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center">
+          <p class="text-2xl">
+              {{ $t("gallery.galleryErrorMessages.notEvents") }}
+          </p>
       </div>
-    </div>
-    <div
-      v-else
-      class="text-gray-800 mx-20 mt-5 mb-5 text-xl font-bold text-center"
-    >
-      <p class="text-2xl">I'm sorry :( you don't have events</p>
-    </div>
   </div>
 </template>
 <script>
 import { defineComponent } from "vue";
 // ffEventsGalleries
-import ffEventsGalleries from "@/assets/data/events-gallery.json";
+import ffEventsGalleries from "@/assets/data/events-gallery";
 // Other components
 import YearsGroup from "@/components/YearsGroup";
 import EventsGroup from "@/components/EventsGroup";
@@ -79,7 +73,8 @@ export default defineComponent({
         this.ffEventsGalleries !== undefined &&
         this.ffEventsGalleries !== null
       ) {
-        this.ffEventsGalleries.forEach(({ year }) => {
+        const currentLocal = this.$i18n.locale;
+        this.ffEventsGalleries[currentLocal].forEach(({ year }) => {
           if (!result.includes(year)) {
             result.push(year);
           }
@@ -93,7 +88,8 @@ export default defineComponent({
   },
   computed: {
     eventsByYear() {
-      const result = this.ffEventsGalleries.filter(
+      const currentLocal = this.$i18n.locale;
+      const result = this.ffEventsGalleries[currentLocal].filter(
         (ffElement) => ffElement.year === this.yearToFilter
       );
       return result;
@@ -101,3 +97,8 @@ export default defineComponent({
   },
 });
 </script>
+<style scoped>
+.gallery__title {
+  @apply w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800;
+}
+</style>
