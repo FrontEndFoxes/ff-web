@@ -7,7 +7,7 @@ import Sponsors from '@/views/Sponsors.vue'
 describe('Sponsors.vue', () => {
     let wrapper
     
-    const mountFunction = options => {
+    const mountFunction = () => {
         return mount(Sponsors, {
             global: {
                 mocks: {

@@ -6,7 +6,7 @@ import About from '@/views/About.vue'
 describe('About.vue', () => {
     let wrapper
     
-    const mountFunction = options => {
+    const mountFunction = () => {
         return mount(About, {
             global: {
                 mocks: {

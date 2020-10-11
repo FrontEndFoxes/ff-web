@@ -8,7 +8,7 @@ import ffEventsGalleries from "@/assets/data/events-gallery";
 describe('Gallery.vue', () => {
     let wrapper
 
-    const mountFunction = options => {
+    const mountFunction = () => {
         return mount(Gallery, {
             data() {
                 return {

@@ -7,7 +7,7 @@ import Team from '@/views/Team.vue'
 describe('Team.vue', () => {
     let wrapper
     
-    const mountFunction = options => {
+    const mountFunction = () => {
         return mount(Team, {
             global: {
                 mocks: {

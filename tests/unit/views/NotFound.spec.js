@@ -6,7 +6,7 @@ import NotFound from '@/views/NotFound.vue'
 describe('NotFound.vue', () => {
     let wrapper
     
-    const mountFunction = options => {
+    const mountFunction = () => {
         return mount(NotFound, {
             global: {
                 mocks: {

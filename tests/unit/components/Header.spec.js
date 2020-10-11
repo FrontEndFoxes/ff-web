@@ -6,7 +6,7 @@ import Header from '@/components/Header.vue'
 describe('Header.vue', () => {
     let wrapper
 
-    const mountFunction = options => {
+    const mountFunction = () => {
         return mount(Header, {
             global: {
                 mocks: {

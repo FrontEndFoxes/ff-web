@@ -6,7 +6,7 @@ import CardEvent from '@/components/cards/CardEvent.vue'
 describe('CardEvent.vue', () => {
     let wrapper
 
-    const mountFunction = options => {
+    const mountFunction = () => {
         return mount(CardEvent, {
             props: {
                 event: {}

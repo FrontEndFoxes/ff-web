@@ -7,7 +7,7 @@ import SectionEvents from '@/components/sections/SectionEvents.vue'
 describe('SectionEvents.vue', () => {
     let wrapper
     
-    const mountFunction = options => {
+    const mountFunction = () => {
         return mount(SectionEvents, {
             global: {
                 mocks: {

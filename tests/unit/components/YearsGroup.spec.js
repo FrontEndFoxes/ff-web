@@ -6,7 +6,7 @@ import YearsGroup from '@/components/YearsGroup.vue'
 describe('YearsGroup.vue', () => {
     let wrapper
     
-    const mountFunction = options => {
+    const mountFunction = () => {
         return mount(YearsGroup, {
             props: {
                 currentYear: '20XX'

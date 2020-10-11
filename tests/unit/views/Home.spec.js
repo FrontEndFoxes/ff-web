@@ -6,7 +6,7 @@ import Home from '@/views/Home.vue'
 describe('Home.vue', () => {
     let wrapper
 
-    const mountFunction = options => {
+    const mountFunction = () => {
         return mount(Home, {
             global: {
                 mocks: {
