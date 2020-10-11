@@ -1,12 +1,12 @@
-import header from './en-header.json'
-import footer from './en-footer.json'
-import home from './en-home.json'
-import about from './en-about.json'
-import sponsors from './en-sponsors.json'
-import team from './en-team.json'
-import gallery from './en-gallery.json'
+import header from './pt-header.json'
+import footer from './pt-footer.json'
+import home from './pt-home.json'
+import about from './pt-about.json'
+import sponsors from './pt-sponsors.json'
+import team from './pt-team.json'
+import gallery from './pt-gallery.json'
 
-export const en = {
+export const pt = {
   header,
   footer,
   home,
