@@ -12,6 +12,7 @@
 		"core-js": "^3.6.5",
 		"dayjs": "^1.9.1",
 		"flag-icon-css": "^3.5.0",
+		"identity-obj-proxy": "^3.0.0",
 		"mitt": "^2.1.0",
 		"tailwindcss": "^1.8.13",
 		"vue": "^3.0.0",
