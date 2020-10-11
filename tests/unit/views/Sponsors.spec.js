@@ -1,15 +1,22 @@
-import { shallowMount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 
 // Component & Data
-import ffsponsors from '@/assets/data/sponsors.json';
+import ffsponsors from '@/assets/data/sponsors';
 import Sponsors from '@/views/Sponsors.vue'
 
 describe('Sponsors.vue', () => {
     let wrapper
     
     const mountFunction = options => {
-        return shallowMount(Sponsors, {
-            ...options,
+        return mount(Sponsors, {
+            global: {
+                mocks: {
+                    $t: (msg) => msg,
+                    $i18n: {
+                        locale: "en"
+                    }
+                }
+            }
         })
     }
 
@@ -17,8 +24,8 @@ describe('Sponsors.vue', () => {
         wrapper = mountFunction()
     })
 
-    it('should be mounted and have ffsponsors data', () => {
+    it('should be mounted and have ffsponsors English data', () => {
         expect(!!wrapper.vm).toBeTruthy()
-        expect(wrapper.vm.ffsponsors).toEqual(ffsponsors)
+        expect(wrapper.vm.ffsponsors["en"]).toEqual(ffsponsors["en"])
     })
 })
