@@ -1,6 +1,6 @@
 <template>
   <div class="ffeventsgroup">
-      <card-gallery 
+      <CardEventGallery 
         v-for="eventToShow in events" 
         :key="eventToShow.id" 
         :eventToShow="eventToShow" 
@@ -8,12 +8,12 @@
   </div>
 </template>
 <script>
-import { CardGallery } from "@/components/cards";
+import { CardEventGallery } from "@/components/cards";
 
 export default {
   props: ["events"],
-  components: { CardGallery },
   name: "EventsGroup",
+  components: { CardEventGallery },
 };
 </script>
 

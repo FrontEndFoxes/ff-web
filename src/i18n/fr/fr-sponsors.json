@@ -1,0 +1,14 @@
+{
+    "sponsorsTitle": "Les sponsors",
+    "sponsorLevels": {
+        "platiniumSponsor": "Platine Les sponsors",
+        "goldSponsor": "Or Les sponsors",
+        "silverSponsor": "Argent Les sponsors",
+        "softwareSponsor": "Logiciel Les sponsors",
+        "communitySponsor": "Communauté Les sponsors"
+    },
+    "platiniumSponsors": {
+        "frontendMastersDescription": "Développez vos compétences grâce à des cours d'ingénierie avancés et modernes",
+        "shareNowDescription": "VOTRE FUTUR VOITURE EST MAINTENANT. Tout ce que vous devez savoir sur votre future voiture, ici."
+    }
+}

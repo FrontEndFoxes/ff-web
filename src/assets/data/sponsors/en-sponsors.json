@@ -6,7 +6,7 @@
 		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861223/Sponsors/sponsor-frontendmasters_wtevjd.jpg",
 		"link": "https://frontendmasters.com",
 		"active": true,
-		"level": "platinum"
+		"level": "platinium"
 	},
 	{
 		"id": 2,
@@ -15,7 +15,7 @@
 		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861222/Sponsors/sponsor-share-now_wfi0f2.png",
 		"link": "https://www.share-now.com/",
 		"active": true,
-		"level": "platinum"
+		"level": "platinium"
 	},
 	{
 		"id": 3,

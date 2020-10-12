@@ -1,0 +1,9 @@
+{
+    "galleryTitle": "Galeria",
+    "galleryDescription": "Aquí puedes encontrar imágenes de nuestras skulks pasadas",
+    "galleryErrorMessages": {
+        "yearNotSelected": "Lo sentimos. No ha seleccionado ningún año. Por favor, seleccione uno.",
+        "notResultsByYear": "Lo sentimos :( no hay resultados para este año.",
+        "notEvents": "Lo siento :( no tienes eventos"
+    }
+}

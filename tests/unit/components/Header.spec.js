@@ -1,14 +1,21 @@
-import { shallowMount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 
 // Component
 import Header from '@/components/Header.vue'
 
 describe('Header.vue', () => {
     let wrapper
-    
-    const mountFunction = options => {
-        return shallowMount(Header, {
-            ...options,
+
+    const mountFunction = () => {
+        return mount(Header, {
+            global: {
+                mocks: {
+                    $t: (msg) => msg,
+                    $i18n: {
+                        locale: "en"
+                    }
+                }
+            }
         })
     }
 
@@ -32,11 +39,11 @@ describe('Header.vue', () => {
         const event = new KeyboardEvent('keydown', { 'keyCode': 27 });
         process.client = false
         wrapper = mountFunction({
-        data() {
-            return {
-            isOpen: true,
+            data() {
+                return {
+                    isOpen: true,
+                }
             }
-        }
         })
         document.dispatchEvent(event);
         expect(wrapper.vm.isOpen).toBeFalsy()

@@ -1,14 +1,21 @@
-import { shallowMount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 
 // Component
 import Home from '@/views/Home.vue'
 
 describe('Home.vue', () => {
     let wrapper
-    
-    const mountFunction = options => {
-        return shallowMount(Home, {
-        ...options,
+
+    const mountFunction = () => {
+        return mount(Home, {
+            global: {
+                mocks: {
+                    $t: (msg) => msg,
+                    $i18n: {
+                        locale: "en"
+                    }
+                }
+            }
         })
     }
 

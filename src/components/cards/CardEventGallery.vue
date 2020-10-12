@@ -16,7 +16,7 @@
 </template>
 <script>
 export default {
-	name: "CardGallery",
+	name: "CardEventGallery",
 	props: ["eventToShow"],
 	computed: {
 		bgEventImage() {

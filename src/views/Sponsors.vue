@@ -1,63 +1,62 @@
 <template>
-	<div class="pt-24 bg-blue-100 bg-gradient-to-b from-white pb-10">
-		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Sponsors</h1>
-		<div class="w-full mb-4">
-			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-		</div>
-
-		<div class="max-w-screen-xl mx-auto px-4" v-for="category in sponsors" :key="category.id">
-			<h2
-				class="w-full mt-10 pt-5 my-2 text-3xl font-bold leading-tight text-center text-gray-800"
-				v-if="category.list && category.list.length"
-			>
-				{{ category.name }}
-			</h2>
-
-			<div class="-mx-4 flex flex-wrap justify-center">
-				<div class="p-4 sm:w-1/2 md:w-1/3 lg:w-1/3" v-for="sponsor in category.list" :key="sponsor.id">
-					<div
-						class="flex flex-col items-center max-w-sm h-full bg-white shadow-lg rounded-lg overflow-hidden my-4"
-					>
-						<div>
-							<img :src="sponsor.logo" v-bind:alt="sponsor.title" class="flex-1 pt-6 px-4 py-2 m-2" />
-						</div>
-						<div v-if="sponsor.link" class="flex items-center mt-4 text-green-400">
-							<i class="fa fa-link fa-1x"></i>
-							<h2 class="px-2 text-lg">
-								<a :href="sponsor.link" target="_blank">{{ sponsor.link }}</a>
-							</h2>
-						</div>
-						<p class="text-gray-800 text-center text-base p-8 mb-5">{{ sponsor.description }}</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="pt-24 bg-blue-100 bg-gradient-to-b from-white pb-10">
+    <h1 class="sponsors__title">{{$t("sponsors.sponsorsTitle")}}</h1>
+    <div class="w-full mb-4">
+        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <!-- Sponsors: Categories -->
+    <SectionSponsorsCategories :sponsors="sponsors" />
+</div>
 </template>
 
 <script>
-import ffsponsors from '@/assets/data/sponsors.json';
+// data
+import ffsponsors from "@/assets/data/sponsors";
+// components
+import SectionSponsorsCategories from "@/components/sections/SectionSponsorsCategories";
+
 export default {
-	computed: {
-		sponsors() {
-			return this.levels.map((level) => ({
-				id: level,
-				name: `${level} Sponsors`,
-				list: this.selectSponsorsByLevel(level),
-			}));
-		},
-	},
-	data() {
-		return {
-			ffsponsors: ffsponsors,
-			levels: ['Platinum', 'Gold', 'Silver', 'Software', 'Community'],
-		};
-	},
-	methods: {
-		selectSponsorsByLevel(level) {
-			level = level.toLowerCase();
-			return this.ffsponsors.filter((ffsponsor) => ffsponsor.level === level);
-		},
-	},
+    name: "Sponsors",
+    components: { SectionSponsorsCategories },
+    computed: {
+        sponsors() {
+            const levels = this.translateLevelsByCurrentLocal(this.levelsToFilter);
+            return this.levelsToFilter.map((level, index) => ({
+                id: level,
+                name: `${levels[index]}`,
+                list: this.selectSponsorsByLevel(level),
+            }));
+        },
+    },
+    data() {
+        return {
+            ffsponsors: ffsponsors,
+            levelsToFilter: ["Platinium", "Gold", "Silver", "Software", "Community"],
+        };
+    },
+    methods: {
+        translateLevelsByCurrentLocal(levels) {
+            let levelsByLocal = [];
+
+            for (let index = 0; index < levels.length; index++) {
+                const level = levels[index].toLowerCase();
+                levelsByLocal.push(this.$t(`sponsors.sponsorLevels.${level}Sponsor`));
+            }
+
+            return levelsByLocal;
+        },
+        selectSponsorsByLevel(level) {
+            level = level.toLowerCase();
+            const currentLocal = this.$i18n.locale;
+            return this.ffsponsors[currentLocal].filter(
+                (ffsponsor) => ffsponsor.level === level
+            );
+        },
+    },
 };
 </script>
+<style scoped>
+.sponsors__title {
+  @apply w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800;
+}
+</style>

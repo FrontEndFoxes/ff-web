@@ -8,6 +8,9 @@ module.exports = {
     "^.+\\js$": "babel-jest"
   },
   moduleFileExtensions: ['vue', 'js', 'json', 'jsx', 'ts', 'tsx', 'node'],
+  moduleNameMapper: {
+    "\\.css$": "identity-obj-proxy"
+  },
   collectCoverage: true,
   collectCoverageFrom: [
     'src/**/*.{js,vue}',

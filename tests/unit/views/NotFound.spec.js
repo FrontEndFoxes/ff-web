@@ -1,4 +1,4 @@
-import { shallowMount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 
 // Component
 import NotFound from '@/views/NotFound.vue'
@@ -6,9 +6,16 @@ import NotFound from '@/views/NotFound.vue'
 describe('NotFound.vue', () => {
     let wrapper
     
-    const mountFunction = options => {
-        return shallowMount(NotFound, {
-            ...options,
+    const mountFunction = () => {
+        return mount(NotFound, {
+            global: {
+                mocks: {
+                    $t: (msg) => msg,
+                    $i18n: {
+                        locale: "en"
+                    }
+                }
+            }
         })
     }
 

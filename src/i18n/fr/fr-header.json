@@ -1,0 +1,19 @@
+{
+    "menu": {
+        "about": "À propos",
+        "upcoming": "À venir",
+        "sponsors": "Sponsors",
+        "team": "Équipe",
+        "gallery": "Galerie",
+        "library": "Librairie",
+        "blog": "Blog",
+        "shop": "Boutique"
+    },
+    "languages": {
+        "en": "English",
+        "es": "Spanish",
+        "pt": "Português",
+        "pt_br": "Português - BR",
+        "fr": "Français"
+    }
+}
