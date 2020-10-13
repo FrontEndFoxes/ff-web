@@ -7,8 +7,8 @@
         "month": "Junio",
         "day": "15th",
         "year": 2019,
-        "image": "https://source.unsplash.com/collection/3124375/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/vue-vixens-day-bogota-2019"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439496/skulks-2018/bogota_pjnkz3.jpg",
+        "link": ""
     },
     {
         "id": 2,
@@ -243,13 +243,13 @@
     },
     {
         "id": 23,
-        "title": "Madrid Dec 2020",
-        "country": "España",
-        "city": "Madrid",
-        "month": "Diciembre",
-        "day": "4th",
+        "title": "Tech Ladies Singapore",
+        "country": "Zoom",
+        "city": "Singapore",
+        "month": "Julio",
+        "day": "27th",
         "year": 2020,
-        "image": "https://source.unsplash.com/collection/7764794/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/madriddec2020"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602557169/skulks-2018/tech-ladies-singapore-2020_elyiz3.png",
+        "link": ""
     }
 ]

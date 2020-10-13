@@ -7,8 +7,8 @@
         "month": "June",
         "day": "15th",
         "year": 2019,
-        "image": "https://source.unsplash.com/collection/3124375/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/vue-vixens-day-bogota-2019"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439496/skulks-2018/bogota_pjnkz3.jpg",
+        "link": ""
     },
     {
         "id": 2,
@@ -18,8 +18,8 @@
         "month": "November",
         "day": "9th",
         "year": 2019,
-        "image": "https://source.unsplash.com/collection/3124375/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/eje-cafetero-2019"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439584/skulks-2018/ejecafetero_xny0rd.jpg",
+        "link": ""
     },
     {
         "id": 3,
@@ -95,8 +95,8 @@
         "month": "July",
         "day": "21st",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/wwcportland2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439399/skulks-2018/portland_unaczy.jpg",
+        "link": ""
     },
     {
         "id": 10,
@@ -106,8 +106,8 @@
         "month": "July",
         "day": "28th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/VVArgentinaMeetup"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207894/skulks-2018/ba-2018_v6ruau.png",
+        "link": ""
     },
     {
         "id": 11,
@@ -172,8 +172,8 @@
         "month": "October",
         "day": "24th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/1750804/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/jsmobileconf2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439473/skulks-2018/img_2996_x7bl74.jpg",
+        "link": ""
     },
     {
         "id": 17,
@@ -210,14 +210,14 @@
     },
     {
         "id": 20,
-        "title": "Mautirius Dec 2018",
+        "title": "Mauritius Dec 2018",
         "country": "MU",
         "city": "Mauritius",
         "month": "December",
         "day": "1st",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/mautiriusdec2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439535/skulks-2018/1_gzeih5.jpg",
+        "link": ""
     },
     {
         "id": 21,
@@ -227,8 +227,8 @@
         "month": "December",
         "day": "3rd",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/frontendcon2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439429/skulks-2018/warsaw_quhja2.jpg",
+        "link": ""
     },
     {
         "id": 22,
@@ -238,18 +238,18 @@
         "month": "December",
         "day": "4th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/madriddec2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439291/skulks-2018/1_oqxyro.jpg",
+        "link": ""
     },
     {
         "id": 23,
-        "title": "Madrid Dec 2020",
-        "country": "Spain",
-        "city": "Madrid",
-        "month": "December",
-        "day": "4th",
+        "title": "Tech Ladies Singapore",
+        "country": "Zoom",
+        "city": "Singapore",
+        "month": "July",
+        "day": "27th",
         "year": 2020,
-        "image": "https://source.unsplash.com/collection/7764794/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/madriddec2020"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602557169/skulks-2018/tech-ladies-singapore-2020_elyiz3.png",
+        "link": ""
     }
 ]
