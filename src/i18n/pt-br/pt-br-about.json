@@ -1,0 +1,24 @@
+{
+    "aboutTitle": "Sobre Front-End Foxes",
+    "aboutPurpose": "Front-End Foxes Inc., uma instituição de caridade pública 501 (c) (3) (EIN 83-3866803), é uma iniciativa fundada por Jen Looper em 2018 que cria e organiza workshops para ensinar tecnologias de front-end para mulheres em um ambiente moderno e divertido. Nossas atividades incluem laboratórios de código autodirigidos gratuitos concluídos em formato de workshop em grupos com orientação de voluntários, seja online ou pessoalmente. O objetivo do programa é familiarizar as mulheres com tecnologias front-end de uma forma Ambiente inclusivo. Também administramos um fundo de bolsas de estudo para ajudar mulheres a participar de conferências técnicas. Organizamos eventos mais longos de sucesso, como o Vue Vixens Days na Argentina, Colômbia e Estados Unidos. Com filiais em todo o mundo, você provavelmente encontrará um grupo perto de você!",
+    "activitiesSubtitle": "Sobre Nossas Atividades",
+    "activitiesDescription": "O que você pode esperar de um evento do Front-End Foxes? Bem, como um estudante, talvez novo no campo de desenvolvimento front-end, você terá a oportunidade de aprender sobre várias estruturas para construir aplicativos da web e mobile. Ao longo de um café da manhã, um almoço e aprendizado ou um workshop de dia inteiro, que chamamos de 'skulks', você trabalhará com um mentor em pequenos grupos em um ambiente de aprendizagem prático e autodirigido. Você concluirá a tarefa de construir um aplicativo para web e um aplicativo mobile que o ensinará sobre a estrutura e programação em JavaScript. Você também terá a chance de conhecer e trabalhar com alunos com interesses semelhantes, interagir com líderes do setor e fazer conexões profissionais valiosas.",
+    "mentorsNoteSubtitle": "Uma Nota para os Mentores",
+    "mentorsNote": "Se você está se juntando a um de nossos skulks como mentor, em primeiro lugar, obrigado! Graças a você, podemos oferecer workshops gratuitos para novos desenvolvedores em um ambiente de suporte. Seu trabalho é ficar com seus pupilos ao longo do dia, ajudando-os em quaisquer dificuldades e dando-lhes uma visão da vida de um desenvolvedor profissional experiente. Você é o melhor! Só para ficar claro, qualquer um pode ser mentor do Front-End Foxes! Agradecemos sua participação.",
+    "studentsNoteSubtitle": "Uma Nota para os Alunos",
+    "studentSentences": {
+        "first": "Não tem certeza se você se encaixa em um de nossos skulks? Se você é um novo desenvolvedor front-end que se identifica como uma mulher, você é bem-vindo. O foco deste grupo é a educação e promoção de mulheres desenvolvedoras e aquelas que se identificam como tal. O fundador desta organização, Jen Looper, é Wellesley College Alumna (turma de 92) e considera os critérios de admissão da faculdade como um modelo. Para parafrasear sua declaração de admissibilidade:",
+        "second": "Admitiremos qualquer pessoa que viva como mulher e se identifique consistentemente como mulher. Saudamos também aquelas que foram designadas do sexo feminino ao nascer e que sentem que pertencem à nossa comunidade feminina. Procuramos fornecer aos alunos um ambiente de aprendizagem capacitador e único - projetado especificamente para preparar as mulheres para prosperar em um mundo complexo.",
+        "third": "Obrigado pelo seu apoio! 🦊"
+    },
+    "ffSponsoringSubtitle": "Patrocinando Front-End Foxes",
+    "ffSponsoringDescription": "Você ou sua empresa gostariam de patrocinar o Front-End Foxes como uma organização? Estamos muito gratos por você estar pensando assim. Ficamos felizes em aceitar patrocinadores nesses níveis e reconhecer nossos patrocinadores como tal em nossa página de patrocinadores. Dividimos nossas finanças em dois potes: dinheiro para nossas despesas ocasionais e capítulos e dinheiro para bolsas de estudo. Se você nos patrocinar, pode nos dizer qual a porcentagem da doação que beneficiará cada pote.",
+    "ffSponsoringPots": {
+        "platinium": "Platinium: $5000 ou mais por ano.",
+        "gold": "Gold: $2000 - $5000 por ano.",
+        "silver": "Silver: $1000 - $2000 por ano.",
+        "softwareSponsor": "Software sponsor: Presenteie-nos com uma assinatura de software.",
+        "patreonSponsors": "Patreon sponsors: Os membros da comunidade são bem-vindos a doar por meio de nosso Patreon",
+        "githubSponsors": "ou patrocinadores do GitHub (preferido!)."
+    }
+}
