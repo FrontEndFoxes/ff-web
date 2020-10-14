@@ -1,0 +1,19 @@
+{
+    "teamTitle": "Time",
+    "leadershipTitle": "Liderança",
+    "chapterLeader": "Líder do Capítulo",
+    "chapterGroups": {
+        "leadership": "Liderança",
+        "dach": "Dach (Alemanha, Áustria, Suíça)",
+        "mexico": "México",
+        "spain": "Espanha",
+        "canada": "Canadá",
+        "us": "Estádos Unidos",
+        "nigeria": "Nigéria",
+        "colombia": "Colômbia",
+        "peru": "Peru",
+        "benelux": "Benelux (Bélgica, Países Baixos, Luxemburgo)",
+        "japan": "Japão",
+        "ireland": "Irlanda"
+    }
+}
