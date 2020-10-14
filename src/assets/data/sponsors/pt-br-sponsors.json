@@ -1,0 +1,128 @@
+[
+	{
+		"id": 1,
+		"title": "Frontend Masters",
+		"description": "Aprimore suas habilidades com cursos avançados de engenharia detalhados e modernos",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861223/Sponsors/sponsor-frontendmasters_wtevjd.jpg",
+		"link": "https://frontendmasters.com",
+		"active": true,
+		"level": "platinium"
+	},
+	{
+		"id": 2,
+		"title": "Share Now",
+		"description": "O SEU FUTURO CARRO É AGORA. Tudo o que você precisa saber sobre seu futuro carro, bem aqui.",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861222/Sponsors/sponsor-share-now_wfi0f2.png",
+		"link": "https://www.share-now.com/",
+		"active": true,
+		"level": "platinium"
+	},
+	{
+		"id": 3,
+		"title": "PathAI",
+		"description": "PathAI é o fornecedor líder mundial de tecnologia alimentada por IA para o laboratório de patologia.",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861223/Sponsors/sponsor-pathai_h8hjfc.png",
+		"link": "http://www.pathai.com",
+		"active": true,
+		"level": "gold"
+	},
+	{
+		"id": 4,
+		"title": "AWS Amplify",
+		"description": "A Amazon é guiada por quatro princípios: obsessão pelo cliente em vez de foco no concorrente, paixão por invenções, compromisso com a excelência operacional e pensamento de longo prazo.",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861222/Sponsors/sponsor-aws-amplify_zahkqn.png",
+		"link": "https://amazon.com",
+		"active": true,
+		"level": "gold"
+	},
+	{
+		"id": 5,
+		"title": "The Practical Dev",
+		"description": "Postagens excelentes da incrível comunidade https://dev.to, com um pouco de opinião e humor misturados.",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861223/Sponsors/sponsor-dev_wglir0.png",
+		"link": "https://dev.to",
+		"active": true,
+		"level": "silver"
+	},
+	{
+		"id": 6,
+		"title": "Michael Thiessen",
+		"description": "Visite o site de Michael para obter boletins de qualidade e materiais de aprendizagem sobre Vue.js",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861223/Sponsors/sponsor-michael-thiessen_fawchv.jpg",
+		"link": " https://michaelnthiessen.com/",
+		"active": true,
+		"level": "silver"
+	},
+	{
+		"id": 7,
+		"title": "Women in Technology Special Interest Group",
+		"description": "Este grupo de interesse especial da Fidelity apóia o treinamento de mulheres em profissões técnicas.",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861223/Sponsors/sponsor-witsig_engmy0.png",
+		"link": "https://www.sitwithme.org/story/fidelity-2/",
+		"active": true,
+		"level": "silver"
+	},
+	{
+		"id": 8,
+		"title": "Storyblok",
+		"description": "CMS bem feito. JSON limpo e estruturado para você como desenvolvedor e um CMS pelo qual seus editores vão se apaixonar. Extensibilidade ilimitada por meio de plug-ins personalizados.",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861222/Sponsors/sponsor-storyblok_e5k44v.png",
+		"link": " https://www.storyblok.com/",
+		"active": true,
+		"level": "software"
+	},
+	{
+		"id": 9,
+		"title": "Notion",
+		"description": "Toda a nossa documentação pertence a Notion!",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861222/Sponsors/sponsor-notion-logo_ogldi3.png",
+		"link": "https://notion.so",
+		"active": true,
+		"level": "software"
+	},
+	{
+		"id": 10,
+		"title": "Software Guru",
+		"description": "Notícias, eventos e ideias para desenvolvedores de software que falam espanhol. O Software Guru oferece serviços de streaming para apoiar os encontros de nossos capítulos LATAM.",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861223/Sponsors/sponsor-sg-logo_qjvcaa.png",
+		"link": "https://sg.com.mx",
+		"active": true,
+		"level": "software"
+	},
+	{
+		"id": 11,
+		"title": "Patreon",
+		"description": "Membros da comunidade que estão contribuindo! Obrigado pelo seu apoio! Obrigado a todos os nossos fabulosos patrocinadores da comunidade!",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861222/Sponsors/partners-patreon_ilstmn.png",
+		"link": "https://www.patreon.com/vuevixens",
+		"active": true,
+		"level": "community"
+	},
+	{
+		"id": 12,
+		"title": "JetBrains",
+		"description": "Muitas das empresas e indivíduos mais dinâmicos do mundo consideram que as ferramentas da JetBrains os tornam mais criativos e eficazes.",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861222/Sponsors/partner-jetbrains_bkzdmu.png",
+		"link": "https://www.jetbrains.com/",
+		"active": true,
+		"level": "community"
+	},
+	{
+		"id": 13,
+		"title": "Vue School",
+		"description": "Aprenda Vue.js e tecnologias de ponta modernas e de ponta A Vue School gentilmente presenteou o Vue Vixens com licenças para serem sorteadas em nossas mesas de conferência.",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861223/Sponsors/partner-vue-school_lmx7oy.png",
+		"link": "https://vueschool.io/",
+		"active": true,
+		"level": "community"
+	},
+	{
+		"id": 14,
+		"title": "ATIV Software",
+		"description": "Produtos para Eventos e Associações. ATIV Software é o criador do EventPilot, uma plataforma para conferências.",
+		"logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861223/Sponsors/partner-ativ_nuhiah.png",
+		"link": "http://www.ativsoftware.com",
+		"active": true,
+		"level": "community"
+	}
+]
