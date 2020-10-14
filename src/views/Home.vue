@@ -11,16 +11,23 @@
 					<p class="leading-normal text-2xl md:text-4xl mb-8">
 						{{$t("home.heading.description")}}
 					</p>
-
-					<div class="flex justify-center md:justify-start z-10">
-						<a class="button mr-5 font-bold uppercase rounded my-6 py-4 px-8 shadow-lg cursor-pointer"
-							href="https://workshops.frontendfoxes.org" target="_blank" rel="noopener">
-							{{$t("home.heading.workshops")}}
+					
+					<div class="flex lg:w-8/12 justify-center md:justify-start z-10">
+						<a
+						class="btn w-6/12 mr-5 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
+						target="_blank" href="https://workshops.frontendfoxes.org"
+						>
+							<div class="uppercase text-center text-lg">
+								{{ $t("home.heading.workshops") }}
+							</div>
 						</a>
-
-						<a class="button text-white font-bold uppercase rounded my-6 py-4 px-8 shadow-lg cursor-pointer"
-							href="https://www.patreon.com/vuevixens" target="_blank" rel="noopener">
-							{{$t("home.heading.patreon")}}
+						<a
+						class="btn w-6/12 ml-3 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
+						target="_blank" href="https://www.patreon.com/vuevixens"
+						>
+							<div class="uppercase text-center text-lg">
+								{{ $t("home.heading.patreon") }}
+							</div>
 						</a>
 					</div>
 				</div>
