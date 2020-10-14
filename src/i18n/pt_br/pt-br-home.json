@@ -5,8 +5,9 @@
         "workshops": "Workshops",
         "patreon": "Patreon"
     },
-    "eventsTitle": "Eventos",
-    "register": "Cadastrar",
+    "eventsTitle": "Próximos Eventos",
+    "btnRegister": "Cadastrar",
+    "btnClosed": "Finalizado",
     "womenTeachingWomen": "Mulheres ensinando mulheres",
     "skulk": {
         "title": "Junte-se a Skulk",
@@ -19,5 +20,10 @@
     "request": {
         "title": "Solicitação",
         "content": "Organizadores de conferências, inscrevam-se para hospedar um workshop."
+    },
+    "mentoring": {
+        "first": "Membros da Colômbia Skulk",
+        "second": "Concatenate Conference Skulk na Nigéria",
+        "third": "Lançamento do Vue Vixens no Japão"
     }
 }

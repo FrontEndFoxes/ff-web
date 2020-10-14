@@ -5,6 +5,7 @@ import about from './pt-br-about.json'
 import sponsors from './pt-br-sponsors.json'
 import team from './pt-br-team.json'
 import gallery from './pt-br-gallery.json'
+import notfound from './pt-br-notfound.json'
 
 export const pt_br = {
   header,
@@ -14,4 +15,5 @@ export const pt_br = {
   sponsors,
   team,
   gallery,
+  notfound
 }

@@ -1,7 +1,9 @@
 {
+    "ffTitle": "Front-End Foxes",
+    "menuTitle": "Menu",
     "menu": {
         "about": "Sobre",
-        "upcoming": "Próximos",
+        "upcoming": "Próximos Eventos",
         "sponsors": "Patrocinadores",
         "team": "Time",
         "gallery": "Galeria",
@@ -10,10 +12,10 @@
         "shop": "Shop"
     },
     "languages": {
-        "en": "English",
-        "es": "Spanish",
+        "en": "Inglês",
+        "es": "Espanhol",
         "pt": "Português",
-        "pt_br": "Português - BR",
-        "fr": "Français"
+        "pt_br": "Português BR",
+        "fr": "Françes"
     }
 }
