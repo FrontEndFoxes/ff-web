@@ -1,0 +1,14 @@
+{
+    "sponsorsTitle": "Patrocinadores",
+    "sponsorLevels": {
+        "platiniumSponsor": "Patrocinadores Platinium",
+        "goldSponsor": "Patrocinadores Gold",
+        "silverSponsor": "Patrocinadores Silver",
+        "softwareSponsor": "Patrocinadores de Software",
+        "communitySponsor": "Patrocinadores da Comunidade"
+    },
+    "platiniumSponsors": {
+        "frontendMastersDescription": "Aprimore suas habilidades com cursos de engenharia avançados de Front-End ",
+        "shareNowDescription": "O SUA FUTURA CARREIRA É AGORA. Tudo o que você precisa saber sobre seu futura carreira, bem aqui."
+    }
+}

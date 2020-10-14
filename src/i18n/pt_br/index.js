@@ -6,7 +6,7 @@ import sponsors from './pt-br-sponsors.json'
 import team from './pt-br-team.json'
 import gallery from './pt-br-gallery.json'
 
-export const ptBr = {
+export const pt_br = {
   header,
   footer,
   home,

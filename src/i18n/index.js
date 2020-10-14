@@ -2,7 +2,7 @@ import { en } from './en'
 import { es } from './es'
 import { fr } from './fr'
 import { pt } from './pt'
-import { ptBr } from './pt-br'
+import { pt_br } from './pt_br'
 
 const defaultLocale = 'en'
 
@@ -11,7 +11,7 @@ const translations = {
   es: es,
   fr: fr,
   pt: pt,
-  ptBr: ptBr
+  pt_br: pt_br
 }
 
 export const valuesI18n = {

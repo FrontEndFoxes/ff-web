@@ -1,11 +1,11 @@
 {
     "menu": {
-        "about": "About",
-        "upcoming": "Upcoming",
-        "sponsors": "Sponsors",
-        "team": "Team",
-        "gallery": "Gallery",
-        "library": "Library",
+        "about": "Sobre",
+        "upcoming": "Próximos",
+        "sponsors": "Patrocinadores",
+        "team": "Time",
+        "gallery": "Galeria",
+        "library": "Biblioteca",
         "blog": "Blog",
         "shop": "Shop"
     },
