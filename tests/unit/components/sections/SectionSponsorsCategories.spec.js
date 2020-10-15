@@ -17,7 +17,7 @@ describe('SectionSponsorsCategories.vue', () => {
                         "logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861223/Sponsors/sponsor-frontendmasters_wtevjd.jpg",
                         "link": "https://frontendmasters.com",
                         "active": true,
-                        "level": "platinium"
+                        "level": "platinum"
                     }
                 ]
             },

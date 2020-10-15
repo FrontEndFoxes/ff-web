@@ -16,7 +16,7 @@ describe('CardSponsor.vue', () => {
                     logo: "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861222/Sponsors/sponsor-share-now_wfi0f2.png",
                     link: "https://www.share-now.com/",
                     active: true,
-                    level: "platinium"
+                    level: "platinum"
                 }
             },
             global: {

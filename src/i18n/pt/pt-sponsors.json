@@ -1,13 +1,13 @@
 {
     "sponsorsTitle": "Sponsors",
     "sponsorLevels": {
-        "platiniumSponsor": "Platinium Sponsors",
+        "platinumSponsor": "Platinum Sponsors",
         "goldSponsor": "Gold Sponsors",
         "silverSponsor": "Silver Sponsors",
         "softwareSponsor": "Software Sponsors",
         "communitySponsor": "Community Sponsors"
     },
-    "platiniumSponsors": {
+    "platinumSponsors": {
         "frontendMastersDescription": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
         "shareNowDescription": "YOUR FUTURE CAR IS NOW. All you need to know about your future car, right here."
     }
