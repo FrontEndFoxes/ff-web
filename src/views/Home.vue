@@ -5,16 +5,18 @@
       <div class="container mx-auto px-10 flex flex-wrap flex-col md:flex-row">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-3/5 text-center md:text-left">
-          <h1 class="my-4 text-3xl md:text-5xl font-bold leading-tight">
+          <h1 class="my-4 text-5xl font-bold leading-tight">
             {{ $t("home.heading.title") }}
           </h1>
           <p class="leading-normal text-2xl md:text-4xl mb-8">
             {{ $t("home.heading.description") }}
           </p>
 
-          <div class="flex lg:w-full justify-center md:justify-start z-10">
+          <div
+            class="flex flex-wrap lg:flex lg:flex-no-wrap md:flex lg:flex-no-wrap lg:w-full justify-center md:justify-start z-10"
+          >
             <a
-              class="btn w-6/12 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
+              class="btn w-full lg:w-6/12 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
               target="_blank"
               href="https://workshops.frontendfoxes.org"
             >
@@ -23,7 +25,7 @@
               </div>
             </a>
             <a
-              class="btn w-7/12 ml-3 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
+              class="btn w-full lg:w-7/12 ml-0 lg:ml-3 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
               target="_blank"
               href="https://github.com/sponsors/FrontEndFoxes"
             >
@@ -32,7 +34,7 @@
               </div>
             </a>
             <a
-              class="btn w-5/12 ml-3 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
+              class="btn w-full lg:w-5/12 ml-0 lg:ml-3 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
               target="_blank"
               href="https://www.patreon.com/vuevixens"
             >
