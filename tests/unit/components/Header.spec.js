@@ -1,4 +1,5 @@
 import { mount } from '@vue/test-utils'
+import router from '@/router'
 
 // Component
 import Header from '@/components/Header.vue'
@@ -14,7 +15,10 @@ describe('Header.vue', () => {
                     $i18n: {
                         locale: "en"
                     }
-                }
+                },
+                plugins: [
+                    router
+                ]
             }
         })
     }
