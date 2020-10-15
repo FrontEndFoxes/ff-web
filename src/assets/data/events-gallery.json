@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "title": "Progress - Next 2018",
+        "title": "ProgressNext 2018",
         "country": "US",
         "city": "Boston",
         "month": "May",
@@ -90,25 +90,15 @@
     {
         "id": 9,
         "title": "WWC Portland 2018",
-        "country": "OR",
-        "city": "Porland",
+        "country": "US",
+        "city": "Portland",
         "month": "July",
         "day": "21st",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439399/skulks-2018/portland_unaczy.jpg",
         "link": ""
     },
-    {
-        "id": 10,
-        "title": "VV Argentina Meetup 2018",
-        "country": "OR",
-        "city": "Porland",
-        "month": "July",
-        "day": "28th",
-        "year": 2018,
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207894/skulks-2018/ba-2018_v6ruau.png",
-        "link": ""
-    },
+    
     {
         "id": 11,
         "title": "Vue NYC 2018",
@@ -117,8 +107,8 @@
         "month": "August",
         "day": "28th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/1750804/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/VueNYC"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784672/skulks-2018/nyc_14_lkirtx.jpg",
+        "link": ""
     },
     {
         "id": 12,
@@ -128,19 +118,19 @@
         "month": "August",
         "day": "31st",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/vuejssummit"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784652/skulks-2018/brazil_bbzpsq.jpg",
+        "link": ""
     },
     {
         "id": 13,
-        "title": "VueJS Summit 2018",
+        "title": "Vue London 2018",
         "country": "UK",
         "city": "London",
         "month": "September",
         "day": "20th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/vuejslondon"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784654/skulks-2018/london_fhyuwh.jpg",
+        "link": ""
     },
     {
         "id": 14,
@@ -150,8 +140,8 @@
         "month": "October",
         "day": "11th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/nodejsinteractivevancouver2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784659/skulks-2018/vancouver_n6i5v8.jpg",
+        "link": ""
     },
     {
         "id": 15,
@@ -161,8 +151,8 @@
         "month": "October",
         "day": "17th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/connecttech2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784664/skulks-2018/atl-connect.tech_tsmkpa.jpg",
+        "link": ""
     },
     {
         "id": 16,
@@ -172,7 +162,7 @@
         "month": "October",
         "day": "24th",
         "year": 2018,
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439473/skulks-2018/img_2996_x7bl74.jpg",
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784954/skulks-2018/jsmobileconf-boston_pbx780.jpg",
         "link": ""
     },
     {
@@ -183,8 +173,8 @@
         "month": "November",
         "day": "13th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/devreach2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784666/skulks-2018/sofia_ycnbbs.jpg",
+        "link": ""
     },
     {
         "id": 18,
@@ -194,8 +184,8 @@
         "month": "November",
         "day": "14th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/vuetoronto2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784668/skulks-2018/vue-toronto_zsh63t.jpg",
+        "link": ""
     },
     {
         "id": 19,
@@ -205,8 +195,8 @@
         "month": "November",
         "day": "18th",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/voxxedthessaliniki2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784670/skulks-2018/thessaloniki_usqzss.jpg",
+        "link": ""
     },
     {
         "id": 20,
@@ -249,7 +239,7 @@
         "month": "July",
         "day": "27th",
         "year": 2020,
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602557169/skulks-2018/tech-ladies-singapore-2020_elyiz3.png",
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602557169/skulks-2020/tech-ladies-singapore-2020_elyiz3.png",
         "link": ""
     }
 ]
