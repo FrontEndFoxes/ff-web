@@ -32,7 +32,7 @@
 
 <script>
 export default {
-    name: 'SectionTeaching',
+  name: 'SectionTeaching',
 };
 </script>
 
