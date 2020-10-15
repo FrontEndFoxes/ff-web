@@ -5,9 +5,9 @@
         "country": "Colombia",
         "city": "Bogota",
         "month": "June",
-        "day": "15th",
+        "day": "15",
         "year": 2019,
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439496/skulks-2018/bogota_pjnkz3.jpg",
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439496/skulks-2019/bogota_pjnkz3.jpg",
         "link": ""
     },
     {
@@ -16,9 +16,9 @@
         "country": "Colombia",
         "city": "Pereira",
         "month": "November",
-        "day": "9th",
+        "day": "9",
         "year": 2019,
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439584/skulks-2018/ejecafetero_xny0rd.jpg",
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439584/skulks-2019/ejecafetero_xny0rd.jpg",
         "link": ""
     },
     {
@@ -27,7 +27,7 @@
         "country": "US",
         "city": "New Orleans",
         "month": "March",
-        "day": "27th",
+        "day": "27",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602202257/skulks-2018/neworleans-2018_tthqkv.jpg",
         "link": ""
@@ -38,7 +38,7 @@
         "country": "Spain",
         "city": "Barcelona",
         "month": "May",
-        "day": "25th",
+        "day": "25",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602202256/skulks-2018/barcelona-2018_tvka4n.jpg",
         "link": ""
@@ -49,7 +49,7 @@
         "country": "US",
         "city": "Boston",
         "month": "May",
-        "day": "31th",
+        "day": "31",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207898/skulks-2018/boston-2018_ojrmme.jpg",
         "link": ""
@@ -60,7 +60,7 @@
         "country": "US",
         "city": "Atlanta",
         "month": "June",
-        "day": "21st",
+        "day": "21",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207896/skulks-2018/atlant-2018_v3wnrf.jpg",
         "link": ""
@@ -71,7 +71,7 @@
         "country": "Argentina",
         "city": "Buenos Aires",
         "month": "June",
-        "day": "21st",
+        "day": "21",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207894/skulks-2018/ba-2018_v6ruau.png",
         "link": ""
@@ -82,7 +82,7 @@
         "country": "France",
         "city": "Paris",
         "month": "June",
-        "day": "29th",
+        "day": "29",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207904/skulks-2018/paris_supghq.jpg",
         "link": ""
@@ -93,7 +93,7 @@
         "country": "US",
         "city": "Portland",
         "month": "July",
-        "day": "21st",
+        "day": "21",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439399/skulks-2018/portland_unaczy.jpg",
         "link": ""
@@ -105,7 +105,7 @@
         "country": "US",
         "city": "New York",
         "month": "August",
-        "day": "28th",
+        "day": "28",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784672/skulks-2018/nyc_14_lkirtx.jpg",
         "link": ""
@@ -116,7 +116,7 @@
         "country": "Brazil",
         "city": "Sao Paulo",
         "month": "August",
-        "day": "31st",
+        "day": "31",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784652/skulks-2018/brazil_bbzpsq.jpg",
         "link": ""
@@ -127,7 +127,7 @@
         "country": "UK",
         "city": "London",
         "month": "September",
-        "day": "20th",
+        "day": "20",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784654/skulks-2018/london_fhyuwh.jpg",
         "link": ""
@@ -138,7 +138,7 @@
         "country": "Canada",
         "city": "Vancouver",
         "month": "October",
-        "day": "11th",
+        "day": "11",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784659/skulks-2018/vancouver_n6i5v8.jpg",
         "link": ""
@@ -149,7 +149,7 @@
         "country": "US",
         "city": "Atlanta",
         "month": "October",
-        "day": "17th",
+        "day": "17",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784664/skulks-2018/atl-connect.tech_tsmkpa.jpg",
         "link": ""
@@ -160,7 +160,7 @@
         "country": "US",
         "city": "Boston",
         "month": "October",
-        "day": "24th",
+        "day": "24",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784954/skulks-2018/jsmobileconf-boston_pbx780.jpg",
         "link": ""
@@ -171,7 +171,7 @@
         "country": "Bulgaria",
         "city": "Sofia",
         "month": "November",
-        "day": "13th",
+        "day": "13",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784666/skulks-2018/sofia_ycnbbs.jpg",
         "link": ""
@@ -182,7 +182,7 @@
         "country": "Canada",
         "city": "Toronto",
         "month": "November",
-        "day": "14th",
+        "day": "14",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784668/skulks-2018/vue-toronto_zsh63t.jpg",
         "link": ""
@@ -193,7 +193,7 @@
         "country": "Greece",
         "city": "Thessaloniki",
         "month": "November",
-        "day": "18th",
+        "day": "18",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784670/skulks-2018/thessaloniki_usqzss.jpg",
         "link": ""
@@ -204,7 +204,7 @@
         "country": "MU",
         "city": "Mauritius",
         "month": "December",
-        "day": "1st",
+        "day": "1",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439535/skulks-2018/1_gzeih5.jpg",
         "link": ""
@@ -215,7 +215,7 @@
         "country": "Poland",
         "city": "Warsaw",
         "month": "December",
-        "day": "3rd",
+        "day": "3",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439429/skulks-2018/warsaw_quhja2.jpg",
         "link": ""
@@ -226,7 +226,7 @@
         "country": "Spain",
         "city": "Madrid",
         "month": "December",
-        "day": "4th",
+        "day": "4",
         "year": 2018,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439291/skulks-2018/1_oqxyro.jpg",
         "link": ""
@@ -237,9 +237,20 @@
         "country": "Zoom",
         "city": "Singapore",
         "month": "July",
-        "day": "27th",
+        "day": "27",
         "year": 2020,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602557169/skulks-2020/tech-ladies-singapore-2020_elyiz3.png",
+        "link": ""
+    },
+    {
+        "id": 24,
+        "title": "Perú Meetup",
+        "country": "Perú",
+        "city": "Lima",
+        "month": "July",
+        "day": "13",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602733158/skulks-2019/peru-2019_d620x9.jpg",
         "link": ""
     }
 ]
