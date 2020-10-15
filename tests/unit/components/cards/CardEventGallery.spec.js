@@ -10,11 +10,7 @@ describe('CardEventGallery.vue', () => {
         return mount(CardEventGallery, {
             props: {
                 eventToShow: {
-                    city: "New York",
-                    country: "US",
-                    month: "October",
-                    day: "11th",
-                    image: "@/assets/images/mentoring2.jpg"
+                    country: "Zoom",
                 }
             },
             global: {

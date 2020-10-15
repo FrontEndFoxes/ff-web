@@ -3,7 +3,9 @@
         "title": "Bem-Vindo!",
         "description": "Front-End Foxes são pessoas que se identificam como mulheres e querem aprender tecnologias front-end para fazer sites e aplicativos mobile",
         "workshops": "Workshops",
-        "patreon": "Patreon"
+        "patreon": "Patreon",
+        "ghsponsors": "GitHub Sponsors"
+
     },
     "eventsTitle": "Próximos Eventos",
     "btnRegister": "Cadastrar",
