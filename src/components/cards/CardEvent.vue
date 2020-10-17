@@ -9,14 +9,10 @@
     <div
       class="card-event__card bg-white w-full rounded-md shadow-lg bg-cover bg-cent overflow-hidden"
     >
-      <div
-        class="img-event w-full h-40 bg-gray-30 bg-no-repeat bg-center bg-cover"
-        :style="`background-image: url('${
-          event.image
-            ? event.image
-            : require('@/assets/images/image-not-found.png')
-        }')`"
-      />
+      <ImageItem
+            class="img-event w-full h-40 bg-gray-30 bg-no-repeat bg-center bg-cover"
+            :source="event.image"
+        />
       <div class="px-3 pt-3">
         <div class="flex items-center mb-3">
           <div
@@ -63,10 +59,12 @@
 
 <script>
 import truncate from "@/mixins/truncate.js";
+import ImageItem from "@/components/ImageItem.vue";
 
 export default {
   name: "CardEvent",
   mixins: [truncate],
+  components: { ImageItem },
   props: {
     event: {
       type: Object,
