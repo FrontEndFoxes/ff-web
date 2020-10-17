@@ -73,7 +73,6 @@ export default {
 
       for (let index = 0; index < staff.length; index++) {
         const group = staff[index].toLowerCase();
-        console.log(group);
         staffByLocal.push(this.$t(`team.chapterGroups.${group}`));
       }
 
