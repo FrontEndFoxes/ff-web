@@ -1,44 +1,44 @@
 <template>
   <div class="ffevent__card">
-    <div 
-			class="ffevent__wrap rounded flex items-center justify-center" 
-			:style="bgEventImage"
-		/>
-		<div class="ffgallery__body">
-			<div class="text-1xl text-center text-gray-600">
-				{{ eventToShow.city }}, {{ eventToShow.country }}
-			</div>
-			<p class="font-bold text-1xl text-center text-gray-600">
-				{{ eventToShow.month }} {{ eventToShow.day }}
-			</p>
-		</div>
+    <div
+      class="ffevent__wrap rounded flex items-center justify-center"
+      :style="bgEventImage"
+    />
+    <div class="ffgallery__body">
+      <div class="text-1xl text-center text-gray-600">
+        {{ eventToShow.city }}, {{ eventToShow.country }}
+      </div>
+      <p class="font-bold text-1xl text-center text-gray-600">
+        {{ eventToShow.month }} {{ eventToShow.day }}
+      </p>
+    </div>
   </div>
 </template>
 <script>
 export default {
-	name: "CardEventGallery",
-	props: ["eventToShow"],
-	computed: {
-		bgEventImage() {
-			let stylesImg = "";
-			if (this.eventToShow !== null && this.eventToShow !== undefined) {
-				let { image } = this.eventToShow;
+  name: "CardEventGallery",
+  props: ["eventToShow"],
+  computed: {
+    bgEventImage() {
+      let stylesImg = "";
+      if (this.eventToShow !== null && this.eventToShow !== undefined) {
+        let { image } = this.eventToShow;
 
-				if (image !== null && image !== undefined) {
-					stylesImg = {
-						"background-image": `url(${image}), url(${require('@/assets/images/image-not-found.png')})`,
-						"background-position": "center",
-						"background-repeat": "no-repeat",
-						"background-size": "cover",
-						height: "13rem",
-					};
-				} else {
-					image = "@/assets/images/image-not-found.png";
-				}
-			}
-			return stylesImg;
-		},
-	},
+        if (image !== null && image !== undefined) {
+          stylesImg = {
+            "background-image": `url(${image}), url(${require("@/assets/images/image-not-found.png")})`,
+            "background-position": "center",
+            "background-repeat": "no-repeat",
+            "background-size": "cover",
+            height: "13rem",
+          };
+        } else {
+          image = "@/assets/images/image-not-found.png";
+        }
+      }
+      return stylesImg;
+    },
+  },
 };
 </script>
 <style scoped>
@@ -56,19 +56,19 @@ export default {
 
 /* Small (sm) */
 @media (min-width: 640px) {
-	.ffevent__card{
-		height: 17rem;
-	}
-	.ffevent__wrap {
-		@apply h-64;
-	}
+  .ffevent__card {
+    height: 17rem;
+  }
+  .ffevent__wrap {
+    @apply h-64;
+  }
 }
 
 /* Medium (md) */
 @media (min-width: 768px) {
-	.ffevent__card {
-		width: 30%;
-		@apply mx-2;
-	}
+  .ffevent__card {
+    width: 30%;
+    @apply mx-2;
+  }
 }
 </style>
