@@ -2,16 +2,26 @@
   <div class="pt-24 bg-blue-100 bg-gradient-to-b from-white pb-10">
     <h1 class="team__title">{{ $t("team.teamTitle") }}</h1>
     <div class="w-full mb-4">
-      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+      <div
+        class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
+      ></div>
     </div>
 
-    <div class="max-w-screen-xl mx-auto px-4" v-for="member in staff" :key="member.name">
+    <div
+      class="max-w-screen-xl mx-auto px-4"
+      v-for="member in staff"
+      :key="member.name"
+    >
       <h2 class="group__subtitle" v-if="member.list && member.list.length">
         {{ member.group }}
       </h2>
 
       <div class="-mx-4 flex flex-wrap justify-center text-center">
-        <div v-for="staffer in member.list" :key="staffer.id" class="p-4 sm:w-1/2 md:w-1/3 lg:w-1/3">
+        <div
+          v-for="staffer in member.list"
+          :key="staffer.id"
+          class="p-4 sm:w-1/2 md:w-1/3 lg:w-1/3"
+        >
           <CardStaffer :staffer="staffer" />
         </div>
       </div>
@@ -42,7 +52,7 @@ export default {
       ffstaff: ffstaff,
       groupsToFilter: [
         "leadership",
-        "dach",
+        "dach (germany, austria, switzerland)",
         "mexico",
         "spain",
         "canada",
@@ -50,7 +60,7 @@ export default {
         "nigeria",
         "colombia",
         "peru",
-        "benelux",
+        "benelux (belgium, netherlands, luxembourg)",
         "japan",
         "ireland",
       ],
@@ -63,6 +73,7 @@ export default {
 
       for (let index = 0; index < staff.length; index++) {
         const group = staff[index].toLowerCase();
+        console.log(group);
         staffByLocal.push(this.$t(`team.chapterGroups.${group}`));
       }
 

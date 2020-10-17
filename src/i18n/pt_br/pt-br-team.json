@@ -4,7 +4,7 @@
     "chapterLeader": "Líder do Capítulo",
     "chapterGroups": {
         "leadership": "Liderança",
-        "dach": "Dach (Alemanha, Áustria, Suíça)",
+        "dach (alemanha, áustria, suíça)": "Dach (Alemanha, Áustria, Suíça)",
         "mexico": "México",
         "spain": "Espanha",
         "canada": "Canadá",
@@ -12,7 +12,7 @@
         "nigeria": "Nigéria",
         "colombia": "Colômbia",
         "peru": "Peru",
-        "benelux": "Benelux (Bélgica, Países Baixos, Luxemburgo)",
+        "benelux (bélgica, países baixos, luxemburgo)": "Benelux (Bélgica, Países Baixos, Luxemburgo)",
         "japan": "Japão",
         "ireland": "Irlanda"
     }
