@@ -1,7 +1,7 @@
 <template>
   <div class="ffevent__card">
         <ImageItem
-            class="article-item__image"
+            class="ffevent__image"
             :source="eventToShow.image"
         />
 		<div class="ffgallery__body">
@@ -37,23 +37,23 @@ export default {
 
 /* Small (sm) */
 @media (min-width: 640px) {
-	.ffevent__card{
-		height: 17rem;
-	}
-	.ffevent__wrap {
-		@apply h-64;
-	}
+  .ffevent__card {
+    height: 17rem;
+  }
+  .ffevent__wrap {
+    @apply h-64;
+  }
 }
 
 /* Medium (md) */
 @media (min-width: 768px) {
-	.ffevent__card {
-		width: 30%;
-		@apply mx-2;
-	}
+  .ffevent__card {
+    width: 30%;
+    @apply mx-2;
+  }
 }
 
-.article-item__image {
+.ffevent__image {
     height: 13rem;
 }
 </style>

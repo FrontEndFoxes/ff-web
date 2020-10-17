@@ -18,7 +18,7 @@
         <p v-if="staffer.description" class="text-left py-2 text-lg text-gray-700">
             {{ staffer.description }}
         </p>
-        <div v-if="staffer.twitter" class="flex items-center mt-4 text-green-400">
+        <div v-if="staffer.twitter" class="flex items-center mt-4 text-blue-700">
             <i class="fa fa-twitter fa-1x"></i>
             <h2 class="px-2 text-lg">
                 <a :href="`https://twitter.com/${staffer.twitter}`">
@@ -27,7 +27,7 @@
             </h2>
         </div>
 
-        <div v-if="staffer.website" class="flex items-center mt-4 text-green-400">
+        <div v-if="staffer.website" class="flex items-center mt-4 text-blue-700">
             <i class="fa fa-link fa-1x"></i>
             <h2 class="px-2 text-lg">
                 <a :href="staffer.website" target="_blank">
