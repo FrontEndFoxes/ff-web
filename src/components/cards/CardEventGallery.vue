@@ -1,44 +1,25 @@
 <template>
   <div class="ffevent__card">
-    <div
-      class="ffevent__wrap rounded flex items-center justify-center"
-      :style="bgEventImage"
-    />
-    <div class="ffgallery__body">
-      <div class="text-1xl text-center text-gray-600">
-        {{ eventToShow.city }}, {{ eventToShow.country }}
-      </div>
-      <p class="font-bold text-1xl text-center text-gray-600">
-        {{ eventToShow.month }} {{ eventToShow.day }}
-      </p>
-    </div>
+        <ImageItem
+            class="ffevent__image"
+            :source="eventToShow.image"
+        />
+		<div class="ffgallery__body">
+			<div class="text-1xl text-center text-gray-600">
+				{{ eventToShow.city }}, {{ eventToShow.country }}
+			</div>
+			<p class="font-bold text-1xl text-center text-gray-600">
+				{{ eventToShow.month }} {{ eventToShow.day }}
+			</p>
+		</div>
   </div>
 </template>
 <script>
+import ImageItem from "@/components/ImageItem.vue";
 export default {
-  name: "CardEventGallery",
-  props: ["eventToShow"],
-  computed: {
-    bgEventImage() {
-      let stylesImg = "";
-      if (this.eventToShow !== null && this.eventToShow !== undefined) {
-        let { image } = this.eventToShow;
-
-        if (image !== null && image !== undefined) {
-          stylesImg = {
-            "background-image": `url(${image}), url(${require("@/assets/images/image-not-found.png")})`,
-            "background-position": "center",
-            "background-repeat": "no-repeat",
-            "background-size": "cover",
-            height: "13rem",
-          };
-        } else {
-          image = "@/assets/images/image-not-found.png";
-        }
-      }
-      return stylesImg;
-    },
-  },
+	name: "CardEventGallery",
+    props: ["eventToShow"],
+    components: { ImageItem },
 };
 </script>
 <style scoped>
@@ -70,5 +51,9 @@ export default {
     width: 30%;
     @apply mx-2;
   }
+}
+
+.ffevent__image {
+    height: 13rem;
 }
 </style>

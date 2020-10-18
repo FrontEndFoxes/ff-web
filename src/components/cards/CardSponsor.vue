@@ -1,7 +1,11 @@
 <template>
     <div class="flex flex-col items-center max-w-sm h-full bg-white shadow-lg rounded-lg overflow-hidden my-4">
         <div>
-            <img :src="sponsor.logo" v-bind:alt="sponsor.title" class="flex-1 pt-6 px-4 py-2 m-2" />
+            <ImageItem
+                :source="sponsor.logo"
+                :alt="sponsor.title"
+                class="flex-1 pt-6 px-4 py-2 m-2"
+            />
         </div>
         <div v-if="sponsor.link" class="flex items-center mt-4 text-blue-700">
             <i class="fa fa-link fa-1x"></i>
@@ -15,8 +19,11 @@
     </div>
 </template>
 <script>
+import ImageItem from "@/components/ImageItem.vue";
+
 export default {
     props: ["sponsor"],
-    name: "CardSponsor"
+    name: "CardSponsor",
+    components: { ImageItem }
 }
 </script>

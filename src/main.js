@@ -2,6 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import { createI18n } from "vue-i18n";
+
 // To Get i18n values
 import { valuesI18n } from "./i18n";
 // createI18n: pass the values

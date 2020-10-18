@@ -1,7 +1,10 @@
 <template>
 <div class="card text-center max-w-sm bg-white shadow-lg rounded-lg overflow-hidden my-4">
-    <img style="max-height: 350px" class="w-full h-full object-cover object-center" :src="staffer.image"
-        :alt="staffer.name" />
+    <ImageItem
+        class="article-item__image"
+        :source="staffer.image"
+        :alt="staffer.name"
+    />
 
     <div class="px-6 py-3 bg-gray-900">
         <h2 class="text-center text-white font-semibold text-lg">
@@ -36,9 +39,12 @@
 </div>
 </template>
 <script>
+import ImageItem from "@/components/ImageItem.vue";
+
 export default {
     props: ["staffer"],
-    name: "CardStaffer"
+    name: "CardStaffer",
+    components: { ImageItem }
 }
 </script>
 <style scoped>
