@@ -1,10 +1,10 @@
 <template>
-  <div class="about pt-24 bg-blue-100 bg-gradient-to-b from-white pb-10">
-    <h1 class="about__title">{{ $t("about.aboutTitle") }}</h1>
+  <div class="pt-24 bg-blue-100 bg-gradient-to-b from-white pb-10">
+    <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">{{ $t("about.aboutTitle") }}</h1>
       <div
         class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t mb-16"
       ></div>
-    <div class="about__content">
+    <div class="max-w-6xl mx-auto">
         <cld-image cloudName="front-end-foxes" publicId="sample" width="300" />
         <div class="text-black mx-20 text-xl">
         <p>
@@ -65,15 +65,4 @@ export default defineComponent({
   name: "About",
 });
 </script>
-<style lang="scss" scoped>
-.about {
-    &__title {
-        @apply w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800;
-    }
 
-    &__content {
-        @apply max-w-6xl mx-auto;
-    }
-
-}
-</style>
