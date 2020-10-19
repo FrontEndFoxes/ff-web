@@ -14,11 +14,12 @@
       </div>
     </div>
 
-    <div class="area-events container mx-auto px-10 flex flex-wrap pt-4">
+    <div class="area-events lg:min-w-full xl:min-w-0 container mx-auto px-10 flex flex-wrap pt-4">
       <div
-        v-for="event in events"
+        v-for="event in filteredEvents"
         :key="event.id"
-        class="w-full lg:w-1/4 md:w-1/2 sm:w-1/2 xs:1/1 py-6 flex flex-col flex-grow flex-shrink bg-gray-100"
+        class="w-full lg:w-1/3 md:w-1/2 sm:w-1/2 xs:1/1 py-6 flex flex-col flex-grow flex-shrink bg-gray-100"
+        :class="filteredEvents.length > 4 ? 'xl:w-1/3' : 'xl:w-1/4'"
       >
         <card-event :event="event" />
       </div>
@@ -40,5 +41,10 @@ export default {
       events: events,
     };
   },
+  computed: {
+    filteredEvents() {
+      return events.filter(event => event.live);
+    }
+  }
 };
 </script>
