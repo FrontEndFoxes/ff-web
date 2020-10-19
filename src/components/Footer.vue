@@ -34,7 +34,7 @@
                             <a class="uppercase inline-block py-2 px-4 text-white no-underline"
                                 href="https://www.frontendfoxes.org/announcements" aria-label="Announcements"
                                 target="_blank" rel="noopener">
-                                <i class="text-white fa fa-bullhorn fa-2x" aria-hidden="true"></i>
+                                <!-- <i class="text-white fa fa-bullhorn fa-2x" aria-hidden="true"></i> -->
                             </a>
                         </li>
                         <li class="mr-3">
