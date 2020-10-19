@@ -30,13 +30,13 @@
                 </div>
                 <div class="flex w-full pt-2 content-center justify-end md:w-1/2 md:justify-end">
                     <ul class="list-reset flex">
-                        <li class="mr-3">
+                        <!-- <li class="mr-3">
                             <a class="uppercase inline-block py-2 px-4 text-white no-underline"
                                 href="https://www.frontendfoxes.org/announcements" aria-label="Announcements"
                                 target="_blank" rel="noopener">
-                                <!-- <i class="text-white fa fa-bullhorn fa-2x" aria-hidden="true"></i> -->
+                                <i class="text-white fa fa-bullhorn fa-2x" aria-hidden="true"></i>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="mr-3">
                             <a class="uppercase inline-block py-2 px-4 text-white no-underline"
                                 href="https://twitter.com/frontendfoxes" aria-label="Twitter" target="_blank"
