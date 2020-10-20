@@ -1,0 +1,31 @@
+{
+    "heading": {
+        "title": "Bem-Vindo!",
+        "description": "Front-End Foxes são pessoas que se identificam como mulheres e querem aprender tecnologias front-end para fazer sites e aplicativos mobile",
+        "workshops": "Workshops",
+        "patreon": "Patreon",
+        "ghsponsors": "GitHub Sponsors"
+
+    },
+    "eventsTitle": "Próximos Eventos",
+    "btnRegister": "Cadastrar",
+    "btnClosed": "Finalizado",
+    "womenTeachingWomen": "Mulheres ensinando mulheres",
+    "skulk": {
+        "title": "Junte-se a Skulk",
+        "content": "Nossos workshops são sempre gratuitos!"
+    },
+    "program": {
+        "title": "O programa",
+        "content": "Alunos e Mentores, aprendam mais sobre nosso programa."
+    },
+    "request": {
+        "title": "Solicitação",
+        "content": "Organizadores de conferências, inscrevam-se para hospedar um workshop."
+    },
+    "mentoring": {
+        "first": "Membros da Colômbia Skulk",
+        "second": "Concatenate Conference Skulk na Nigéria",
+        "third": "Lançamento do Vue Vixens no Japão"
+    }
+}

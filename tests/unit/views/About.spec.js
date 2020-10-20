@@ -1,4 +1,4 @@
-import { shallowMount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 
 // Component
 import About from '@/views/About.vue'
@@ -6,9 +6,16 @@ import About from '@/views/About.vue'
 describe('About.vue', () => {
     let wrapper
     
-    const mountFunction = options => {
-        return shallowMount(About, {
-            ...options,
+    const mountFunction = () => {
+        return mount(About, {
+            global: {
+                mocks: {
+                    $t: (msg) => msg,
+                    $i18n: {
+                        locale: "en"
+                    }
+                }
+            }
         })
     }
 

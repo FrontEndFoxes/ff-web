@@ -1,255 +1,513 @@
 [
     {
         "id": 1,
-        "title": "Vue Vixens Day Bogota 2019",
-        "country": "Colombia",
-        "city": "Bogota",
-        "month": "Jun",
-        "day": "15th",
-        "year": 2019,
-        "image": "https://source.unsplash.com/collection/3124375/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/vue-vixens-day-bogota-2019"
-    },
-    {
-        "id": 2,
-        "title": "Eje Cafetero 2019",
-        "country": "Colombia",
-        "city": "Pereira",
-        "month": "Nov",
-        "day": "9th",
-        "year": 2019,
-        "image": "https://source.unsplash.com/collection/3124375/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/eje-cafetero-2019"
-    },
-    {
-        "id": 3,
         "title": "VueConf US 2018",
         "country": "US",
         "city": "New Orleans",
-        "month": "Mar",
-        "day": "27th",
+        "month": "March",
+        "day": "27",
         "year": 2018,
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602202257/skulks-2018/neworleans-2018_tthqkv.jpg",
-        "link": ""
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602202257/skulks-2018/neworleans-2018_tthqkv.jpg"
     },
     {
-        "id": 4,
+        "id": 2,
         "title": "VueJS Barcelona 2018",
         "country": "Spain",
         "city": "Barcelona",
         "month": "May",
-        "day": "25th",
+        "day": "25",
         "year": 2018,
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602202256/skulks-2018/barcelona-2018_tvka4n.jpg",
-        "link": ""
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602202256/skulks-2018/barcelona-2018_tvka4n.jpg"
     },
     {
-        "id": 5,
-        "title": "Progress - Next 2018",
+        "id": 3,
+        "title": "ProgressNext 2018",
         "country": "US",
         "city": "Boston",
         "month": "May",
-        "day": "31th",
+        "day": "31",
         "year": 2018,
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207898/skulks-2018/boston-2018_ojrmme.jpg",
-        "link": ""
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207898/skulks-2018/boston-2018_ojrmme.jpg"
     },
     {
-        "id": 6,
+        "id": 4,
         "title": "We Rise 2018",
         "country": "US",
         "city": "Atlanta",
-        "month": "Jun",
-        "day": "21st",
+        "month": "June",
+        "day": "21",
         "year": 2018,
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207896/skulks-2018/atlant-2018_v3wnrf.jpg",
-        "link": ""
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207896/skulks-2018/atlant-2018_v3wnrf.jpg"
     },
     {
-        "id": 7,
+        "id": 5,
         "title": "Vue Vixens Argentina Presentation 2018",
         "country": "Argentina",
         "city": "Buenos Aires",
-        "month": "Jun",
-        "day": "21st",
+        "month": "June",
+        "day": "21",
         "year": 2018,
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207894/skulks-2018/ba-2018_v6ruau.png",
-        "link": ""
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207894/skulks-2018/ba-2018_v6ruau.png"
     },
     {
-        "id": 8,
+        "id": 6,
         "title": "VueJS Roadtrip 2018",
         "country": "France",
         "city": "Paris",
-        "month": "Jun",
-        "day": "29th",
+        "month": "June",
+        "day": "29",
         "year": 2018,
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207904/skulks-2018/paris_supghq.jpg",
-        "link": ""
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602207904/skulks-2018/paris_supghq.jpg"
     },
     {
-        "id": 9,
+        "id": 7,
         "title": "WWC Portland 2018",
-        "country": "OR",
-        "city": "Porland",
-        "month": "Jul",
-        "day": "21st",
+        "country": "US",
+        "city": "Portland",
+        "month": "July",
+        "day": "21",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/wwcportland2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439399/skulks-2018/portland_unaczy.jpg"
     },
+
     {
-        "id": 10,
-        "title": "VV Argentina Meetup 2018",
-        "country": "OR",
-        "city": "Porland",
-        "month": "Jul",
-        "day": "28th",
-        "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/VVArgentinaMeetup"
-    },
-    {
-        "id": 11,
+        "id": 8,
         "title": "Vue NYC 2018",
         "country": "US",
         "city": "New York",
-        "month": "Aug",
-        "day": "28th",
+        "month": "August",
+        "day": "28",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/1750804/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/VueNYC"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784672/skulks-2018/nyc_14_lkirtx.jpg"
     },
     {
-        "id": 12,
+        "id": 9,
         "title": "VueJS Summit 2018",
         "country": "Brazil",
         "city": "Sao Paulo",
-        "month": "Aug",
-        "day": "31st",
+        "month": "August",
+        "day": "31",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/vuejssummit"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784652/skulks-2018/brazil_bbzpsq.jpg"
     },
     {
-        "id": 13,
-        "title": "VueJS Summit 2018",
+        "id": 10,
+        "title": "Vue London 2018",
         "country": "UK",
         "city": "London",
-        "month": "Sept",
-        "day": "20th",
+        "month": "September",
+        "day": "20",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/vuejslondon"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784654/skulks-2018/london_fhyuwh.jpg"
     },
     {
-        "id": 14,
+        "id": 11,
         "title": "NodeJS Interactive Vancouver 2018",
         "country": "Canada",
         "city": "Vancouver",
-        "month": "Oct",
-        "day": "11th",
+        "month": "October",
+        "day": "11",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/nodejsinteractivevancouver2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784659/skulks-2018/vancouver_n6i5v8.jpg"
     },
     {
-        "id": 15,
+        "id": 12,
         "title": "Connect Tech 2018",
         "country": "US",
         "city": "Atlanta",
-        "month": "Oct",
-        "day": "17th",
+        "month": "October",
+        "day": "17",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/connecttech2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784664/skulks-2018/atl-connect.tech_tsmkpa.jpg"
     },
     {
-        "id": 16,
+        "id": 13,
         "title": "JS Mobile Conf 2018",
         "country": "US",
         "city": "Boston",
-        "month": "Oct",
-        "day": "24th",
+        "month": "October",
+        "day": "24",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/1750804/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/jsmobileconf2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784954/skulks-2018/jsmobileconf-boston_pbx780.jpg"
     },
     {
-        "id": 17,
+        "id": 14,
         "title": "Dev Reach 2018",
         "country": "Bulgaria",
         "city": "Sofia",
-        "month": "Nov",
-        "day": "13th",
+        "month": "November",
+        "day": "13",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/devreach2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784666/skulks-2018/sofia_ycnbbs.jpg"
     },
     {
-        "id": 18,
+        "id": 15,
         "title": "Vue Toronto 2018",
         "country": "Canada",
         "city": "Toronto",
-        "month": "Nov",
-        "day": "14th",
+        "month": "November",
+        "day": "14",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/vuetoronto2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784668/skulks-2018/vue-toronto_zsh63t.jpg"
     },
     {
-        "id": 19,
+        "id": 16,
         "title": "Voxxed Thessaloniki 2018",
         "country": "Greece",
         "city": "Thessaloniki",
-        "month": "Nov",
-        "day": "18th",
+        "month": "November",
+        "day": "18",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/voxxedthessaliniki2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602784670/skulks-2018/thessaloniki_usqzss.jpg"
     },
     {
-        "id": 20,
-        "title": "Mautirius Dec 2018",
+        "id": 17,
+        "title": "Mauritius Dec 2018",
         "country": "MU",
         "city": "Mauritius",
-        "month": "Dec",
-        "day": "1st",
+        "month": "December",
+        "day": "1",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/mautiriusdec2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439535/skulks-2018/1_gzeih5.jpg"
     },
     {
-        "id": 21,
+        "id": 18,
         "title": "FrontendCon 2018",
         "country": "Poland",
         "city": "Warsaw",
-        "month": "Dec",
-        "day": "3rd",
+        "month": "December",
+        "day": "3",
         "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/frontendcon2018"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439429/skulks-2018/warsaw_quhja2.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Madrid Meetup",
+        "country": "Spain",
+        "city": "Madrid",
+        "month": "December",
+        "day": "4",
+        "year": 2018,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439291/skulks-2018/1_oqxyro.jpg"
+    },
+
+    {
+        "id": 20,
+        "title": "Vue Amsterdam",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "month": "February",
+        "day": "12",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812730/skulks-2019/vue-amsterdam-2019_ptui8t.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Vue Vixens Spain",
+        "country": "Spain",
+        "city": "Madrid",
+        "month": "February",
+        "day": "18",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812763/skulks-2019/1_oufwcj.jpg"
     },
     {
         "id": 22,
-        "title": "Madrid Dec 2018",
-        "country": "Spain",
-        "city": "Madrid",
-        "month": "Dec",
-        "day": "4th",
-        "year": 2018,
-        "image": "https://source.unsplash.com/collection/2255549/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/madriddec2018"
+        "title": "Sweden Meetup",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "month": "March",
+        "day": "20",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602813582/skulks-2019/sweden-2_kriuqu.jpg"
     },
     {
         "id": 23,
-        "title": "Madrid Dec 2020",
+        "title": "Intro to Vue.js Meetup",
+        "country": "Germany",
+        "city": "Frankfurt",
+        "month": "March",
+        "day": "20",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602813130/skulks-2019/frankfurt-2019_fo5r0h.jpg"
+    },
+
+    {
+        "id": 24,
+        "title": "Vue Vixens Lagos",
+        "country": "Nigeria",
+        "city": "Lagos",
+        "month": "March",
+        "day": "23",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812809/skulks-2019/lagos-meetup_w0d9i3.jpg"
+    },
+    {
+        "id": 25,
+        "title": "Connect.Tech",
+        "country": "US",
+        "city": "Atlanta",
+        "month": "March",
+        "day": "25",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812706/skulks-2019/connect-tech-atl-2019_uswibh.jpg"
+    },
+
+    {
+        "id": 26,
+        "title": "Hack For Sweden",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "month": "April",
+        "day": "4",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602813800/skulks-2019/vv-hack-for-sweden_lqecul.jpg"
+    },
+    {
+        "id": 27,
+        "title": "Vue Day Verona",
+        "country": "Italy",
+        "city": "Verona",
+        "month": "April",
+        "day": "12",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602813134/skulks-2019/vv-verona-girls-2019_rvmfgd.jpg"
+    },
+    {
+        "id": 28,
+        "title": "ReactJS Girls Berlin & VueVixens",
+        "country": "Germany",
+        "city": "Berlin",
+        "month": "April",
+        "day": "18",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602813134/skulks-2019/reactjs-girls-vv-2019_p9ngyg.jpg"
+    },
+    {
+        "id": 29,
+        "title": "EmmsTech Coding Workshop with Vue Vixens Stockholm",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "month": "April",
+        "day": "28",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602813582/skulks-2019/sweden-2_kriuqu.jpg"
+    },
+    {
+        "id": 30,
+        "title": "Toronto Meetup",
+        "country": "Canada",
+        "city": "Toronto",
+        "month": "May",
+        "day": "30",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602813134/skulks-2019/hack-you-toronto_mduiiq.jpg"
+    },
+    {
+        "id": 31,
+        "title": "Refactr Conf",
+        "country": "US",
+        "city": "Atlanta",
+        "month": "June",
+        "day": "4",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812752/skulks-2019/refactr_jfifzh.jpg"
+    },
+    {
+        "id": 32,
+        "title": "Vue Vixens Day Bogota 2019",
+        "country": "Colombia",
+        "city": "Bogota",
+        "month": "June",
+        "day": "15",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439496/skulks-2019/bogota_pjnkz3.jpg"
+    },
+
+    {
+        "id": 33,
+        "title": "Vue Vixens Lagos",
+        "country": "Nigeria",
+        "city": "Lagos",
+        "month": "July",
+        "day": "6",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602814201/skulks-2019/vv-lagos-meetup_lcxzwk.jpg"
+    },
+
+    {
+        "id": 34,
+        "title": "Perú Meetup",
+        "country": "Perú",
+        "city": "Lima",
+        "month": "July",
+        "day": "13",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602733158/skulks-2019/peru-2019_d620x9.jpg"
+    },
+    {
+        "id": 35,
+        "title": "Vue London",
+        "country": "UK",
+        "city": "London",
+        "month": "October",
+        "day": "5",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602862834/skulks-2019/london-2019_wkjquw.jpg"
+    },
+    {
+        "id": 36,
+        "title": "Vue Vixens Japan Launch",
+        "country": "Japan",
+        "city": "Tokyo",
+        "month": "October",
+        "day": "9",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812772/skulks-2019/japan_zq8xdh.jpg"
+    },
+    {
+        "id": 37,
+        "title": "Concatenate Conf",
+        "country": "Nigeria",
+        "city": "Lagos",
+        "month": "October",
+        "day": "10",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812789/skulks-2019/concatenate_bp6r2q.jpg"
+    },
+    {
+        "id": 38,
+        "title": "Connect.Tech",
+        "country": "US",
+        "city": "Atlanta",
+        "month": "October",
+        "day": "16",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812706/skulks-2019/connect-tech-atl-2019_uswibh.jpg"
+    },
+    {
+        "id": 39,
+        "title": "ScriptConf",
+        "country": "Austria",
+        "city": "Linz",
+        "month": "October",
+        "day": "24",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812709/skulks-2019/linz_vpz6op.jpg"
+    },
+    {
+        "id": 40,
+        "title": "PyLadies/Vue Vixens Munich Kickoff",
+        "country": "Germany",
+        "city": "Munich",
+        "month": "October",
+        "day": "29",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602813131/skulks-2019/pyladies-vv_rokysg.png"
+    },
+
+    {
+        "id": 41,
+        "title": "Eje Cafetero 2019",
+        "country": "Colombia",
+        "city": "Pereira",
+        "month": "November",
+        "day": "9",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602439584/skulks-2019/ejecafetero_xny0rd.jpg"
+    },
+
+    {
+        "id": 42,
+        "title": "Madrid Workshop",
         "country": "Spain",
         "city": "Madrid",
-        "month": "Dec",
-        "day": "4th",
+        "month": "December",
+        "day": "13",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812723/skulks-2019/madrid-workshop-2019_jchept.jpg"
+    },
+
+    {
+        "id": 43,
+        "title": "Vue Amsterdam",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "month": "February",
+        "day": "18",
         "year": 2020,
-        "image": "https://source.unsplash.com/collection/7764794/1600x900",
-        "link": "https://www.frontendfoxes.org/gallery/galleries/madriddec2020"
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602863082/skulks-2020/vv-skulk-amsterdam-2020_purwav.jpg"
+    },
+
+    {
+        "id": 44,
+        "title": "Vue Vixens Day US",
+        "country": "US",
+        "city": "Austin",
+        "month": "March",
+        "day": "5",
+        "year": 2020,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812854/skulks-2020/us_s9xvlm.jpg"
+    },
+    {
+        "id": 45,
+        "title": "Akron Meetup",
+        "country": "US",
+        "city": "Akron",
+        "month": "March",
+        "day": "7",
+        "year": 2020,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602816168/skulks-2020/akron-2020_btc9rq.jpg"
+    },
+    {
+        "id": 46,
+        "title": "Vue Conf US",
+        "country": "US",
+        "city": "Tampa",
+        "month": "March",
+        "day": "25",
+        "year": 2019,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602812737/skulks-2019/vueconf.us_svtdqp.jpg"
+    },
+
+    {
+        "id": 47,
+        "title": "TechLadies Singapore",
+        "country": "Zoom",
+        "city": "Singapore",
+        "month": "July",
+        "day": "24",
+        "year": 2020,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602815746/skulks-2020/tech-ladies-singapore-2020_jt9jyk.png"
+    },
+    {
+        "id": 48,
+        "title": "Fidelity WITSIG online workshop",
+        "country": "Zoom",
+        "city": "Raleigh",
+        "month": "July",
+        "day": "28",
+        "year": 2020,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602815741/skulks-2020/fidelity-7-2020_bydn9r.png"
+    },
+    {
+        "id": 49,
+        "title": "Panel React, Angular and Vue",
+        "country": "Zoom",
+        "city": "Colombia",
+        "month": "August",
+        "day": "20",
+        "year": 2020,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602815747/skulks-2020/panel-colombia_dtvnqi.png"
+    },
+    {
+        "id": 50,
+        "title": "Foxes Fireside Chat Ep.1",
+        "country": "Zoom",
+        "city": "Canada",
+        "month": "September",
+        "day": "19",
+        "year": 2020,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602815743/skulks-2020/fireside-chat-1_q7l6lp.png"
     }
 ]

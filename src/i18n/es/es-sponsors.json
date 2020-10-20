@@ -1,0 +1,10 @@
+{
+    "sponsorsTitle": "Patrocinadores",
+    "sponsorLevels": {
+        "platinumSponsor": "Patrocinadores de Platino",
+        "goldSponsor": "Patrocinadores de Oro",
+        "silverSponsor": "Patrocinadores de Plata",
+        "softwareSponsor": "Patrocinadores de Software",
+        "communitySponsor": "Patrocinadores de Comunidad"
+    }
+}

@@ -1,15 +1,33 @@
-import { shallowMount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 
 // Component & Data
-import events from '@/assets/data/events.json'
+import ffevents from '@/assets/data/events-home'
 import SectionEvents from '@/components/sections/SectionEvents.vue'
 
 describe('SectionEvents.vue', () => {
     let wrapper
-    
-    const mountFunction = options => {
-        return shallowMount(SectionEvents, {
-            ...options,
+
+    const mountFunction = () => {
+        return mount(SectionEvents, {
+            data() {
+                return {
+                    ffevents: ffevents,
+                };
+            },
+            computed: {
+                events() {
+                    const currentLocal = this.$i18n.locale;
+                    return this.ffevents[currentLocal];
+                },
+            },
+            global: {
+                mocks: {
+                    $t: (msg) => msg,
+                    $i18n: {
+                        locale: "en"
+                    }
+                }
+            }
         })
     }
 
@@ -17,8 +35,8 @@ describe('SectionEvents.vue', () => {
         wrapper = mountFunction()
     })
 
-    it('should be mounted and have events data', () => {
+    it('should be mounted and have events English data', () => {
         expect(!!wrapper.vm).toBeTruthy()
-        expect(wrapper.vm.events).toEqual(events)
+        expect(wrapper.vm.ffevents["en"]).toEqual(ffevents["en"])
     })
 })

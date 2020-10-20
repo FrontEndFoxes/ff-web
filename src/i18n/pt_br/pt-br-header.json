@@ -1,0 +1,21 @@
+{
+    "ffTitle": "Front-End Foxes",
+    "menuTitle": "Menu",
+    "menu": {
+        "about": "Sobre",
+        "upcoming": "Próximos Eventos",
+        "sponsors": "Patrocinadores",
+        "team": "Time",
+        "gallery": "Galeria",
+        "library": "Biblioteca",
+        "blog": "Blog",
+        "shop": "Shop"
+    },
+    "languages": {
+        "en": "Inglês",
+        "es": "Espanhol",
+        "pt": "Português",
+        "pt_br": "Português BR",
+        "fr": "Françes"
+    }
+}

@@ -1,9 +1,9 @@
 <template>
   <div class="years">
       <div v-for="(year, index) in years" 
-          :key="index" :class="paintYearSelected(year)" 
+          :key="index" :class="paintYearSelected(year)"
           @click="show(year)">
-          {{ year }}
+          <span class="cursor-pointer">{{ year }}</span>
       </div>
   </div>
 </template>

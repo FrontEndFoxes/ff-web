@@ -1,0 +1,10 @@
+{
+    "sponsorsTitle": "Sponsors",
+    "sponsorLevels": {
+        "platinumSponsor": "Platinum Sponsors",
+        "goldSponsor": "Gold Sponsors",
+        "silverSponsor": "Silver Sponsors",
+        "softwareSponsor": "Software Sponsors",
+        "communitySponsor": "Community Sponsors"
+    }
+}

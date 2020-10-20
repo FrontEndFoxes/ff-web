@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "title": "Foxes Fireside Chat (Ep. 1)",
+        "date": "2020-09-19T18:25:43.511Z",
+        "startEvent": "12:00 PM EST",
+        "finishEvent": "01:00 PM EST",
+        "location": "Streaming on YouTube",
+        "description": "Kickoff for our Streams with Front-End Foxes Canada with BeNeLux chapter leaders",
+        "cta": "Watch",
+        "active": true,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602777724/Events/streaming_qa8ohe.png",
+        "link": "https://www.youtube.com/watch?v=ZNLE-RMHRMY&t=20s&ab_channel=JaeriahTay",
+        "live": true
+    },
+    {
+        "id": 2,
+        "title": "Foxes Fireside Chat (Ep. 2)",
+        "date": "2020-10-03T18:25:43.511Z",
+        "startEvent": "12:00 PM EST",
+        "finishEvent": "01:00 PM EST",
+        "location": "Streaming on YouTube",
+        "description": "Hacktoberfest kickoff with Canada and DACH chapter leaders",
+        "cta": "Watch",
+        "active": true,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602777810/Events/streaming2_w1emyn.png",
+        "link": "https://www.youtube.com/watch?v=s6m5evEBUWU&ab_channel=JaeriahTay",
+        "live": true
+    },
+
+    {
+        "id": 3,
+        "title": "Foxes Fireside Chat (Ep. 3)",
+        "date": "2020-10-24T18:25:43.511Z",
+        "startEvent": "10:00 AM PDT",
+        "finishEvent": "8:30 PM PDT",
+        "location": "YouTube Live",
+        "description": "Join Front-End Foxes Canada for a chat on Learning to Code and the #100DaysOfCode community",
+        "cta": "Scheduled",
+        "active": true,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602777835/Events/techladies-singapore-7-2020_gjxfmm.png",
+        "link": "https://www.meetup.com/frontendfoxes/events/274023408/",
+        "live": true
+    },
+    {
+        "id": 4,
+        "title": "Meetup",
+        "date": "2020-11-19T18:00:00.511Z",
+        "startEvent": "6:00 PM GMT",
+        "finishEvent": "8:00 PM GMT",
+        "location": "Zoom",
+        "description": "Front-End Foxes Ireland and Spain join with WWC Dublin for an online meetup on remote working",
+        "cta": "Join",
+        "active": true,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602950580/Events/generic-meetup_nlfpsr.jpg",
+        "link": "https://www.meetup.com/Women-Who-Code-Dublin/events/273957693",
+        "live": true
+    }
+]

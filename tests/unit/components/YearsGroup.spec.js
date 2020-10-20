@@ -1,4 +1,4 @@
-import { shallowMount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 
 // Component & Data
 import YearsGroup from '@/components/YearsGroup.vue'
@@ -6,12 +6,19 @@ import YearsGroup from '@/components/YearsGroup.vue'
 describe('YearsGroup.vue', () => {
     let wrapper
     
-    const mountFunction = options => {
-        return shallowMount(YearsGroup, {
+    const mountFunction = () => {
+        return mount(YearsGroup, {
             props: {
                 currentYear: '20XX'
             },
-            ...options,
+            global: {
+                mocks: {
+                    $t: (msg) => msg,
+                    $i18n: {
+                        locale: "en"
+                    }
+                }
+            }
         })
     }
 

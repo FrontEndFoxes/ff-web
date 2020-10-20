@@ -1,9 +1,19 @@
-import { createApp } from 'vue';
-import App from './App.vue';
-import router from './router';
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+import { createI18n } from "vue-i18n";
 
-const app = createApp(App).use(router);
+// To Get i18n values
+import { valuesI18n } from "./i18n";
+// createI18n: pass the values
+const i18n = createI18n(valuesI18n);
 
+// Create the app
+const app = createApp(App);
+
+// Add uses
 app.use(router);
+app.use(i18n);
 
-app.mount('#app');
+// Mounted
+app.mount("#app");

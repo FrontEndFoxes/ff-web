@@ -1,0 +1,19 @@
+{
+    "teamTitle": "Équipe",
+    "leadershipTitle": "Direction",
+    "chapterLeader": "Directrice de chapitre",
+    "chapterGroups": {
+        "leadership": "Direction",
+        "dach (allemagne, autriche, suisse)": "Dach (Allemagne, Autriche, Suisse)",
+        "mexico": "Mexique",
+        "spain": "Espagne",
+        "canada": "Canada",
+        "us": "US",
+        "nigeria": "Niger",
+        "colombia": "Colombie",
+        "peru": "Pérou",
+        "benelux (belgique, pays bas, luxembourg)": "Benelux (Belgique, Pays Bas, Luxembourg)",
+        "japan": "Japon",
+        "ireland": "Irlande"
+    }
+}
