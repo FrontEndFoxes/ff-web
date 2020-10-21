@@ -6,10 +6,19 @@
       ></div>
     <div class="max-w-6xl mx-auto">
         <cld-image cloudName="front-end-foxes" publicId="sample" width="300" />
-        <div class="text-black mx-20 text-xl">
-        <p>
-            {{ $t("about.aboutPurpose") }}
-        </p>
+        <div class="text-black mx-20 text-base">
+          <div class="flex mb-4">
+              <div class="w-3/4 pr-20">
+                <h2 class="mb-4 text-2xl font-bold leading-tight">
+                    Who We Are
+                </h2>
+                <p>{{ $t("about.aboutPurpose") }}</p>
+              </div>
+              <div class="w-1/4">
+                <img class="float-right" src="@/assets/images/about1.jpg" />
+              </div>
+          </div>
+
         <h2 class="my-4 text-2xl font-bold leading-tight">
             {{ $t("about.activitiesSubtitle") }}
         </h2>
@@ -65,4 +74,3 @@ export default defineComponent({
   name: "About",
 });
 </script>
-
