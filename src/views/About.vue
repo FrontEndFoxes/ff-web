@@ -9,22 +9,29 @@
         <div class="text-black mx-20 text-base">
           <div class="lg:flex mb-4">
               <div class="lg:w-3/4 lg:pr-20">
-                <h2 class="mb-4 text-2xl font-bold leading-tight">
+                <h2 class="mb-4 text-3xl font-semibold">
                     Who We Are
                 </h2>
                 <p class="leading-relaxed">{{ $t("about.aboutPurpose") }}</p>
               </div>
               <div class="lg:w-1/4">
-                <img class="lg:float-right mx-auto my-8" src="@/assets/images/about1.jpg" />
+                <img class="lg:float-right mx-auto my-8 hidden lg:flex" src="@/assets/images/about1.jpg" />
               </div>
           </div>
 
-        <h2 class="my-4 text-2xl font-bold leading-tight">
-            {{ $t("about.activitiesSubtitle") }}
-        </h2>
-        <p>
-            {{ $t("about.activitiesDescription") }}
-        </p>
+          <div class="lg:flex mb-4">
+              <div class="lg:w-1/3 mt-10">
+                <img class="lg:float-left mx-auto" src="@/assets/images/about2.jpg" />
+              </div>
+              <div class="lg:w-2/3 lg:pl-16">
+                <h2 class="my-4 text-3xl font-semibold">
+                    {{ $t("about.activitiesSubtitle") }}
+                </h2>
+                <p class="leading-relaxed">{{ $t("about.activitiesDescription") }}</p>
+              </div>
+          </div>
+
+
         <h2 class="my-4 text-2xl font-bold leading-tight">
             {{ $t("about.mentorsNoteSubtitle") }}
         </h2>
@@ -74,3 +81,12 @@ export default defineComponent({
   name: "About",
 });
 </script>
+
+
+<style scoped>
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+  h2 {
+    font-family: 'Lato', sans-serif;
+  }
+</style>
