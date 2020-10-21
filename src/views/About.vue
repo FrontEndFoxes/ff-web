@@ -7,15 +7,15 @@
     <div class="max-w-6xl mx-auto">
         <cld-image cloudName="front-end-foxes" publicId="sample" width="300" />
         <div class="text-black mx-20 text-base">
-          <div class="flex mb-4">
-              <div class="w-3/4 pr-20">
+          <div class="lg:flex mb-4">
+              <div class="lg:w-3/4 lg:pr-20">
                 <h2 class="mb-4 text-2xl font-bold leading-tight">
                     Who We Are
                 </h2>
-                <p>{{ $t("about.aboutPurpose") }}</p>
+                <p class="leading-relaxed">{{ $t("about.aboutPurpose") }}</p>
               </div>
-              <div class="w-1/4">
-                <img class="float-right" src="@/assets/images/about1.jpg" />
+              <div class="lg:w-1/4">
+                <img class="lg:float-right mx-auto my-8" src="@/assets/images/about1.jpg" />
               </div>
           </div>
 
