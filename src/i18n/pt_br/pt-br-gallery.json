@@ -3,7 +3,7 @@
     "galleryDescription": "Aqui você pode encontrar imagens de nossos 'skulks' anteriores",
     "galleryErrorMessages": {
         "yearNotSelected": "Desculpa. Você não selecionou nenhum ano. Por favor escolha um.",
-        "notResultsByYear": "Desculpa :( não há resultados até este ano.",
-        "notEvents": "Sinto muito :( você não tem eventos"
+        "noResultsByYear": "Desculpa :( não há resultados até este ano.",
+        "noEvents": "Sinto muito :( você não tem eventos"
     }
 }

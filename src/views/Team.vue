@@ -46,6 +46,10 @@ export default {
       }));
       return result;
     },
+    filteredStaff() {
+      let currentLocal = this.$i18n.locale;
+      return this.ffstaff[currentLocal].filter((staff) => staff.active);
+    },
   },
   data() {
     return {
@@ -70,18 +74,16 @@ export default {
   methods: {
     translateStaffByCurrentLocal(staff) {
       let staffByLocal = [];
-
       for (let index = 0; index < staff.length; index++) {
         const group = staff[index].toLowerCase();
         staffByLocal.push(this.$t(`team.chapterGroups.${group}`));
       }
-
       return staffByLocal;
     },
+
     selectStaffByGroup(group) {
       group = group.toLowerCase();
-      const currentLocal = this.$i18n.locale;
-      return this.ffstaff[currentLocal].filter(
+      return this.filteredStaff.filter(
         (ffstaff) => ffstaff.group === group
       );
     },

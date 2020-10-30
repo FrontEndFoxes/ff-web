@@ -3,7 +3,7 @@
     "galleryDescription": "Aqui você pode encontrar imagens de nossos esconderijos anteriores",
     "galleryErrorMessages": {
         "yearNotSelected": "Nós lamentamos. Você não selecionou nenhum ano. Por favor escolha um.",
-        "notResultsByYear": "Lamentamos :( não há resultados até este ano.",
-        "notEvents": "Sinto muito :( você não tem eventos"
+        "noResultsByYear": "Lamentamos :( não há resultados até este ano.",
+        "noEvents": "Sinto muito :( você não tem eventos"
     }
 }
