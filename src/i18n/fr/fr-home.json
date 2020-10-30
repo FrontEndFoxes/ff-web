@@ -1,7 +1,7 @@
 {
     "heading": {
         "title": "Bienvenue !",
-        "description": "Front-End Foxes est un collectif de personnes s'identifiant comme femmes et souhaitant enseigner les technologies front-end pour permettre la creátion de sites web et d'applications mobiles",
+        "description": "Front-End Foxes est un collectif de personnes s'identifiant comme femmes et souhaitant enseigner les technologies front-end pour permettre la création de sites web et d'applications mobiles",
         "workshops": "Ateliers",
         "patreon": "Patreon",
         "ghsponsors": "Sponsors GitHub"
@@ -9,17 +9,17 @@
     },
     "eventsTitle": "Évènements",
     "register": "S'inscrire",
-    "womenTeachingWomen": "Femmes enseignant aux femmes",
+    "womenTeachingWomen": "Femmes apprenant aux femmes",
     "skulk": {
         "title": "Rejoindre un Skulk",
         "content": "Nos ateliers sont toujours gratuits !"
     },
     "program": {
         "title": "Le programme",
-        "content": "Étudiants et mentors, apprenez-en plus sur notre programme."
+        "content": "Étudiantes et mentors, apprenez-en plus sur notre programme."
     },
     "request": {
         "title": "Demande",
-        "content": "Organisateurs de la conférence, inscrivez-vous pour accueillir un atelier."
+        "content": "Organisatrices et organisateurs de la conférence, inscrivez-vous pour accueillir un atelier."
     }
 }
