@@ -2,8 +2,8 @@
     "galleryTitle": "Galerie",
     "galleryDescription": "Ici vous trouverez des photos de nos précédents skulks",
     "galleryErrorMessages": {
-        "yearNotSelected": "Merci de sélectionner une année afin de visionner les photos correspondantes.",
-        "notResultsByYear": "Aucune photo ne correspond à cette année.",
-        "notEvents": "Vous n'avez aucun évènement."
+        "yearNotSelected": "Merci de sélectionner une année",
+        "notResultsByYear": "Désolé, il n'y a aucune photo correspondant à l'année sélectionnée",
+        "notEvents": "Désolé, il n'y a aucun évènement"
     }
 }
