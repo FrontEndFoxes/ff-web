@@ -20,7 +20,7 @@
           </div>
 
           <div class="lg:flex mb-4">
-              <div class="lg:w-1/3 mt-10">
+              <div class="lg:w-1/3 mt-16">
                 <img class="lg:float-left mx-auto" src="@/assets/images/about2.jpg" />
               </div>
               <div class="lg:w-2/3 lg:pl-16">
@@ -31,17 +31,29 @@
               </div>
           </div>
 
+        <div class="max-w-sm w-full lg:max-w-full lg:flex lg:px-20 pt-10 pb-5">
+          <div class="p-6 mentorsNote rounded-lg text-white leading-relaxed">
+            <h3 class="pb-2 font-bold">
+                 &#9432; {{ $t("about.mentorsNoteSubtitle") }}
+            </h3>
 
-        <h2 class="my-4 text-2xl font-bold leading-tight">
-            {{ $t("about.mentorsNoteSubtitle") }}
-        </h2>
+            <p class="text-sm">
+                {{ $t("about.mentorsNote") }}
+            </p>
+          </div>
+        </div>
 
-        <p>
-            {{ $t("about.mentorsNote") }}
-        </p>
-        <h2 class="my-4 text-2xl font-bold leading-tight">
-            {{ $t("about.studentsNoteSubtitle") }}
-        </h2>
+        <div class="max-w-sm w-full lg:max-w-full lg:flex lg:px-20 pt-5 pb-10">
+          <div class="p-6 studentsNote rounded-lg leading-relaxed">
+            <h3 class="pb-2 font-bold">
+                 &#9432; {{ $t("about.studentsNoteSubtitle") }}
+            </h3>
+
+            <p class="text-sm">
+                {{ $t("about.studentSentences.first") }}
+            </p>
+          </div>
+        </div>
 
         <p>
             {{ $t("about.studentSentences.first") }}
@@ -88,5 +100,13 @@ export default defineComponent({
 
   h2 {
     font-family: 'Lato', sans-serif;
+  }
+
+  .mentorsNote {
+      background-color: #D43F16;
+  }
+
+  .studentsNote {
+      background-color: #F8EBDA;
   }
 </style>
