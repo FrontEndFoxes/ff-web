@@ -55,5 +55,19 @@
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602950580/Events/generic-meetup_nlfpsr.jpg",
         "link": "https://www.meetup.com/Women-Who-Code-Dublin/events/273957693",
         "live": true
+    },
+    {
+        "id": 5,
+        "title": "Meetup",
+        "date": "2020-11-22",
+        "startEvent": "12:30 PM EST",
+        "finishEvent": "1:45 PM EST",
+        "location": "Zoom",
+        "description": "Front-End Foxes Canada partners with WWC Boston for a React 101 workshop",
+        "cta": "Join",
+        "active": true,
+        "image": "https://i.ibb.co/NZ26hS5/fef-wwc.png",
+        "link": "https://www.meetup.com/Women-Who-Code-Boston/events/274373230",
+        "live": true
     }
 ]
