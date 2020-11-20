@@ -1,14 +1,14 @@
 {
     "sponsorsTitle": "Les sponsors",
     "sponsorLevels": {
-        "platinumSponsor": "Platine Les sponsors",
-        "goldSponsor": "Or Les sponsors",
-        "silverSponsor": "Argent Les sponsors",
-        "softwareSponsor": "Logiciel Les sponsors",
-        "communitySponsor": "Communauté Les sponsors"
+        "platinumSponsor": "Sponsors platine",
+        "goldSponsor": "Sponsors or",
+        "silverSponsor": "Sponsors argent",
+        "softwareSponsor": "Sponsors logiciels",
+        "communitySponsor": "Sponsors de la communauté"
     },
     "platinumSponsors": {
-        "frontendMastersDescription": "Développez vos compétences grâce à des cours d'ingénierie avancés et modernes",
+        "frontendMastersDescription": "Développez vos compétences grâce à des cours modernes et avancés d'ingénierie",
         "shareNowDescription": "VOTRE FUTUR VOITURE EST MAINTENANT. Tout ce que vous devez savoir sur votre future voiture, ici."
     }
 }
