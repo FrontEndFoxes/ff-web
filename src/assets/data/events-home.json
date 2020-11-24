@@ -11,7 +11,7 @@
         "active": true,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602777724/Events/streaming_qa8ohe.png",
         "link": "https://www.youtube.com/watch?v=ZNLE-RMHRMY&t=20s&ab_channel=JaeriahTay",
-        "live": true
+        "live": false
     },
     {
         "id": 2,
@@ -25,7 +25,7 @@
         "active": true,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602777810/Events/streaming2_w1emyn.png",
         "link": "https://www.youtube.com/watch?v=s6m5evEBUWU&ab_channel=JaeriahTay",
-        "live": true
+        "live": false
     },
 
     {
@@ -40,7 +40,7 @@
         "active": true,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602777835/Events/techladies-singapore-7-2020_gjxfmm.png",
         "link": "https://www.meetup.com/frontendfoxes/events/274023408/",
-        "live": true
+        "live": false
     },
     {
         "id": 4,
@@ -51,7 +51,7 @@
         "location": "Zoom",
         "description": "Front-End Foxes Ireland and Spain join with WWC Dublin for an online meetup on remote working",
         "cta": "Join",
-        "active": true,
+        "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602950580/Events/generic-meetup_nlfpsr.jpg",
         "link": "https://www.meetup.com/Women-Who-Code-Dublin/events/273957693",
         "live": true
@@ -65,9 +65,37 @@
         "location": "Zoom",
         "description": "Front-End Foxes Canada partners with WWC Boston for a React 101 workshop",
         "cta": "Join",
-        "active": true,
+        "active": false,
         "image": "https://i.ibb.co/NZ26hS5/fef-wwc.png",
         "link": "https://www.meetup.com/Women-Who-Code-Boston/events/274373230",
+        "live": true
+    },
+    {
+        "id": 6,
+        "title": "Meetup",
+        "date": "2020-11-28T18:00:00.511Z",
+        "startEvent": "09:00 GMT-5",
+        "finishEvent": "10:30 GMT-5",
+        "location": "Streaming on YouTube",
+        "description": "Mentoring in Web Development: Behind the Scenes with Front-End Foxes Colombia",
+        "cta": "Join",
+        "active": true,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1606256732/Events/Screen_Shot_2020-11-24_at_10.36.42_AM_uzlwz6.png",
+        "link": "https://www.youtube.com/watch?v=53z_NOJTUD8",
+        "live": true
+    },
+    {
+        "id": 7,
+        "title": "Meetup",
+        "date": "2020-12-08T17:30:00.511Z",
+        "startEvent": "17:30 CET",
+        "finishEvent": "20:00 CET",
+        "location": "Zoom",
+        "description": "Workshop with Front-End Foxes DACH",
+        "cta": "Register",
+        "active": true,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1606256811/Events/ffdachmeetup_y1bv6x.png",
+        "link": "https://www.meetup.com/de-DE/frontendfoxes/events/274630558/",
         "live": true
     }
 ]
