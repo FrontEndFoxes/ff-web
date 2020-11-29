@@ -36,7 +36,7 @@
 		"title": "Chapter Leader",
 		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662406/ChapterLeaders/Victoria_Bergquist_xmtqnv.jpg",
 		"twitter": "@vicbergquist",
-		"active": true,
+		"active": false,
 		"group": "dach (germany, austria, switzerland)"
 	},
 	{
@@ -55,7 +55,7 @@
 		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
 		"website": "https://www.ilithya.rocks",
 		"twitter": "@ilithya_net",
-		"active": true,
+		"active": false,
 		"group": "dach (germany, austria, switzerland)"
 	},
 	{
@@ -64,7 +64,7 @@
 		"title": "Chapter Leader",
 		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
 		"twitter": "@burgmary",
-		"active": true,
+		"active": false,
 		"group": "dach (germany, austria, switzerland)"
 	},
 	{
@@ -224,7 +224,7 @@
 		"image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/annett_ortz0v.jpg",
 		"website": "https://anett.xyz",
 		"twitter": "@emsuiko",
-		"active": true,
+		"active": false,
 		"group": "dach (germany, austria, switzerland)"
 	},
 	{
