@@ -15,11 +15,11 @@
     "ffSponsoringDescription": "Souhaitez-vous, ou votre entreprise, aider à financer Front-End Foxes en tant qu'organisation ? Nous vous sommes très reconnaissant(e)s d'y penser. Nous acceptons avec un grand sourire des sponsors pour les différents niveaux ci-dessous. Tou(te)s nos sponsors sont listé(e)s et remercié(e)s sur notre page « Sponsors ». Nous avons divisé nos finances en deux morceaux : l'argent pour nos frais matériels et nos animatrices, et l'argent pour les bourses. Si vous nous sponsorisez, vous pouvez nous indiquer quel pourcentage de la subvention bénéficiera à quel morceau.",
     "ffSponsoringPots": {
         "platinumTitle": "Platine",
-        "platinum": "$5000 ou plus par an.",
+        "platinum": "$5000 ou plus par an",
         "goldTitle": "Or",
-        "gold": "$2000 - $5000 par an.",
+        "gold": "$2000 - $5000 par an",
         "silverTitle": "Argent",
-        "silver": "$1000 - $2000 par an.",
+        "silver": "$1000 - $2000 par an",
         "softwareSponsor": "Sponsor logiciel: Offrez-nous un abonnement logiciel.",
         "patreonSponsors": "Patreon sponsors: Les membres de la communauté sont invités à faire un don via notre",
         "githubSponsors": "ou sponsors GitHub (de préférence!)."

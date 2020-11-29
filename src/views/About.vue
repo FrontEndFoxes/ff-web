@@ -57,7 +57,7 @@
     </div>
     </div>
 
-    <div class="mx-20 my-10">
+    <div class="mx-32 my-16">
       <div class="flex items-stretch md:mx-20 md:px-20">
         <div class="blockquoteBar text-white px-1 md:px-2"><span>&ldquo;</span></div>
         <div class="p-6">
@@ -69,11 +69,11 @@
     </div>
 
     <div class="sponsors text-center">
-        <div class="mx-20 my-10 pt-10">
+        <div class="mx-40 my-10 pt-10">
           <h2 class="my-4 text-3xl font-semibold">
               {{ $t("about.ffSponsoringSubtitle") }}
           </h2>
-          <p class="px-2 lg:px-24 pt-4 leading-relaxed">
+          <p class="px-2 lg:px-40 pt-4 leading-relaxed text-lg">
               {{ $t("about.ffSponsoringDescription") }}
           </p>
             <div class="lg:flex px-40 pt-4">

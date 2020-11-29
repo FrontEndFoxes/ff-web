@@ -15,11 +15,11 @@
     "ffSponsoringDescription": "¿Le gustaría a usted oa su empresa patrocinar a Front-End Foxes como organización? Estamos muy agradecidos de que esté pensando en este sentido. Nos complace aceptar patrocinadores en estos niveles y reconocer a nuestros patrocinadores como tales en nuestra página de patrocinadores. Dividimos nuestras finanzas en dos botes: dinero para nuestros gastos imprevistos y capítulos, y dinero para becas. Si nos patrocina, puede decirnos qué porcentaje de la subvención beneficiará a qué bote.",
     "ffSponsoringPots": {
         "platinumTitle": "Platino",
-        "platinum": "$5000 o más por año.",
+        "platinum": "$5000 o más por año",
         "goldTitle": "Oro",
-        "gold": "$2000 - $5000 por año.",
+        "gold": "$2000 - $5000 por año",
         "silverTitle": "Plata",
-        "silver": "$1000 - $2000 por año.",
+        "silver": "$1000 - $2000 por año",
         "softwareSponsor": "Patrocinador de software: Regale una suscripción de software.",
         "patreonSponsors": "Patrocinadores de Patreon: Los miembros de la comunidad pueden donar a través de nuestro",
         "githubSponsors": "o patrocinadores de GitHub (¡preferido!)."
