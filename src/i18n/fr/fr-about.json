@@ -14,9 +14,12 @@
     "ffSponsoringSubtitle": "Parrainage Front-End Foxes",
     "ffSponsoringDescription": "Souhaitez-vous, ou votre entreprise, parrainer des renards frontaux en tant qu'organisation? Nous vous sommes très reconnaissants de penser dans ce sens. Nous sommes heureux d'accepter des sponsors à ces niveaux et de reconnaître nos sponsors en tant que tels sur notre page Sponsors. Nous avons divisé nos finances en deux pots: l'argent pour nos frais accessoires et nos chapitres, et l'argent pour les bourses. Si vous nous parrainez, vous pouvez nous dire quel pourcentage de la subvention bénéficiera à quel pot.",
     "ffSponsoringPots": {
-        "platinum": "Platine: $5000 ou plus par an.",
-        "gold": "Or: $2000 - $5000 par an.",
-        "silver": "Argent: $1000 - $2000 par an.",
+        "platinumTitle": "Platine",
+        "platinum": "$5000 ou plus par an.",
+        "goldTitle": "Or",
+        "gold": "$2000 - $5000 par an.",
+        "silverTitle": "Argent",
+        "silver": "$1000 - $2000 par an.",
         "softwareSponsor": "Sponsor logiciel: Offrez-nous un abonnement logiciel.",
         "patreonSponsors": "Patreon sponsors: Les membres de la communauté sont invités à faire un don via notre",
         "githubSponsors": "ou sponsors GitHub (de préférence!)."

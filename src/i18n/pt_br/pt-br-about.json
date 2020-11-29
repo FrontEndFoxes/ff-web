@@ -14,6 +14,9 @@
     "ffSponsoringSubtitle": "Patrocinando Front-End Foxes",
     "ffSponsoringDescription": "Você ou sua empresa gostariam de patrocinar o Front-End Foxes como uma organização? Estamos muito gratos por você estar pensando assim. Ficamos felizes em aceitar patrocinadores nesses níveis e reconhecer nossos patrocinadores como tal em nossa página de patrocinadores. Dividimos nossas finanças em dois potes: dinheiro para nossas despesas ocasionais e capítulos e dinheiro para bolsas de estudo. Se você nos patrocinar, pode nos dizer qual a porcentagem da doação que beneficiará cada pote.",
     "ffSponsoringPots": {
+        "platinumTitle": "Platinum",
+        "goldTitle": "Gold",
+        "silverTitle": "Silver",
         "platinum": "Platinum: $5000 ou mais por ano.",
         "gold": "Gold: $2000 - $5000 por ano.",
         "silver": "Silver: $1000 - $2000 por ano.",

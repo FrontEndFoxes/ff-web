@@ -58,8 +58,8 @@
     </div>
 
     <div class="mx-20 my-10">
-      <div class="flex items-stretch mx-20">
-        <div class="blockquoteBar text-white px-1 md:px-4"><span>&ldquo;</span></div>
+      <div class="flex items-stretch md:mx-20 md:px-20">
+        <div class="blockquoteBar text-white px-1 md:px-2"><span>&ldquo;</span></div>
         <div class="p-6">
           <blockquote class="text-base font-light lg:text-2xl">
             {{ $t("about.studentSentences.second") }}"
@@ -68,27 +68,46 @@
       </div>
     </div>
 
-    <div class="sponsors">
-      <h2 class="my-4 text-2xl font-bold leading-tight">
-          {{ $t("about.ffSponsoringSubtitle") }}
-      </h2>
-      <p>
-          {{ $t("about.ffSponsoringDescription") }}
-      </p>
-      <p class="my-4">{{ $t("about.ffSponsoringPots.platinum") }}</p>
-      <p class="my-4">{{ $t("about.ffSponsoringPots.gold") }}</p>
-      <p class="my-4">{{ $t("about.ffSponsoringPots.silver") }}</p>
-      <p class="my-4">{{ $t("about.ffSponsoringPots.softwareSponsor") }}</p>
-      <p class="my-4">
-          {{ $t("about.ffSponsoringPots.patreonSponsors") }}
-          <a
-          href="https://www.patreon.com/vuevixens"
-          target="_blank"
-          rel="noopener"
-          >Patreon</a
-          >
-          {{ $t("about.ffSponsoringPots.githubSponsors") }}
-      </p>
+    <div class="sponsors text-center">
+        <div class="mx-20 my-10 pt-10">
+          <h2 class="my-4 text-3xl font-semibold">
+              {{ $t("about.ffSponsoringSubtitle") }}
+          </h2>
+          <p class="px-2 lg:px-24 pt-4 leading-relaxed">
+              {{ $t("about.ffSponsoringDescription") }}
+          </p>
+            <div class="lg:flex px-40 pt-4">
+              <div class="lg:w-1/3">
+                  <img class="inline" src="@/assets/images/silver.png" :alt="$t('about.ffSponsoringPots.silverTitle')" />
+                  <h3 class="text-xl text-bold -mt-8">{{ $t("about.ffSponsoringPots.silverTitle") }}</h3>
+                  <p class="mt-3">{{ $t("about.ffSponsoringPots.silver") }}</p>
+              </div>
+              <div class="lg:w-1/3">
+                  <img class="inline" src="@/assets/images/gold.png" :alt="$t('about.ffSponsoringPots.goldTitle')" />
+                  <h3 class="text-xl text-bold -mt-8">{{ $t("about.ffSponsoringPots.goldTitle") }}</h3>
+                  <p class="mt-3">{{ $t("about.ffSponsoringPots.gold") }}</p>
+              </div>
+              <div class="lg:w-1/3">
+                  <img class="inline" src="@/assets/images/platinum.png" :alt="$t('about.ffSponsoringPots.platinum')" />
+                  <h3 class="text-xl text-bold -mt-8">{{ $t("about.ffSponsoringPots.platinumTitle") }}</h3>
+                  <p class="mt-3">{{ $t("about.ffSponsoringPots.platinum") }}</p>
+              </div>
+            </div>
+
+          <p class="my-4">{{ $t("about.ffSponsoringPots.softwareSponsor") }}</p>
+          <p class="my-4">
+              {{ $t("about.ffSponsoringPots.patreonSponsors") }}
+              <a
+              href="https://www.patreon.com/vuevixens"
+              target="_blank"
+              rel="noopener"
+              >Patreon</a
+              >
+              {{ $t("about.ffSponsoringPots.githubSponsors") }}
+          </p>
+        </div>
+
+
     </div>
   </div>
 </template>
