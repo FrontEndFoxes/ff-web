@@ -20,8 +20,11 @@
         "gold": "$2000 - $5000 per year",
         "silverTitle": "Silver",
         "silver": "$1000 - $2000 per year",
-        "softwareSponsor": "Software sponsor: Gift us with a software subscription.",
-        "patreonSponsors": "Patreon sponsors: Community members are welcome to donate via our",
-        "githubSponsors": "or GitHub Sponsors (preferred!)."
+        "softwareTitle": "Software sponsor:",
+        "softwareSponsor": "Gift us with a software subscription.",
+        "patreonTitle": "Patreon sponsors:",
+        "patreonSponsors": "Community members are welcome to donate via our Patreon",
+        "githubTitle": "Github sponsors:",
+        "githubSponsors": "Our preferred donation option!"
     }
 }

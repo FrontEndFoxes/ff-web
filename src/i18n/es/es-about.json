@@ -22,6 +22,9 @@
         "silver": "$1000 - $2000 por año",
         "softwareSponsor": "Patrocinador de software: Regale una suscripción de software.",
         "patreonSponsors": "Patrocinadores de Patreon: Los miembros de la comunidad pueden donar a través de nuestro",
-        "githubSponsors": "o patrocinadores de GitHub (¡preferido!)."
+        "githubSponsors": "o patrocinadores de GitHub (¡preferido!).",
+        "softwareTitle": "Sponsor logiciel:",
+        "patreonTitle": "Patreon sponsors:",
+        "githubTitle": "Github sponsors:"
     }
 }
