@@ -2,10 +2,10 @@
   <div class="bg-white">
     <div class="pt-24 bg-blue-100 bg-gradient-to-b from-white pb-10">
       <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">{{ $t("about.aboutTitle") }}</h1>
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t mb-16"></div>
+        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t mb-8 lg:mb-16"></div>
         <div class="max-w-6xl mx-auto">
           <cld-image cloudName="front-end-foxes" publicId="sample" width="300" />
-          <div class="text-black mx-20 text-base">
+          <div class="text-black mx-8 lg:mx-20 text-base">
             <div class="lg:flex mb-4">
                 <div class="lg:w-3/4 lg:pr-20">
                   <h2 class="mb-4 text-3xl font-semibold">
@@ -30,7 +30,7 @@
               </div>
             </div>
 
-          <div class="max-w-sm w-full lg:max-w-full lg:flex lg:px-20 pt-10 pb-5">
+          <div class="lg:max-w-full lg:px-20 pt-10 pb-5">
             <div class="p-6 mentorsNote rounded-lg text-white leading-relaxed">
               <h3 class="pb-2 font-bold">
                    &#9432; {{ $t("about.mentorsNoteSubtitle") }}
@@ -42,7 +42,7 @@
             </div>
           </div>
 
-          <div class="max-w-sm w-full lg:max-w-full lg:flex lg:px-20 pt-5 pb-10">
+          <div class="lg:max-w-full lg:px-20 pt-5 pb-10">
             <div class="p-6 studentsNote rounded-lg leading-relaxed">
               <h3 class="pb-2 font-bold">
                    &#9432; {{ $t("about.studentsNoteSubtitle") }}
@@ -57,8 +57,8 @@
     </div>
     </div>
 
-    <div class="mx-32 my-16">
-      <div class="flex items-stretch md:mx-20 md:px-20">
+    <div class="mx-8 lg:mx-32 my-16">
+      <div class="flex items-stretch lg:mx-20 lg:px-20">
         <div class="blockquoteBar text-white px-1 md:px-2"><span>&ldquo;</span></div>
         <div class="p-6">
           <blockquote class="text-base font-light lg:text-2xl">
@@ -69,7 +69,7 @@
     </div>
 
     <div class="sponsors">
-        <div class="mx-40 my-10 pt-10">
+        <div class="mx-4 lg:mx-40 lg:my-10 pt-10">
           <h2 class="my-4 text-3xl font-semibold text-center">
               {{ $t("about.ffSponsoringSubtitle") }}
           </h2>
@@ -77,7 +77,7 @@
               {{ $t("about.ffSponsoringDescription") }}
           </p>
 
-          <div class="lg:flex px-40 pt-4 text-center">
+          <div class="lg:flex px-8 lg:px-40 pt-4 text-center">
             <div class="lg:w-1/3">
                 <img class="inline" src="@/assets/images/silver.png" :alt="$t('about.ffSponsoringPots.silverTitle')" />
                 <h3 class="text-xl text-bold -mt-8">{{ $t("about.ffSponsoringPots.silverTitle") }}</h3>
@@ -95,7 +95,7 @@
             </div>
           </div>
 
-          <p class="mt-20 my-4 text-xl">
+          <p class="lg:mt-20 my-4 text-xl">
               <img class="inline mr-4 icon" src="@/assets/images/wrench.png" alt=""/>
               <span class="sponsor-link">{{ $t("about.ffSponsoringPots.softwareTitle") }}</span>
               {{ $t("about.ffSponsoringPots.softwareSponsor") }}
@@ -170,7 +170,6 @@ export default defineComponent({
   .sponsor-link {
     transition: background-size .4s ease;
     background: linear-gradient(to bottom, transparent 62%, #C23A14 0) center center/0% 75% no-repeat;
-    padding: 0 6px 2px 6px;
     cursor: pointer;
     letter-spacing: .08rem;
   }
