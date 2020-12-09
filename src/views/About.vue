@@ -36,7 +36,7 @@
                    &#9432; {{ $t("about.mentorsNoteSubtitle") }}
               </h3>
 
-              <p class="text-sm">
+              <p>
                   {{ $t("about.mentorsNote") }}
               </p>
             </div>
@@ -48,7 +48,7 @@
                    &#9432; {{ $t("about.studentsNoteSubtitle") }}
               </h3>
 
-              <p class="text-sm">
+              <p>
                   {{ $t("about.studentSentences.first") }}
               </p>
             </div>
