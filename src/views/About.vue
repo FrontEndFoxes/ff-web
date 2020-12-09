@@ -14,13 +14,13 @@
                   <p class="leading-relaxed">{{ $t("about.aboutPurpose") }}</p>
                 </div>
                 <div class="lg:w-1/4">
-                  <img class="lg:float-right mx-auto my-8 hidden lg:flex" src="@/assets/images/about1.jpg" />
+                  <img class="lg:float-right mx-auto my-8 hidden lg:flex" src="@/assets/images/who-we-are.png" alt="madrid skulk"/>
                 </div>
             </div>
 
             <div class="lg:flex mb-4">
               <div class="lg:w-1/3 mt-16">
-                <img class="lg:float-left mx-auto" src="@/assets/images/about2.jpg" />
+                <img class="lg:float-left mx-auto" src="@/assets/images/about-our-activities.png" alt="lagos skulk"/>
               </div>
               <div class="lg:w-2/3 lg:pl-16">
                 <h2 class="my-4 text-3xl font-semibold">
