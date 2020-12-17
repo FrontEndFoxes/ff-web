@@ -99,12 +99,13 @@
     {
         "id": 13,
         "name": "Jaeriah Tay",
-        "title": "Líder de capítulo",
+        "title": "Administradora de la Comunidad",
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/jaeriah_jkp1zq.jpg",
         "website": "https://jaeriah.com",
         "twitter": "@jaeriahtay",
+        "description": "Jaeriah es un desarrollador / diseñador de front-end multilingüe que actualmente crea y diseña productos e integraciones en Chec / Commerce.js. Con experiencia en diseño y emprendimiento, Jaeriah se encontró en una intersección en tecnología donde aplica su pasión en la creación de software y el trabajo en recursos para desarrolladores. Fuera del trabajo, la encontrará pasando tiempo con su hijo, aprendiendo a tocar el violín, interactuando con la comunidad de desarrolladores y aventurándose al aire libre.",
         "active": true,
-        "group": "canada"
+        "group": "staff"
     },
     {
         "id": 14,
