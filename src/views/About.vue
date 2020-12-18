@@ -14,13 +14,13 @@
                   <p class="leading-relaxed">{{ $t("about.aboutPurpose") }}</p>
                 </div>
                 <div class="lg:w-1/4">
-                  <img class="lg:float-right mx-auto my-8 hidden lg:flex" src="@/assets/images/who-we-are.png" alt="madrid skulk"/>
+                  <img class="lg:float-right mx-auto my-8 hidden lg:flex" src="https://res.cloudinary.com/front-end-foxes/image/upload/v1602207894/skulks-2018/ba-2018_v6ruau.png" alt="Buenos Aires Skulk"/>
                 </div>
             </div>
 
             <div class="lg:flex mb-4">
               <div class="lg:w-1/3 mt-16">
-                <img class="lg:float-left mx-auto" src="@/assets/images/about-our-activities.png" alt="lagos skulk"/>
+                <img class="lg:float-left mx-auto" src="@/assets/images/about-our-activities.jpg" alt="Tampa Bay Skulk"/>
               </div>
               <div class="lg:w-2/3 lg:pl-16">
                 <h2 class="my-4 text-3xl font-semibold">
