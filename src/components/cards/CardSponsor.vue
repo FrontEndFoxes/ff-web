@@ -13,7 +13,7 @@
                 <a :href="sponsor.link" target="_blank">{{ sponsor.link }}</a>
             </h2>
         </div>
-        <p class="text-gray-800 text-center text-base p-8 mb-5">
+        <p class="text-gray-800 text-center text-lg p-8 mb-5">
             {{ sponsor.description }}
         </p>
     </div>

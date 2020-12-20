@@ -1,21 +1,25 @@
 .gradient {
-	background: linear-gradient(90deg, theme('colors.primary.600') 0%, theme('colors.primary.500') 100%);
+    background: linear-gradient(
+        90deg,
+        theme("colors.primary.700") 0%,
+        theme("colors.primary.500") 100%
+    );
 }
 
 .nav,
 .footer,
 #drawer {
-	background-color: theme('colors.primary.700');
+    background-color: theme("colors.primary.700");
 }
 
 .button {
-	background: theme('colors.secondary.500');
-	color: theme('colors.white')
+    background: theme("colors.secondary.500");
+    color: theme("colors.white");
 }
 .button:hover {
-	background: theme('colors.secondary.400');
+    background: theme("colors.secondary.400");
 }
 
 .logo {
-	max-width: 500px;
+    max-width: 500px;
 }
