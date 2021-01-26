@@ -82,7 +82,7 @@
                 >{{ $t("header.menu.blog") }}</a
               >
             </li>
-            <li @click="isOpen = false">
+            <!--<li @click="isOpen = false">
               <a
                 href="https://etsy.com/shop/vuevixens"
                 target="_blank"
@@ -90,7 +90,7 @@
                 class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
                 >{{ $t("header.menu.shop") }}</a
               >
-            </li>
+            </li>-->
             <li
               class="hover:bg-blue-900"
               v-for="(lang, i) in languages"
@@ -169,7 +169,7 @@
               >{{ $t("header.menu.blog") }}</a
             >
           </li>
-          <li class="hover:bg-blue-900">
+          <!--<li class="hover:bg-blue-900">
             <a
               class="uppercase inline-block p-5 text-white no-underline"
               href="https://etsy.com/shop/vuevixens"
@@ -177,7 +177,7 @@
               rel="noopener"
               >{{ $t("header.menu.shop") }}</a
             >
-          </li>
+          </li>-->
           <li>
             <a
               class="uppercase inline-block py-2 px-4 text-white no-underline"
