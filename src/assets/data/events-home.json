@@ -36,8 +36,8 @@
         "finishEvent": "8:30 PM PDT",
         "location": "YouTube Live",
         "description": "Join Front-End Foxes Canada for a chat on Learning to Code and the #100DaysOfCode community",
-        "cta": "Scheduled",
-        "active": true,
+        "cta": "Watch",
+        "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602777835/Events/techladies-singapore-7-2020_gjxfmm.png",
         "link": "https://www.meetup.com/frontendfoxes/events/274023408/",
         "live": false
@@ -50,11 +50,11 @@
         "finishEvent": "8:00 PM GMT",
         "location": "Zoom",
         "description": "Front-End Foxes Ireland and Spain join with WWC Dublin for an online meetup on remote working",
-        "cta": "Join",
+        "cta": "Closed",
         "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602950580/Events/generic-meetup_nlfpsr.jpg",
         "link": "https://www.meetup.com/Women-Who-Code-Dublin/events/273957693",
-        "live": true
+        "live": false
     },
     {
         "id": 5,
@@ -64,7 +64,7 @@
         "finishEvent": "1:45 PM EST",
         "location": "Zoom",
         "description": "Front-End Foxes Canada partners with WWC Boston for a React 101 workshop",
-        "cta": "Join",
+        "cta": "Closed",
         "active": false,
         "image": "https://i.ibb.co/NZ26hS5/fef-wwc.png",
         "link": "https://www.meetup.com/Women-Who-Code-Boston/events/274373230",
@@ -78,8 +78,8 @@
         "finishEvent": "10:30 GMT-5",
         "location": "Streaming on YouTube",
         "description": "Mentoring in Web Development: Behind the Scenes with Front-End Foxes Colombia",
-        "cta": "Join",
-        "active": true,
+        "cta": "Watch",
+        "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602783410/Events/panel-colombia_npiwx1.png",
         "link": "https://www.youtube.com/watch?v=53z_NOJTUD8",
         "live": true
@@ -92,8 +92,8 @@
         "finishEvent": "20:00 CET",
         "location": "Zoom",
         "description": "Workshop with Front-End Foxes DACH",
-        "cta": "Register",
-        "active": true,
+        "cta": "Closed",
+        "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1606256811/Events/ffdachmeetup_y1bv6x.png",
         "link": "https://www.meetup.com/de-DE/frontendfoxes/events/274630558/",
         "live": true

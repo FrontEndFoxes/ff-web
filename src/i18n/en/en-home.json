@@ -5,7 +5,6 @@
         "workshops": "Workshops",
         "patreon": "Patreon",
         "ghsponsors": "GitHub Sponsors"
-
     },
     "eventsTitle": "Upcoming Events",
     "btnRegister": "Register",
@@ -13,7 +12,7 @@
     "womenTeachingWomen": "Women Teaching Women",
     "skulk": {
         "title": "Come Skulk with Us",
-        "content": "Our workshops are always free!"
+        "content": "Our events are always free!"
     },
     "program": {
         "title": "The Program",
