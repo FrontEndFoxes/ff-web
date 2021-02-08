@@ -17,12 +17,12 @@
       <h2 class="text-center text-2xl font-semibold text-primary-700">
         {{ staffer.name }}
       </h2>
-      <p
+      <!--<p
         v-if="staffer.description"
         class="text-left py-2 text-lg text-primary-600"
       >
         {{ staffer.description }}
-      </p>
+      </p>-->
       <div
         v-if="staffer.twitter"
         class="flex items-baseline mt-4 text-blue-700"

@@ -7,7 +7,7 @@
         "description": "Jen Looper é Google Developer Expert e Cloud Developer Advocate Lead na Microsoft, com mais de 20 anos de experiência como desenvolvedor web e móvel. Com sede em Boston, Jen é especializada na criação de aplicativos móveis multiplataforma. Ela é uma multiculturalista multilíngue com paixão por hacking de hardware, aplicativos móveis, aprendizado de máquina e descobrir coisas novas todos os dias. Jen é mãe de duas meninas em idade universitária e adora ajudar as mulheres a atingirem seu potencial máximo.",
         "website": "https://jenlooper.com",
         "twitter": "@jenlooper",
-        "active": true,
+        "active": false,
         "group": "leadership"
     },
     {
@@ -17,7 +17,7 @@
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240910/ChapterLeaders/michele_oudkol.jpg",
         "description": "Michele 'CodePirate' Cynowicz trabalha no desenvolvimento de aplicativos da web há quase 20 anos. Originalmente da cidade de Nova York, Michele atualmente defende o trabalho remoto na indústria de tecnologia na área da Baía de Tampa, na Flórida. Ela é uma engenheira de front-end sênior, apaixonada por ensinar e orientar juniores. Em seu tempo livre, Michele é voluntária com as Girl Scouts, uma jogadora de RPG clássica e uma entusiasta do fitness.",
         "twitter": "@michelecynowicz",
-        "active": true,
+        "active": false,
         "group": "leadership"
     },
     {
@@ -70,11 +70,11 @@
     {
         "id": 8,
         "name": "Flor I. Baños",
-        "title": "Líder do Capítulo",
+        "title": "Organizador Comunitário",
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Flor_Ba%E0%B8%84os_eekna5.jpg",
         "twitter": "@Flor_IBG",
         "active": true,
-        "group": "mexico"
+        "group": "leadership"
     },
 
     {
@@ -99,11 +99,11 @@
     {
         "id": 11,
         "name": "Teresa Marbán Castro",
-        "title": "Líder do Capítulo",
+        "title": "Administrador da Comunidade",
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662414/ChapterLeaders/Teresa_Marban_ti4ifd.jpg",
         "twitter": "@teresaemece",
         "active": true,
-        "group": "spain"
+        "group": "leadership"
     },
     {
         "id": 12,
@@ -121,7 +121,7 @@
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/jaeriah_jkp1zq.jpg",
         "website": "https://jaeriah.com",
         "twitter": "@jaeriahtay",
-        "active": true,
+        "active": false,
         "description": "Jaeriah é um desenvolvedor / designer de front-end multilíngue atualmente construindo e projetando produtos e integrações em Chec / Commerce.js. Vinda de uma experiência em design e empreendedorismo, Jaeriah se viu em uma interseção em tecnologia, onde aplica sua paixão em construir software e trabalhar com recursos de desenvolvedor. Fora do trabalho, você a verá passando tempo com o filho, aprendendo violino, interagindo com a comunidade de desenvolvedores e se aventurando ao ar livre.",
         "group": "leadership"
     },

@@ -53,6 +53,15 @@
               >
             </li>
             <li @click="isOpen = false">
+              <a
+                href="https://frontendfoxes.school"
+                target="_blank"
+                rel="noopener"
+                class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
+                >School</a
+              >
+            </li>
+            <li @click="isOpen = false">
               <router-link
                 class="flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
                 to="/sponsors"
@@ -133,6 +142,15 @@
               class="uppercase inline-block p-5 text-white no-underline"
               to="/about"
               >{{ $t("header.menu.about") }}</router-link
+            >
+          </li>
+          <li class="hover:bg-blue-900">
+            <a
+              href="https://frontendfoxes.school"
+              target="_blank"
+              rel="noopener"
+              class="uppercase flex text-lg items-center p-4 hover:bg-blue-800 hover:text-white"
+              >School</a
             >
           </li>
           <li class="hover:bg-blue-900">
