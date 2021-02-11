@@ -111,7 +111,7 @@
         "title": "Chapter Leader",
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662467/ChapterLeaders/Anna_Mackenzie_dv7hjl.jpg",
         "twitter": "@whatsupanna",
-        "active": true,
+        "active": false,
         "group": "canada"
     },
     {
@@ -132,7 +132,7 @@
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/ani_lozjuz.png",
         "website": "https://anncrypt.com",
         "twitter": "@anncrypt",
-        "active": true,
+        "active": false,
         "group": "canada"
     },
     {
