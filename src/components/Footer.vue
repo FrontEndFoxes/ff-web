@@ -65,7 +65,7 @@
             <li class="mr-3">
               <a
                 class="uppercase inline-block py-2 px-4 text-white no-underline"
-                href="https://communityinviter.com/apps/vuevixens/front-end-foxes"
+                href="https://communityinviter.com/apps/vuevixens/vue-vixens"
                 aria-label="Slack"
                 target="_blank"
                 rel="noopener"
