@@ -15,7 +15,7 @@
           <div
             class="flex flex-wrap lg:flex lg:flex-no-wrap md:flex lg:flex-no-wrap lg:w-full justify-center md:justify-start z-10"
           >
-            <a
+            <!--<a
               class="btn w-full lg:w-6/12 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
               target="_blank"
               href="https://workshops.frontendfoxes.org"
@@ -23,7 +23,7 @@
               <div class="uppercase text-center text-lg">
                 {{ $t("home.heading.workshops") }}
               </div>
-            </a>
+            </a>-->
             <a
               class="btn w-full lg:w-7/12 ml-0 lg:ml-3 text-white mt-6 rounded-lg overflow-hidden py-3 bg-secondary-500 hover:bg-secondary-400"
               target="_blank"
