@@ -10,6 +10,13 @@ const routes = [
         meta: { title: "Front-End Foxes" }
     },
     {
+        path: "/reports/",
+        name: "Reports",
+        component: () =>
+            import(/* webpackChunkName: "about" */ "../views/Reports.vue"),
+        meta: { title: "Reports" }
+    },
+    {
         path: "/about/",
         name: "About",
         component: () =>
