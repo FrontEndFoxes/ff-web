@@ -82,7 +82,7 @@
         "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602783410/Events/panel-colombia_npiwx1.png",
         "link": "https://www.youtube.com/watch?v=53z_NOJTUD8",
-        "live": true
+        "live": false
     },
     {
         "id": 7,
@@ -98,8 +98,23 @@
         "link": "https://www.meetup.com/de-DE/frontendfoxes/events/274630558/",
         "live": true
     },
+
     {
         "id": 8,
+        "title": "Meetup",
+        "date": "2021-03-13T14:00:00.511Z",
+        "startEvent": "14:00 JST",
+        "finishEvent": "15:30 JST",
+        "location": "Connpass",
+        "description": "Front-End Foxes Japan Launch Party",
+        "cta": "Join",
+        "active": true,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1614884795/Events/Screen_Shot_2021-03-04_at_2.05.48_PM_dggmlf.png",
+        "link": "https://frontendfoxes-jp.connpass.com/event/206165",
+        "live": true
+    },
+    {
+        "id": 9,
         "title": "Meetup",
         "date": "2021-03-27T17:30:00.511Z",
         "startEvent": "11:00 CET",
@@ -108,7 +123,7 @@
         "description": "#VueVixensDay - ¡Volvemos a la carga! Charla & Taller",
         "cta": "Watch",
         "active": true,
-        "image": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/30d191e3-a486-4ea2-bb0b-194344f36ef4/VVDayEsp.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210225%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210225T185643Z&X-Amz-Expires=86400&X-Amz-Signature=858aeb0b4a1e2ed90658965da1da12e6c9c2f57bc9b683cca8375885821f507d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22VVDayEsp.png%22",
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1614884794/Events/VVDayEsp_f6osjb.png",
         "link": "https://www.meetup.com/es-ES/frontendfoxes/events/276564992/",
         "live": true
     }
