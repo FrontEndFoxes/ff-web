@@ -9,12 +9,14 @@
             class="list-reset w-1/2 lg:flex justify-start flex-1 items-center"
           >
             <li class="mr-3">
-              <a
-                class="hover:text-orange-600 uppercase inline-block py-2 px-4 text-white no-underline"
-                href="https://spark.adobe.com/page/xAMdc3pR7tivW/"
+              <router-link
+                class="uppercase inline-block py-2 px-4 text-white no-underline"
+                to="/reports"
               >
-                {{ $t("footer.press") }}
-              </a>
+                <span class="hover:text-orange-600">
+                  {{ $t("footer.press") }}
+                </span>
+              </router-link>
             </li>
             <li class="mr-3">
               <a
