@@ -108,7 +108,7 @@
         "location": "Connpass",
         "description": "Front-End Foxes Japan Launch Party",
         "cta": "Join",
-        "active": true,
+        "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1614884795/Events/Screen_Shot_2021-03-04_at_2.05.48_PM_dggmlf.png",
         "link": "https://frontendfoxes-jp.connpass.com/event/206165",
         "live": true
@@ -122,13 +122,13 @@
         "location": "Zoom",
         "description": "#VueVixensDay - ¡Volvemos a la carga! Charla & Taller",
         "cta": "Watch",
-        "active": true,
+        "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1614884794/Events/VVDayEsp_f6osjb.png",
         "link": "https://www.meetup.com/es-ES/frontendfoxes/events/276564992/",
         "live": true
     },
     {
-        "id": 9,
+        "id": 10,
         "title": "Meetup",
         "date": "2021-04-19T19:90:00.511Z",
         "startEvent": "19:00 CET",
