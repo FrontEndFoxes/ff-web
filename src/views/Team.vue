@@ -56,17 +56,14 @@ export default {
       ffstaff: ffstaff,
       groupsToFilter: [
         "leadership",
-        "dach (germany, austria, switzerland)",
         "mexico",
         "spain",
         "canada",
-        "us",
         "nigeria",
         "colombia",
         "peru",
         "benelux (belgium, netherlands, luxembourg)",
         "japan",
-        "ireland",
       ],
       selectedStaffer: "",
     };
