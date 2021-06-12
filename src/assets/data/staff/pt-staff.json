@@ -10,63 +10,7 @@
         "active": false,
         "group": "leadership"
     },
-    {
-        "id": 2,
-        "name": "Michele Cynowicz",
-        "title": "Gerente de Comunicações",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240910/ChapterLeaders/michele_oudkol.jpg",
-        "description": "Michele 'CodePirate' Cynowicz trabalha no desenvolvimento de aplicativos da web há quase 20 anos. Originalmente da cidade de Nova York, Michele atualmente defende o trabalho remoto na indústria de tecnologia na área da Baía de Tampa, na Flórida. Ela é uma engenheira de front-end sênior, apaixonada por ensinar e orientar juniores. Em seu tempo livre, Michele é voluntária com as Girl Scouts, uma jogadora de RPG clássica e uma entusiasta do fitness.",
-        "twitter": "@michelecynowicz",
-        "active": false,
-        "group": "leadership"
-    },
-    {
-        "id": 3,
-        "name": "Vanessa Böhner",
-        "title": "Líder do Capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/screen-shot-2020-07-03-at-12-00-52-pm_rb927a.png",
-        "website": "https://vannsl.io",
-        "twitter": "@vannsl",
-        "active": true,
-        "group": "dach (germany, austria, switzerland)"
-    },
-    {
-        "id": 4,
-        "name": "Victoria Bergquist",
-        "title": "Líder do Capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662406/ChapterLeaders/Victoria_Bergquist_xmtqnv.jpg",
-        "twitter": "@vicbergquist",
-        "active": false,
-        "group": "dach (germany, austria, switzerland)"
-    },
-    {
-        "id": 5,
-        "name": "Cynthia Eschler",
-        "title": "Líder do Capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662461/ChapterLeaders/Cynthia_Eschler_u6a7k1.jpg",
-        "twitter": "@lady_mashiro",
-        "active": true,
-        "group": "dach (germany, austria, switzerland)"
-    },
-    {
-        "id": 6,
-        "name": "Diana Ilithya",
-        "title": "Líder do Capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
-        "website": "https://www.ilithya.rocks",
-        "twitter": "@ilithya_net",
-        "active": false,
-        "group": "dach (germany, austria, switzerland)"
-    },
-    {
-        "id": 7,
-        "name": "Mary Vokicic",
-        "title": "Líder do Capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
-        "twitter": "@burgmary",
-        "active": false,
-        "group": "dach (germany, austria, switzerland)"
-    },
+
     {
         "id": 8,
         "name": "Flor I. Baños",
@@ -74,7 +18,7 @@
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Flor_Ba%E0%B8%84os_eekna5.jpg",
         "twitter": "@Flor_IBG",
         "active": true,
-        "group": "leadership"
+        "group": "mexico"
     },
 
     {
@@ -103,56 +47,9 @@
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662414/ChapterLeaders/Teresa_Marban_ti4ifd.jpg",
         "twitter": "@teresaemece",
         "active": true,
-        "group": "leadership"
+        "group": "spain"
     },
-    {
-        "id": 12,
-        "name": "Anna Mackenzie",
-        "title": "Líder do Capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662467/ChapterLeaders/Anna_Mackenzie_dv7hjl.jpg",
-        "twitter": "@whatsupanna",
-        "active": false,
-        "group": "canada"
-    },
-    {
-        "id": 13,
-        "name": "Jaeriah Tay",
-        "title": "Gerente de Comunidade",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/jaeriah_jkp1zq.jpg",
-        "website": "https://jaeriah.com",
-        "twitter": "@jaeriahtay",
-        "active": false,
-        "description": "Jaeriah é um desenvolvedor / designer de front-end multilíngue atualmente construindo e projetando produtos e integrações em Chec / Commerce.js. Vinda de uma experiência em design e empreendedorismo, Jaeriah se viu em uma interseção em tecnologia, onde aplica sua paixão em construir software e trabalhar com recursos de desenvolvedor. Fora do trabalho, você a verá passando tempo com o filho, aprendendo violino, interagindo com a comunidade de desenvolvedores e se aventurando ao ar livre.",
-        "group": "leadership"
-    },
-    {
-        "id": 14,
-        "name": "Ani Ionova",
-        "title": "Líder do Capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/ani_lozjuz.png",
-        "website": "https://anncrypt.com",
-        "twitter": "@anncrypt",
-        "active": false,
-        "group": "canada"
-    },
-    {
-        "id": 15,
-        "name": "Novella C.",
-        "title": "Líder do Capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
-        "twitter": "@novelladev",
-        "active": true,
-        "group": "us"
-    },
-    {
-        "id": 16,
-        "name": "Vanessa Alvarez",
-        "title": "Líder do Capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662410/ChapterLeaders/Vanessa_Alvarez_apwsbx.jpg",
-        "twitter": "@vanessalvarez8a",
-        "active": true,
-        "group": "us"
-    },
+
     {
         "id": 17,
         "name": "Gift Egwuenu",
@@ -219,16 +116,6 @@
     },
 
     {
-        "id": 24,
-        "name": "Anett Gesierich",
-        "title": "Líder do Capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/annett_ortz0v.jpg",
-        "website": "https://anett.xyz",
-        "twitter": "@emsuiko",
-        "active": false,
-        "group": "dach (germany, austria, switzerland)"
-    },
-    {
         "id": 25,
         "name": "Andrea Busse",
         "title": "Líder do Capítulo",
@@ -274,15 +161,7 @@
         "active": true,
         "group": "japan"
     },
-    {
-        "id": 30,
-        "name": "Irene Yeriskin",
-        "title": "Líder do Capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
-        "twitter": "@rene_iy",
-        "active": true,
-        "group": "ireland"
-    },
+
     {
         "id": 31,
         "name": "Ifeoma Chisom Nwosu",

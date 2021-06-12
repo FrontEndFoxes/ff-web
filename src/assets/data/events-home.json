@@ -96,7 +96,7 @@
         "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1606256811/Events/ffdachmeetup_y1bv6x.png",
         "link": "https://www.meetup.com/de-DE/frontendfoxes/events/274630558/",
-        "live": true
+        "live": false
     },
 
     {
@@ -111,7 +111,7 @@
         "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1614884795/Events/Screen_Shot_2021-03-04_at_2.05.48_PM_dggmlf.png",
         "link": "https://frontendfoxes-jp.connpass.com/event/206165",
-        "live": true
+        "live": false
     },
     {
         "id": 9,
@@ -121,7 +121,7 @@
         "finishEvent": "13:30 CET",
         "location": "Zoom",
         "description": "#VueVixensDay - ¡Volvemos a la carga! Charla & Taller",
-        "cta": "Watch",
+        "cta": "Closed",
         "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1614884794/Events/VVDayEsp_f6osjb.png",
         "link": "https://www.meetup.com/es-ES/frontendfoxes/events/276564992/",
@@ -135,10 +135,24 @@
         "finishEvent": "20:30 CET",
         "location": "Zoom",
         "description": "#FrontendFoxesDay Mesa redonda: Women in tech",
-        "cta": "Watch",
-        "active": true,
+        "cta": "Closed",
+        "active": false,
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1618162424/Events/MesaRedonda_fs1hch.png",
         "link": "https://www.meetup.com/es-ES/frontendfoxes/events/277505430/",
+        "live": true
+    },
+    {
+        "id": 10,
+        "title": "Workshop",
+        "date": "2021-07-27T19:00:00.511Z",
+        "startEvent": "14:00 BST",
+        "finishEvent": "17:00 CET",
+        "location": "Zoom",
+        "description": "Workshop in partnership with the National Museum of Computing at Bletchley Park",
+        "cta": "Register",
+        "active": true,
+        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1623525135/Events/tnmoc_m4wpid.png",
+        "link": "https://www.eventbrite.co.uk/e/build-a-pet-liking-app-with-front-end-foxes-tickets-158695128401",
         "live": true
     }
 ]

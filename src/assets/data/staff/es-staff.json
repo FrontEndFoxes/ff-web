@@ -10,44 +10,6 @@
         "active": false,
         "group": "leadership"
     },
-    {
-        "id": 2,
-        "name": "Michele Cynowicz",
-        "title": "Administradora de Comunicaciones",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240910/ChapterLeaders/michele_oudkol.jpg",
-        "description": "Michele 'CodePirate' Cynowicz ha estado trabajando en el desarrollo de aplicaciones web durante casi 20 años. Originaria de la ciudad de Nueva York, Michele actualmente aboga por el trabajo remoto en la industria de la tecnología desde el área de Tampa Bay en Florida. Ella es una ingeniera de front-end sénior, apasionada por la enseñanza y la tutoría de jóvenes. En su tiempo libre, Michele es voluntaria de las Girl Scouts, una jugadora de juegos de rol clásico y una entusiasta del fitness.",
-        "twitter": "@michelecynowicz",
-        "active": false,
-        "group": "leadership"
-    },
-    {
-        "id": 3,
-        "name": "Vanessa Böhner",
-        "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/screen-shot-2020-07-03-at-12-00-52-pm_rb927a.png",
-        "website": "https://vannsl.io",
-        "twitter": "@vannsl",
-        "active": true,
-        "group": "dach (germany, austria, switzerland)"
-    },
-    {
-        "id": 4,
-        "name": "Victoria Bergquist",
-        "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662406/ChapterLeaders/Victoria_Bergquist_xmtqnv.jpg",
-        "twitter": "@vicbergquist",
-        "active": false,
-        "group": "dach (germany, austria, switzerland)"
-    },
-    {
-        "id": 5,
-        "name": "Cynthia Eschler",
-        "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662461/ChapterLeaders/Cynthia_Eschler_u6a7k1.jpg",
-        "twitter": "@lady_mashiro",
-        "active": true,
-        "group": "dach (germany, austria, switzerland)"
-    },
 
     {
         "id": 8,
@@ -56,7 +18,7 @@
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Flor_Ba%E0%B8%84os_eekna5.jpg",
         "twitter": "@Flor_IBG",
         "active": true,
-        "group": "leadership"
+        "group": "mexico"
     },
 
     {
@@ -85,56 +47,9 @@
         "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662414/ChapterLeaders/Teresa_Marban_ti4ifd.jpg",
         "twitter": "@teresaemece",
         "active": true,
-        "group": "leadership"
+        "group": "spain"
     },
-    {
-        "id": 12,
-        "name": "Anna Mackenzie",
-        "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662467/ChapterLeaders/Anna_Mackenzie_dv7hjl.jpg",
-        "twitter": "@whatsupanna",
-        "active": false,
-        "group": "canada"
-    },
-    {
-        "id": 13,
-        "name": "Jaeriah Tay",
-        "title": "Administradora de la Comunidad",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/jaeriah_jkp1zq.jpg",
-        "website": "https://jaeriah.com",
-        "twitter": "@jaeriahtay",
-        "description": "Jaeriah es un desarrollador / diseñador de front-end multilingüe que actualmente crea y diseña productos e integraciones en Chec / Commerce.js. Con experiencia en diseño y emprendimiento, Jaeriah se encontró en una intersección en tecnología donde aplica su pasión en la creación de software y el trabajo en recursos para desarrolladores. Fuera del trabajo, la encontrará pasando tiempo con su hijo, aprendiendo a tocar el violín, interactuando con la comunidad de desarrolladores y aventurándose al aire libre.",
-        "active": false,
-        "group": "leadership"
-    },
-    {
-        "id": 14,
-        "name": "Ani Ionova",
-        "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240087/ChapterLeaders/ani_lozjuz.png",
-        "website": "https://anncrypt.com",
-        "twitter": "@anncrypt",
-        "active": false,
-        "group": "canada"
-    },
-    {
-        "id": 15,
-        "name": "Novella C.",
-        "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
-        "twitter": "@novelladev",
-        "active": true,
-        "group": "us"
-    },
-    {
-        "id": 16,
-        "name": "Vanessa Alvarez",
-        "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662410/ChapterLeaders/Vanessa_Alvarez_apwsbx.jpg",
-        "twitter": "@vanessalvarez8a",
-        "active": true,
-        "group": "us"
-    },
+
     {
         "id": 17,
         "name": "Gift Egwuenu",
@@ -201,16 +116,6 @@
     },
 
     {
-        "id": 24,
-        "name": "Anett Gesierich",
-        "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/annett_ortz0v.jpg",
-        "website": "https://anett.xyz",
-        "twitter": "@emsuiko",
-        "active": false,
-        "group": "dach (germany, austria, switzerland)"
-    },
-    {
         "id": 25,
         "name": "Andrea Busse",
         "title": "Líder de capítulo",
@@ -256,15 +161,7 @@
         "active": true,
         "group": "japan"
     },
-    {
-        "id": 30,
-        "name": "Irene Yeriskin",
-        "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
-        "twitter": "@rene_iy",
-        "active": true,
-        "group": "ireland"
-    },
+
     {
         "id": 31,
         "name": "Ifeoma Chisom Nwosu",

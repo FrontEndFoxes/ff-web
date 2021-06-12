@@ -55,10 +55,8 @@ export default {
     return {
       ffstaff: ffstaff,
       groupsToFilter: [
-        "leadership",
         "mexico",
         "spain",
-        "canada",
         "nigeria",
         "colombia",
         "peru",
@@ -80,9 +78,7 @@ export default {
 
     selectStaffByGroup(group) {
       group = group.toLowerCase();
-      return this.filteredStaff.filter(
-        (ffstaff) => ffstaff.group === group
-      );
+      return this.filteredStaff.filter((ffstaff) => ffstaff.group === group);
     },
   },
 };
