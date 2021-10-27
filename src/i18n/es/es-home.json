@@ -2,9 +2,9 @@
     "heading": {
         "title": "Bienvenidx!",
         "description": "Front-End Foxes es gente que se identifica como mujer y que quiere aprender tecnologías front-end para hacer websites y mobile apps",
-        "workshops": "Workshops",
+        "workshops": "Talleres",
         "patreon": "Patreon",
-        "ghsponsors": "GitHub Sponsors"
+        "ghsponsors": "Patrocinadores de GitHub"
 
     },
     "eventsTitle": "Próximos Eventos",
@@ -21,7 +21,7 @@
     },
     "request": {
         "title": "Solicitudes",
-        "content": "Organizadores de eventos y conferencias, registrarse para organizar un workshop."
+        "content": "Organizadores de eventos y conferencias, registrarse para organizar un taller."
     },
     "mentoring": {
         "first": "Skulk Miembros Colombia",
