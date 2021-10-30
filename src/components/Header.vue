@@ -287,6 +287,9 @@ export default {
         case "pt_br":
           currentFlagIcon = "flag-icon-br";
           break;
+        case "de":
+          currentFlagIcon = "flag-icon-de";
+        break;
       }
 
       return {
@@ -316,6 +319,11 @@ export default {
           label: "pt_br",
           flagIcon: "flag-icon-br",
           language: this.$t("header.languages.pt_br"),
+        },
+        {
+          label: "de",
+          flagIcon: "flag-icon-de",
+          language: this.$t("header.languages.de"),
         },
       ];
     },

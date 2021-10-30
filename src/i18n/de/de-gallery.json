@@ -1,0 +1,9 @@
+{
+    "galleryTitle": "Galerie",
+    "galleryDescription": "Hier finden Sie Bilder von unseren bisherigen Skulks",
+    "galleryErrorMessages": {
+        "yearNotSelected": "Bitte ein Jahr auswählen",
+        "noResultsByYear": "Leider noch keine Treffer für das ausgewählte Jahr",
+        "noEvents": "Leider keine Veranstaltungen gefunden"
+    }
+}

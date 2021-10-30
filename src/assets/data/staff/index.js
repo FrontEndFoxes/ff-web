@@ -1,3 +1,4 @@
+import de from './de-staff.json'
 import en from './en-staff.json'
 import es from './es-staff.json'
 import fr from './fr-staff.json'
@@ -9,7 +10,8 @@ const ffstaff = {
     es,
     fr,
     pt,
-    pt_br
+    pt_br,
+    de
 }
 
 export default ffstaff;

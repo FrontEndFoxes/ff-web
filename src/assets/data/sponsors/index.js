@@ -1,3 +1,4 @@
+import de from './de-sponsors.json'
 import en from './en-sponsors.json'
 import es from './es-sponsors.json'
 import fr from './fr-sponsors.json'
@@ -9,7 +10,8 @@ const ffsponsors = {
     es,
     fr,
     pt,
-    pt_br
+    pt_br,
+    de
 }
 
 export default ffsponsors;

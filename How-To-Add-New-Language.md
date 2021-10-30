@@ -16,16 +16,16 @@ of a country. Also `xy` is your **new language** that you'd like to add to appli
 
 ```json
 {
-    "wordFirst": "Traslation #1 in XY language",
-    "wordSecond": "Traslation #2 in XY language",
-    "wordThird": "Traslation #3 in XY language",
+    "wordFirst": "Translation #1 in XY language",
+    "wordSecond": "Translation #2 in XY language",
+    "wordThird": "Translation #3 in XY language",
     "multipleValues": {
-        "valueOne": "Traslation #4.1 in XY language",
-        "valueTwo": "Traslation #4.2 in XY language",
+        "valueOne": "Translation #4.1 in XY language",
+        "valueTwo": "Translation #4.2 in XY language",
     },
     "errors": {
-        "errorOne": "Traslation #4.1 in XY language",
-        "errorTwo": "Traslation #4.2 in XY language",
+        "errorOne": "Translation #4.1 in XY language",
+        "errorTwo": "Translation #4.2 in XY language",
     }
 }
 ```
@@ -48,6 +48,7 @@ import { en } from './en'
 import { es } from './es'
 import { fr } from './fr'
 import { pt } from './pt'
+import { de } from './de'
 // Our New Language
 import { xy } from './xy'
 
@@ -58,6 +59,7 @@ const translations = {
   es: es,
   fr: fr,
   pt: pt,
+  de: de,
   xy: xy  // <-- add translations to web components in a new language
 }
 
@@ -93,6 +95,7 @@ import en from './en-name_page.json'
 import es from './es-name_page.json'
 import fr from './fr-name_page.json'
 import pt from './pt-name_page.json'
+import de from './de-name_page.json'
 // Add our new language 'xy'
 import xy from './xy-name_page.json'
 
@@ -102,6 +105,7 @@ const ffEventsGalleries = {
     es,
     fr,
     pt,
+    de,
     xy, // <-- add translations to data in a new language
 }
 
@@ -110,7 +114,7 @@ export default ffEventsGalleries;
 
 ## C. Update `Header.vue`
 
-After create the translations, we need add new options in the language dropdown.
+After creating the translations, we need add new options in the language dropdown.
 
 ```javascript
 <script>

@@ -1,13 +1,13 @@
 {
     "ffTitle": "Front-End Foxes",
-    "menuTitle": "Menu",
+    "menuTitle": "Menü",
     "menu": {
-        "about": "About",
-        "upcoming": "Upcoming",
-        "sponsors": "Sponsors",
+        "about": "Über uns",
+        "upcoming": "Demnächst",
+        "sponsors": "Sponsoren",
         "team": "Team",
-        "gallery": "Gallery",
-        "library": "Library",
+        "gallery": "Galerie",
+        "library": "Bibliothek",
         "blog": "Blog",
         "shop": "Shop"
     },
@@ -17,6 +17,6 @@
         "pt": "Português",
         "pt_br": "Português - BR",
         "fr": "Français",
-        "de": "Deutsch"
+        "de": "German"
     }
 }
