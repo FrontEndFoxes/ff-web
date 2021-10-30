@@ -1,0 +1,30 @@
+{
+    "aboutTitle": "Über Front-End Foxes",
+    "aboutPurpose": "Front-End Foxes Inc., eine 501(c)(3) Public Charity (EIN 83-3866803), sind eine 2018 von Jen Looper gegründete Initiative, die Workshops entwickelt und veranstaltet, um Frauen auf coole und unterhaltsame Weise Front-End-Technologien zu vermitteln. Unsere Aktivitäten umfassen kostenlose, selbstgesteuerte Code-Labore, die in einem Workshop-Format in Gruppen mit Mentoring durch Freiwillige, entweder online oder persönlich, durchgeführt werden. Das Ziel des Programms ist es, Frauen in einer unterstützenden und integrativen Umgebung mit Front-End-Technologien vertraut zu machen. Wir verwalten auch einen Stipendienfonds, um Frauen die Teilnahme an technischen Konferenzen zu ermöglichen. Wir haben erfolgreiche längere Veranstaltungen wie die Vue Vixens Days in Argentinien, Kolumbien und den USA veranstaltet. Mit Chaptern auf der ganzen Welt können Sie wahrscheinlich eine Gruppe in Ihrer Nähe finden!",
+    "activitiesSubtitle": "Über unsere Aktivitäten",
+    "activitiesDescription": "Was können Sie von einer Front-End-Foxes-Veranstaltung erwarten? Als Teilnehmerin, die vielleicht neu auf dem Gebiet der Front-End-Entwicklung ist, haben Sie die Möglichkeit, verschiedene Frameworks für die Entwicklung von Web- und Mobile-Apps kennenzulernen. Im Laufe eines Frühstücks, eines Lunch 'n' Learn oder eines ganztägigen Workshops, den wir \"Skulks\" nennen, arbeiten Sie mit einer BetreuerIn in kleinen Gruppen in einer praxisnahen, selbstgesteuerten Lernumgebung. Sie werden eine Webanwendung und eine mobile Anwendung erstellen, die Sie mit dem Framework und der Programmierung in JavaScript vertraut machen. Außerdem haben Sie die Möglichkeit, gleichgesinnte Teilnehmerinnen zu treffen und mit führenden Kräften der Branche zusammenzuarbeiten und wertvolle berufliche Kontakte zu knüpfen.",
+    "mentorsNoteSubtitle": "Hinweis für Mentoren",
+    "mentorsNote": "Wenn Sie sich einem unserer Skulks als Mentor anschließen, möchten wir Ihnen erstens danken! Dank Ihnen können wir den neuen Entwicklerinnen kostenlose Workshops in einer unterstützenden Umgebung anbieten. Ihre Aufgabe ist es, Ihre Mentees den ganzen Tag über zu begleiten, ihnen über Schwierigkeiten hinwegzuhelfen und ihnen einen Einblick in das Leben eines erfahrenen professionellen Developers zu geben. Du bist die Beste! Nur zur Klarstellung: Jeder kann Mentor bei den Front-End Foxes werden! Wir sind dankbar für Ihre Beteiligung.",
+    "studentsNoteSubtitle": "Hinweis für Teilnehmerinnen",
+    "studentSentences": {
+        "first": "Sie sind sich nicht sicher, ob einer unserer Skulks etwas für sie ist? Wenn Sie eine neue Front-End-Entwicklerin sind, die sich als Frau identifiziert, sind Sie willkommen. Der Schwerpunkt dieser Gruppe liegt auf der Ausbildung und Förderung von Entwicklerinnen und solchen, die sich als solche identifizieren. Die Gründerin dieser Organisation, Jen Looper, ist eine Wellesley College Alumna (Klasse von '92) und nimmt die Aufnahmekriterien des Colleges als Vorbild. Um deren Erklärung zur Aufnahme zu paraphrasieren:",
+        "second": "Wir nehmen jede Person auf, die als Frau lebt und sich konsequent als Frau identifiziert. Wir heißen auch diejenigen willkommen, denen bei der Geburt das weibliche Geschlecht zugeordnet wurde und die das Gefühl haben, in unsere Gemeinschaft von Frauen zu gehören. Wir möchten den Teilnehmerinnen ein einzigartiges Lernumfeld bieten, das speziell darauf ausgerichtet ist, Frauen darauf vorzubereiten, in einer komplexen Welt erfolgreich zu sein.",
+        "third": "Danke für Ihre Unterstützung! 🦊"
+    },
+    "ffSponsoringSubtitle": "Sponsoring für Front-End Foxes",
+    "ffSponsoringDescription": "Möchten Sie oder Ihr Unternehmen die Front-End Foxes als Organisation unterstützen? Wir sind sehr dankbar, dass Sie in diese Richtung denken. Wir freuen uns über Sponsoren auf diesen Ebenen und weisen unsere Sponsoren auf unserer Sponsorenseite als solche aus. Wir teilen unsere Finanzen in zwei Töpfe auf: Geld für unsere laufenden Ausgaben und die Chapter, und Geld für Stipendien. Wenn Sie uns sponsern, können Sie angeben, welcher Prozentsatz des Betrags in welchen Topf fließen soll.",
+    "ffSponsoringPots": {
+        "platinumTitle": "Platin",
+        "platinum": "$5000 or mehr pro Jahr",
+        "goldTitle": "Gold",
+        "gold": "$2000 - $5000 pro Jahr",
+        "silverTitle": "Silber",
+        "silver": "$1000 - $2000 pro Jahr",
+        "softwareTitle": "Software Sponsor:",
+        "softwareSponsor": "Schenken Sie uns ein Software-Abonnement.",
+        "patreonTitle": "Patreon Sponsors:",
+        "patreonSponsors": "Spenden von Community-Mitgliedern nehmen wir gerne via Patreon entgegen.",
+        "githubTitle": "Github Sponsoren:",
+        "githubSponsors": "Unsere bevorzugte Spendenart!"
+    }
+}
