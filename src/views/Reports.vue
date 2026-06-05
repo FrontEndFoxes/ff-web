@@ -13,7 +13,7 @@
         <div class="ffreport__card">
           <ImageItem
             class="ffreport__image"
-            source="https://res.cloudinary.com/front-end-foxes/image/upload/v1614296641/reports/2018_feqpy9.png"
+            source="https://res.cloudinary.com/beanpot-studio/image/upload/v1614296641/reports/2018_feqpy9.png"
           />
           <div class="ffgallery__body text-center">
             <a
@@ -27,7 +27,7 @@
         <div class="ffreport__card">
           <ImageItem
             class="ffreport__image"
-            source="https://res.cloudinary.com/front-end-foxes/image/upload/v1614296639/reports/2019_ibv6av.png"
+            source="https://res.cloudinary.com/beanpot-studio/image/upload/v1614296639/reports/2019_ibv6av.png"
           />
           <div class="ffgallery__body text-center">
             <a
@@ -41,7 +41,7 @@
         <div class="ffreport__card">
           <ImageItem
             class="ffreport__image"
-            source="https://res.cloudinary.com/front-end-foxes/image/upload/v1614296639/reports/2020_efbzbp.png"
+            source="https://res.cloudinary.com/beanpot-studio/image/upload/v1614296639/reports/2020_efbzbp.png"
           />
           <div class="ffgallery__body text-center">
             <a

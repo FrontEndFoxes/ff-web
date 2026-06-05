@@ -21,7 +21,7 @@
             <div class="lg:w-1/3">
               <img
                 class="lg:float-right mx-auto my-4 hidden lg:flex"
-                src="https://res.cloudinary.com/front-end-foxes/image/upload/v1602815746/skulks-2020/tech-ladies-singapore-2020_jt9jyk.png"
+                src="https://res.cloudinary.com/beanpot-studio/image/upload/v1602815746/skulks-2020/tech-ladies-singapore-2020_jt9jyk.png"
                 alt="Zoom Events"
               />
             </div>
@@ -31,7 +31,7 @@
             <div class="lg:w-1/3 mt-16">
               <img
                 class="lg:float-left mx-auto"
-                src="https://res.cloudinary.com/front-end-foxes/image/upload/v1608430795/Sponsors/about-our-activities_hgazht.jpg"
+                src="https://res.cloudinary.com/beanpot-studio/image/upload/v1608430795/Sponsors/about-our-activities_hgazht.jpg"
                 alt="Tampa Bay Skulk"
               />
             </div>

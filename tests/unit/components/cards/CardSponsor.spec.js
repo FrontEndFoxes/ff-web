@@ -13,7 +13,7 @@ describe('CardSponsor.vue', () => {
                     id: 2,
                     title: "Share Now",
                     description: "YOUR FUTURE CAR IS NOW. All you need to know about your future car, right here.",
-                    logo: "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861222/Sponsors/sponsor-share-now_wfi0f2.png",
+                    logo: "https://res.cloudinary.com/beanpot-studio/image/upload/v1601861222/Sponsors/sponsor-share-now_wfi0f2.png",
                     link: "https://www.share-now.com/",
                     active: true,
                     level: "platinum"

@@ -2,7 +2,7 @@ import { mount } from '@vue/test-utils'
 
 // Component & Data
 import ImageItem from '@/components/ImageItem.vue'
-const IMAGE_SRC = "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861222/Sponsors/sponsor-share-now_wfi0f2.png"
+const IMAGE_SRC = "https://res.cloudinary.com/beanpot-studio/image/upload/v1601861222/Sponsors/sponsor-share-now_wfi0f2.png"
 
 describe.only('ImageItem.vue', () => {
     let wrapper

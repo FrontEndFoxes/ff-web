@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Jen Looper",
         "title": "Fundadora/Presidenta",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601908830/ChapterLeaders/jlooper_ghqqse.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601908830/ChapterLeaders/jlooper_ghqqse.jpg",
         "description": "Jen Looper es una experta en desarrolladores de Google y líder defensora de desarrolladores en la nube en Microsoft con más de 20 años de experiencia como desarrolladora web y móvil. Jen, con sede en Boston, se especializa en la creación de aplicaciones móviles multiplataforma. Es una multiculturalista multilingüe apasionada por la piratería de hardware, las aplicaciones móviles, el aprendizaje automático y el descubrimiento de cosas nuevas todos los días. Jen es madre de dos niñas en edad universitaria y le encanta ayudar a las mujeres a alcanzar su máximo potencial.",
         "website": "https://jenlooper.com",
         "twitter": "@jenlooper",
@@ -15,7 +15,7 @@
         "id": 8,
         "name": "Flor I. Baños",
         "title": "Organizador de la Comunidad",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Flor_Ba%E0%B8%84os_eekna5.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662440/ChapterLeaders/Flor_Ba%E0%B8%84os_eekna5.jpg",
         "twitter": "@Flor_IBG",
         "active": true,
         "group": "mexico"
@@ -25,7 +25,7 @@
         "id": 9,
         "name": "Palmidia Garay",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662420/ChapterLeaders/Palmidia_Garay_ucfhdo.png",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662420/ChapterLeaders/Palmidia_Garay_ucfhdo.png",
         "twitter": "@jetzable",
         "active": true,
         "group": "mexico"
@@ -35,7 +35,7 @@
         "id": 10,
         "name": "Cristina Ponce Torres",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662467/ChapterLeaders/Cristina_Ponce_cofao2.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662467/ChapterLeaders/Cristina_Ponce_cofao2.jpg",
         "twitter": "@cristinagrim",
         "active": true,
         "group": "spain"
@@ -44,7 +44,7 @@
         "id": 11,
         "name": "Teresa Marbán Castro",
         "title": "Administradora de la Comunidad",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662414/ChapterLeaders/Teresa_Marban_ti4ifd.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662414/ChapterLeaders/Teresa_Marban_ti4ifd.jpg",
         "twitter": "@teresaemece",
         "active": true,
         "group": "spain"
@@ -54,7 +54,7 @@
         "id": 17,
         "name": "Gift Egwuenu",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662432/ChapterLeaders/Gift_Egwuenu_ely8dc.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662432/ChapterLeaders/Gift_Egwuenu_ely8dc.jpg",
         "website": "https://www.giftegwuenu.com",
         "twitter": "@lauragift_",
         "active": true,
@@ -64,7 +64,7 @@
         "id": 18,
         "name": "Manuela Castrillon",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Manuela_Castrillon_ojsg9o.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662426/ChapterLeaders/Manuela_Castrillon_ojsg9o.jpg",
         "website": "https://www.manuela.dev",
         "twitter": "@manucastrillonm",
         "active": true,
@@ -74,7 +74,7 @@
         "id": 19,
         "name": "Diana Alvarez",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Diana_Alvarez_f3dn13.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662440/ChapterLeaders/Diana_Alvarez_f3dn13.jpg",
         "twitter": "@ingdalvarez",
         "active": true,
         "group": "colombia"
@@ -83,7 +83,7 @@
         "id": 20,
         "name": "Elizabeth Portilla Flores",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662440/ChapterLeaders/Elizabeth_Portilla_msxtjf.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662440/ChapterLeaders/Elizabeth_Portilla_msxtjf.jpg",
         "twitter": "@lizita136",
         "active": true,
         "group": "peru"
@@ -92,7 +92,7 @@
         "id": 21,
         "name": "Maricarmen Rojas Tinco",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Maricarmen_Rojas_musgtm.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662426/ChapterLeaders/Maricarmen_Rojas_musgtm.jpg",
         "twitter": "@MaiaRT46",
         "active": true,
         "group": "peru"
@@ -101,7 +101,7 @@
         "id": 22,
         "name": "Mery Cardenas Perez",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Mery_Cardenas_lilyng.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662426/ChapterLeaders/Mery_Cardenas_lilyng.jpg",
         "active": true,
         "group": "peru"
     },
@@ -109,7 +109,7 @@
         "id": 23,
         "name": "Ruth Abigail Salvador Zorrilla",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
         "twitter": "@Ruth_Abbi",
         "active": true,
         "group": "peru"
@@ -119,7 +119,7 @@
         "id": 25,
         "name": "Andrea Busse",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601240083/ChapterLeaders/andreabusse_kj3zno.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601240083/ChapterLeaders/andreabusse_kj3zno.jpg",
         "twitter": "@mostlyCoffee88",
         "active": true,
         "group": "benelux (belgium, netherlands, luxembourg)"
@@ -128,7 +128,7 @@
         "id": 26,
         "name": "Aline Vercruysse",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662433/ChapterLeaders/fox-placeholder_xn6d6e.jpg",
         "twitter": "@alineverc",
         "active": true,
         "group": "benelux (belgium, netherlands, luxembourg)"
@@ -137,7 +137,7 @@
         "id": 27,
         "name": "Nahoko Matsui",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662419/ChapterLeaders/Nahoko_Matsui_mcfciw.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662419/ChapterLeaders/Nahoko_Matsui_mcfciw.jpg",
         "website": "https://nahokomatsui.github.io",
         "twitter": "@nahokomatsui",
         "active": true,
@@ -147,7 +147,7 @@
         "id": 28,
         "name": "Rio Yamakuchi (rry)",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662419/ChapterLeaders/Rio_Yamakuchi_mmuyvc.png",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662419/ChapterLeaders/Rio_Yamakuchi_mmuyvc.png",
         "twitter": "@ryamakuchi",
         "active": true,
         "group": "japan"
@@ -156,7 +156,7 @@
         "id": 29,
         "name": "Kazumi Ohira",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601662426/ChapterLeaders/Kazumi_Ohira_spcrwx.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601662426/ChapterLeaders/Kazumi_Ohira_spcrwx.jpg",
         "twitter": "@dz_",
         "active": true,
         "group": "japan"
@@ -166,7 +166,7 @@
         "id": 31,
         "name": "Ifeoma Chisom Nwosu",
         "title": "Líder de capítulo",
-        "image": "https://res.cloudinary.com/front-end-foxes/image/upload/v1602201797/ChapterLeaders/ifeoma_qdoi7x.jpg",
+        "image": "https://res.cloudinary.com/beanpot-studio/image/upload/v1602201797/ChapterLeaders/ifeoma_qdoi7x.jpg",
         "twitter": "@Ify__N",
         "active": true,
         "group": "nigeria"

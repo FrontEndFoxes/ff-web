@@ -14,7 +14,7 @@ describe('SectionSponsorsCategories.vue', () => {
                         "id": 1,
                         "title": "Frontend Masters",
                         "description": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
-                        "logo": "https://res.cloudinary.com/front-end-foxes/image/upload/v1601861223/Sponsors/sponsor-frontendmasters_wtevjd.jpg",
+                        "logo": "https://res.cloudinary.com/beanpot-studio/image/upload/v1601861223/Sponsors/sponsor-frontendmasters_wtevjd.jpg",
                         "link": "https://frontendmasters.com",
                         "active": true,
                         "level": "platinum"
